@@ -1,0 +1,14 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Chinausfocus",
+    "domain": "chinausfocus.com",
+    "status": "complete",
+    "routes_used": "https://www.chinausfocus.com/publication/",
+    "candidate_urls": 42,
+    "dated_items": 0,
+    "matched_items": 0,
+    "duration_seconds": 28.51,
+    "notes": ""
+  }
+}

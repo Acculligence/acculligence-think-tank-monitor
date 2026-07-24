@@ -1,0 +1,14 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Ipi",
+    "domain": "ipi.org",
+    "status": "complete",
+    "routes_used": "https://www.ipi.org/research | https://www.ipi.org/ipi_issues/typecategory/publications",
+    "candidate_urls": 7,
+    "dated_items": 0,
+    "matched_items": 0,
+    "duration_seconds": 3.75,
+    "notes": ""
+  }
+}

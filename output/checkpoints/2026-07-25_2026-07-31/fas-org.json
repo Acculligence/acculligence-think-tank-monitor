@@ -1,0 +1,14 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Fas",
+    "domain": "fas.org",
+    "status": "worker_error",
+    "routes_used": "",
+    "candidate_urls": 0,
+    "dated_items": 0,
+    "matched_items": 0,
+    "duration_seconds": 7.45,
+    "notes": "double free or corruption (out)"
+  }
+}

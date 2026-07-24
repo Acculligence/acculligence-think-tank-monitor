@@ -1,0 +1,14 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Americanprogress",
+    "domain": "americanprogress.org",
+    "status": "complete",
+    "routes_used": "https://www.americanprogress.org/people/ragland-will/ | https://www.americanprogress.org/people/h-a-hellyer/ | https://www.americanprogress.org/about-us/support-our-work/",
+    "candidate_urls": 21,
+    "dated_items": 0,
+    "matched_items": 0,
+    "duration_seconds": 12.9,
+    "notes": ""
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Cread",
+    "domain": "cread.dz",
+    "status": "blocked",
+    "routes_used": "",
+    "candidate_urls": 0,
+    "dated_items": 0,
+    "matched_items": 0,
+    "duration_seconds": 0,
+    "notes": "No validated official route."
+  }
+}

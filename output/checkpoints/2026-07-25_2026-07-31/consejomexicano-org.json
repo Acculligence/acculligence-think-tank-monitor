@@ -1,0 +1,14 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Consejomexicano",
+    "domain": "consejomexicano.org",
+    "status": "complete",
+    "routes_used": "https://www.consejomexicano.org/analisis-filtrar?from=policy-briefs | https://www.consejomexicano.org/en/regulations/ | https://www.consejomexicano.org/en/analysis-filter/?from=reports | https://www.consejomexicano.org/en/analysis-filter/?from=policy-briefs",
+    "candidate_urls": 2,
+    "dated_items": 0,
+    "matched_items": 0,
+    "duration_seconds": 3.95,
+    "notes": ""
+  }
+}

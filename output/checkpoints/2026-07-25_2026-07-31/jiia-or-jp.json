@@ -1,0 +1,14 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Jiia",
+    "domain": "jiia.or.jp",
+    "status": "complete",
+    "routes_used": "https://www.jiia.or.jp/eng/report/ajiss_commentary/",
+    "candidate_urls": 30,
+    "dated_items": 0,
+    "matched_items": 0,
+    "duration_seconds": 8.6,
+    "notes": ""
+  }
+}

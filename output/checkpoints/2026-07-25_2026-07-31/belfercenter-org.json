@@ -1,0 +1,14 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Belfercenter",
+    "domain": "belfercenter.org",
+    "status": "complete",
+    "routes_used": "https://www.belfercenter.org/research-analysis",
+    "candidate_urls": 26,
+    "dated_items": 0,
+    "matched_items": 0,
+    "duration_seconds": 6.17,
+    "notes": ""
+  }
+}

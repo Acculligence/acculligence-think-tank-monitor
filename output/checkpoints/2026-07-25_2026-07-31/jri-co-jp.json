@@ -1,0 +1,14 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Jri",
+    "domain": "jri.co.jp",
+    "status": "complete",
+    "routes_used": "https://www.jri.co.jp/company/business/research/",
+    "candidate_urls": 50,
+    "dated_items": 0,
+    "matched_items": 0,
+    "duration_seconds": 14.76,
+    "notes": ""
+  }
+}

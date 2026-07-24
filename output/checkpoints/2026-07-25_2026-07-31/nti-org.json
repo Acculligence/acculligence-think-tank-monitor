@@ -1,0 +1,14 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Nti",
+    "domain": "nti.org",
+    "status": "complete",
+    "routes_used": "https://www.nti.org/analysis/analysis-search/?f-order=relevance&f-article_type_tax%5B%5D=240&f-article_type_tax%5B%5D=2109 | https://www.nti.org/analysis/analysis-search/?f-order=relevance&f-article_type_tax%5B%5D=243 | https://www.nti.org/analysis/ | https://www.nti.org/about/financials/",
+    "candidate_urls": 25,
+    "dated_items": 0,
+    "matched_items": 0,
+    "duration_seconds": 5.17,
+    "notes": ""
+  }
+}

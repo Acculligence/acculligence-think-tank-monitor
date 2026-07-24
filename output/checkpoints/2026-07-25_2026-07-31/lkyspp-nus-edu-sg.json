@@ -1,0 +1,14 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Lkyspp",
+    "domain": "lkyspp.nus.edu.sg",
+    "status": "complete",
+    "routes_used": "https://lkyspp.nus.edu.sg/sitemap.xml | https://lkyspp.nus.edu.sg/ips | https://lkyspp.nus.edu.sg/research/publications | https://lkyspp.nus.edu.sg/research/case-insights-unit | https://lkyspp.nus.edu.sg/research/case-insights-unit/all-case-studies | https://lkyspp.nus.edu.sg/research/case-insights-unit/case-study-unit-publications | https://lkyspp.nus.edu.sg/research",
+    "candidate_urls": 131,
+    "dated_items": 0,
+    "matched_items": 0,
+    "duration_seconds": 65.53,
+    "notes": ""
+  }
+}

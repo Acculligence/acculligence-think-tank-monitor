@@ -1,0 +1,14 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Iai",
+    "domain": "iai.it",
+    "status": "no_candidates",
+    "routes_used": "",
+    "candidate_urls": 0,
+    "dated_items": 0,
+    "matched_items": 0,
+    "duration_seconds": 1.98,
+    "notes": ""
+  }
+}

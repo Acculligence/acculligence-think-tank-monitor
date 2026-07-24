@@ -1,0 +1,14 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Martenscentre",
+    "domain": "martenscentre.eu",
+    "status": "complete",
+    "routes_used": "https://www.martenscentre.eu/sitemap.xml | https://www.martenscentre.eu/publication | https://www.martenscentre.eu/publication/the-legacy-of-tradition-the-making-of-lithuanias-centre-right/ | https://www.martenscentre.eu/publication/made-in-china-powered-by-europe-mapping-the-eus-strategic-leverage-over-the-peoples-republic-of-china/ | https://www.martenscentre.eu/media-mentions/ukraine-is-becoming-a-foundational-pillar-for-europes-new-security-architecture/",
+    "candidate_urls": 56,
+    "dated_items": 0,
+    "matched_items": 0,
+    "duration_seconds": 52.59,
+    "notes": ""
+  }
+}

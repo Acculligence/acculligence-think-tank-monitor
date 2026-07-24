@@ -1,0 +1,14 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Dohainstitute",
+    "domain": "dohainstitute.org",
+    "status": "complete",
+    "routes_used": "https://www.dohainstitute.org/en/ResearchAndStudies/Pages/index.aspx | https://www.dohainstitute.org/en/ResearchAndStudies/Pages/Studies.aspx | https://www.dohainstitute.org/en/PoliticalStudies/Pages/CaseAnalysis.aspx | https://www.dohainstitute.org/en/PoliticalStudies/Pages/PolicyAnalysis.aspx | https://www.dohainstitute.org/en/PoliticalStudies/Pages/Reports.aspx | https://www.dohainstitute.org/en/ResearchParticipation/Pages/index.aspx",
+    "candidate_urls": 25,
+    "dated_items": 0,
+    "matched_items": 0,
+    "duration_seconds": 30.39,
+    "notes": ""
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Washington Institute",
+    "domain": "washingtoninstitute.org",
+    "status": "no_candidates",
+    "routes_used": "",
+    "candidate_urls": 0,
+    "dated_items": 0,
+    "matched_items": 0,
+    "duration_seconds": 1.39,
+    "notes": ""
+  }
+}

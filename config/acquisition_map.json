@@ -1,0 +1,3831 @@
+{
+  "generated_at": "2026-07-24T23:41:03.583438+00:00",
+  "policy": "Official validated routes only. Google News may be used later only as an explicitly approved fallback.",
+  "sources": [
+    {
+      "source_id": "acsus-org",
+      "source_name": "Acsus",
+      "domain": "acsus.org",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "wp_api",
+          "url": "https://acsus.org/wp-json/wp/v2/posts?per_page=100&page=1",
+          "origin": "wordpress-api",
+          "validation_count": 19,
+          "priority": 1
+        },
+        {
+          "type": "feed",
+          "url": "https://acsus.org/feed/",
+          "origin": "common-endpoint",
+          "validation_count": 3,
+          "priority": 2
+        },
+        {
+          "type": "feed",
+          "url": "https://acsus.org/rss",
+          "origin": "common-endpoint",
+          "validation_count": 3,
+          "priority": 2
+        },
+        {
+          "type": "sitemap",
+          "url": "https://acsus.org/sitemap_index.xml",
+          "origin": "robots.txt",
+          "validation_count": 5,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://acsus.org/sitemap.xml",
+          "origin": "common-endpoint",
+          "validation_count": 5,
+          "priority": 3
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "aei-org",
+      "source_name": "News",
+      "domain": "aei.org",
+      "status": "blocked",
+      "routes": [],
+      "notes": [
+        "Homepage unreachable from mapper."
+      ]
+    },
+    {
+      "source_id": "africacenter-org",
+      "source_name": "Africacenter",
+      "domain": "africacenter.org",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "sitemap",
+          "url": "https://africacenter.org/sitemap_index.xml",
+          "origin": "robots.txt",
+          "validation_count": 29,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://africacenter.org/sitemap.xml",
+          "origin": "common-endpoint",
+          "validation_count": 29,
+          "priority": 3
+        },
+        {
+          "type": "archive",
+          "url": "https://africacenter.org/research/",
+          "origin": "homepage-link",
+          "validation_count": 26,
+          "priority": 4
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "americanprogress-org",
+      "source_name": "Americanprogress",
+      "domain": "americanprogress.org",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "sitemap",
+          "url": "https://www.americanprogress.org/sitemap_index.xml",
+          "origin": "robots.txt",
+          "validation_count": 98,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://www.americanprogress.org/sitemap.xml",
+          "origin": "common-endpoint",
+          "validation_count": 98,
+          "priority": 3
+        },
+        {
+          "type": "archive",
+          "url": "https://www.americanprogress.org/people/ragland-will/",
+          "origin": "homepage-link",
+          "validation_count": 19,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.americanprogress.org/people/h-a-hellyer/",
+          "origin": "homepage-link",
+          "validation_count": 8,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.americanprogress.org/about-us/support-our-work/",
+          "origin": "homepage-link",
+          "validation_count": 6,
+          "priority": 4
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "arab-reform-net",
+      "source_name": "Arab-Reform",
+      "domain": "arab-reform.net",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "sitemap",
+          "url": "https://www.arab-reform.net/sitemap.xml",
+          "origin": "robots.txt",
+          "validation_count": 3,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://www.arab-reform.net/news-sitemap.xml",
+          "origin": "robots.txt",
+          "validation_count": 1,
+          "priority": 3
+        },
+        {
+          "type": "archive",
+          "url": "https://www.arab-reform.net/publication/",
+          "origin": "homepage-link",
+          "validation_count": 32,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.arab-reform.net/category/research-paper/",
+          "origin": "homepage-link",
+          "validation_count": 30,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.arab-reform.net/category/report/",
+          "origin": "homepage-link",
+          "validation_count": 28,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.arab-reform.net/category/bawader/",
+          "origin": "homepage-link",
+          "validation_count": 27,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.arab-reform.net/publication/lebanon-cannot-be-built-on-two-false-choices-rethinking-sovereignty-resistance-and-survival-in-a-changing-middle-east/",
+          "origin": "homepage-link",
+          "validation_count": 10,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.arab-reform.net/publication/can-syrias-parliament-outgrow-the-flawed-process-that-made-it/",
+          "origin": "homepage-link",
+          "validation_count": 9,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.arab-reform.net/publication/hormuzs-closure-exposes-iraqs-self-inflicted-wounds/",
+          "origin": "homepage-link",
+          "validation_count": 8,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.arab-reform.net/publication/the-role-of-palestinian-civil-society-organizations-in-food-sovereignty/",
+          "origin": "homepage-link",
+          "validation_count": 8,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.arab-reform.net/publication/jordans-new-security-dilemma/",
+          "origin": "homepage-link",
+          "validation_count": 8,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.arab-reform.net/publication/rinse-and-repeat-youth-co-optation-and-authoritarian-renewal-in-tunisia-and-egypt/",
+          "origin": "homepage-link",
+          "validation_count": 8,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.arab-reform.net/publication/the-algorithm-of-fear-influencers-impunity-and-the-silencing-of-syrian-women/",
+          "origin": "homepage-link",
+          "validation_count": 8,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.arab-reform.net/publication/water-justice-and-csos-in-yemen-mapping-report/",
+          "origin": "homepage-link",
+          "validation_count": 8,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.arab-reform.net/publication/paying-more-getting-less-lebanons-flat-tariff-water-regime-service-failure-and-household-coping-pathways/",
+          "origin": "homepage-link",
+          "validation_count": 7,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.arab-reform.net/video/research-financing-universal-social-protection-systems-in-the-arab-region/",
+          "origin": "homepage-link",
+          "validation_count": 4,
+          "priority": 4
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "arabcenterdc-org",
+      "source_name": "Arabcenterdc",
+      "domain": "arabcenterdc.org",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "wp_api",
+          "url": "https://arabcenterdc.org/wp-json/wp/v2/posts?per_page=100&page=1",
+          "origin": "wordpress-api",
+          "validation_count": 21,
+          "priority": 1
+        },
+        {
+          "type": "feed",
+          "url": "https://arabcenterdc.org/feed/",
+          "origin": "common-endpoint",
+          "validation_count": 10,
+          "priority": 2
+        },
+        {
+          "type": "feed",
+          "url": "https://arabcenterdc.org/rss",
+          "origin": "common-endpoint",
+          "validation_count": 10,
+          "priority": 2
+        },
+        {
+          "type": "sitemap",
+          "url": "https://arabcenterdc.org/sitemap_index.xml",
+          "origin": "robots.txt",
+          "validation_count": 9,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://arabcenterdc.org/sitemap.xml",
+          "origin": "common-endpoint",
+          "validation_count": 9,
+          "priority": 3
+        },
+        {
+          "type": "archive",
+          "url": "https://arabcenterdc.org/publications/policy-analysis/",
+          "origin": "homepage-link",
+          "validation_count": 82,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://arabcenterdc.org/publications/",
+          "origin": "homepage-link",
+          "validation_count": 82,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://arabcenterdc.org/publications/research-papers/",
+          "origin": "homepage-link",
+          "validation_count": 80,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://arabcenterdc.org/",
+          "origin": "homepage-link",
+          "validation_count": 13,
+          "priority": 4
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "armscontrol-org",
+      "source_name": "Armscontrol",
+      "domain": "armscontrol.org",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://www.armscontrol.org/rss.xml",
+          "origin": "common-endpoint",
+          "validation_count": 10,
+          "priority": 2
+        },
+        {
+          "type": "archive",
+          "url": "https://www.armscontrol.org/reports",
+          "origin": "homepage-link",
+          "validation_count": 15,
+          "priority": 4
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "atlanticcouncil-org",
+      "source_name": "Atlantic Council",
+      "domain": "atlanticcouncil.org",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "wp_api",
+          "url": "https://www.atlanticcouncil.org/wp-json/wp/v2/posts?per_page=100&page=1",
+          "origin": "wordpress-api",
+          "validation_count": 100,
+          "priority": 1
+        },
+        {
+          "type": "feed",
+          "url": "https://www.atlanticcouncil.org/feed/",
+          "origin": "registry-direct",
+          "validation_count": 100,
+          "priority": 2
+        },
+        {
+          "type": "feed",
+          "url": "https://www.atlanticcouncil.org/rss",
+          "origin": "common-endpoint",
+          "validation_count": 100,
+          "priority": 2
+        },
+        {
+          "type": "sitemap",
+          "url": "https://www.atlanticcouncil.org/sitemap_index.xml",
+          "origin": "robots.txt",
+          "validation_count": 88,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://www.atlanticcouncil.org/sitemap.xml",
+          "origin": "common-endpoint",
+          "validation_count": 88,
+          "priority": 3
+        },
+        {
+          "type": "archive",
+          "url": "https://www.atlanticcouncil.org/programs/digital-forensic-research-lab/",
+          "origin": "homepage-link",
+          "validation_count": 12,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.atlanticcouncil.org/in-depth-research-reports/",
+          "origin": "homepage-link",
+          "validation_count": 5,
+          "priority": 4
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "belfercenter-org",
+      "source_name": "Belfercenter",
+      "domain": "belfercenter.org",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "sitemap",
+          "url": "https://www.belfercenter.org/sitemap.xml",
+          "origin": "common-endpoint",
+          "validation_count": 16,
+          "priority": 3
+        },
+        {
+          "type": "archive",
+          "url": "https://www.belfercenter.org/research-analysis",
+          "origin": "homepage-link",
+          "validation_count": 27,
+          "priority": 4
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "brookings-edu",
+      "source_name": "Brookings",
+      "domain": "brookings.edu",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "sitemap",
+          "url": "https://www.brookings.edu/sitemap_index.xml",
+          "origin": "robots.txt",
+          "validation_count": 108,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://www.brookings.edu/sitemap.xml",
+          "origin": "common-endpoint",
+          "validation_count": 108,
+          "priority": 3
+        },
+        {
+          "type": "archive",
+          "url": "https://www.brookings.edu/programs/governance-studies/",
+          "origin": "homepage-link",
+          "validation_count": 7,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.brookings.edu/research-programs/",
+          "origin": "homepage-link",
+          "validation_count": 5,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.brookings.edu/programs/economic-studies/",
+          "origin": "homepage-link",
+          "validation_count": 5,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.brookings.edu/research-commentary/",
+          "origin": "homepage-link",
+          "validation_count": 3,
+          "priority": 4
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "bruegel-org",
+      "source_name": "Bruegel",
+      "domain": "bruegel.org",
+      "status": "blocked",
+      "routes": [],
+      "notes": [
+        "Homepage unreachable from mapper."
+      ]
+    },
+    {
+      "source_id": "carnegieendowment-org",
+      "source_name": "Carnegieendowment",
+      "domain": "carnegieendowment.org",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "sitemap",
+          "url": "https://carnegieendowment.org/sitemap.xml",
+          "origin": "robots.txt",
+          "validation_count": 25,
+          "priority": 3
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "carpo-bonn-org",
+      "source_name": "Carpo-Bonn",
+      "domain": "carpo-bonn.org",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "sitemap",
+          "url": "https://carpo-bonn.org/sitemap.xml",
+          "origin": "common-endpoint",
+          "validation_count": 323,
+          "priority": 3
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "cass-cn",
+      "source_name": "Cass",
+      "domain": "cass.cn",
+      "status": "blocked",
+      "routes": [],
+      "notes": [
+        "No validated official route. Manual mapping required; Google News is intentionally excluded from the primary map."
+      ]
+    },
+    {
+      "source_id": "cato-org",
+      "source_name": "Cato",
+      "domain": "cato.org",
+      "status": "blocked",
+      "routes": [],
+      "notes": [
+        "Homepage unreachable from mapper."
+      ]
+    },
+    {
+      "source_id": "cebri-org",
+      "source_name": "Cebri",
+      "domain": "cebri.org",
+      "status": "blocked",
+      "routes": [],
+      "notes": [
+        "No validated official route. Manual mapping required; Google News is intentionally excluded from the primary map."
+      ]
+    },
+    {
+      "source_id": "cer-eu",
+      "source_name": "Centre for European Reform",
+      "domain": "cer.eu",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://www.cer.eu/rss.xml",
+          "origin": "registry-direct",
+          "validation_count": 10,
+          "priority": 2
+        },
+        {
+          "type": "archive",
+          "url": "https://www.cer.eu/research",
+          "origin": "homepage-link",
+          "validation_count": 24,
+          "priority": 4
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "cfr-org",
+      "source_name": "Cfr",
+      "domain": "cfr.org",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://www.cfr.org/feed/",
+          "origin": "common-endpoint",
+          "validation_count": 24,
+          "priority": 2
+        },
+        {
+          "type": "sitemap",
+          "url": "https://cfr.org/education/sitemap.xml",
+          "origin": "robots.txt",
+          "validation_count": 285,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://www.cfr.org/sitemap.xml",
+          "origin": "common-endpoint",
+          "validation_count": 11,
+          "priority": 3
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "chathamhouse-org",
+      "source_name": "Chathamhouse",
+      "domain": "chathamhouse.org",
+      "status": "blocked",
+      "routes": [],
+      "notes": [
+        "No validated official route. Manual mapping required; Google News is intentionally excluded from the primary map."
+      ]
+    },
+    {
+      "source_id": "chinausfocus-com",
+      "source_name": "Chinausfocus",
+      "domain": "chinausfocus.com",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://www.chinausfocus.com/rss.xml",
+          "origin": "common-endpoint",
+          "validation_count": 50,
+          "priority": 2
+        },
+        {
+          "type": "sitemap",
+          "url": "https://www.chinausfocus.com/sitemap.xml",
+          "origin": "robots.txt",
+          "validation_count": 513,
+          "priority": 3
+        },
+        {
+          "type": "archive",
+          "url": "https://www.chinausfocus.com/publication/",
+          "origin": "homepage-link",
+          "validation_count": 42,
+          "priority": 4
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "cidob-org",
+      "source_name": "Cidob",
+      "domain": "cidob.org",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "sitemap",
+          "url": "https://www.cidob.org/sitemap.xml",
+          "origin": "common-endpoint",
+          "validation_count": 15,
+          "priority": 3
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "ciis-org-cn",
+      "source_name": "Ciis",
+      "domain": "ciis.org.cn",
+      "status": "blocked",
+      "routes": [],
+      "notes": [
+        "No validated official route. Manual mapping required; Google News is intentionally excluded from the primary map."
+      ]
+    },
+    {
+      "source_id": "clingendael-org",
+      "source_name": "Clingendael",
+      "domain": "clingendael.org",
+      "status": "blocked",
+      "routes": [],
+      "notes": [
+        "Homepage unreachable from mapper."
+      ]
+    },
+    {
+      "source_id": "cmec-org-uk",
+      "source_name": "Cmec",
+      "domain": "cmec.org.uk",
+      "status": "blocked",
+      "routes": [],
+      "notes": [
+        "Homepage unreachable from mapper."
+      ]
+    },
+    {
+      "source_id": "cnas-org",
+      "source_name": "Center for a New American Security",
+      "domain": "cnas.org",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "sitemap",
+          "url": "https://www.cnas.org/sitemap.xml",
+          "origin": "robots.txt",
+          "validation_count": 55,
+          "priority": 3
+        },
+        {
+          "type": "archive",
+          "url": "https://www.cnas.org/reports",
+          "origin": "homepage-link",
+          "validation_count": 69,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.cnas.org/articles-multimedia",
+          "origin": "homepage-link",
+          "validation_count": 69,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.cnas.org/articles-multimedia?type=commentary",
+          "origin": "homepage-link",
+          "validation_count": 69,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.cnas.org/articles-multimedia?type=cnas-insights",
+          "origin": "homepage-link",
+          "validation_count": 69,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.cnas.org/publications/cnas-insights/cnas-insights-why-the-swing-states-approach-is-right-for-africa",
+          "origin": "homepage-link",
+          "validation_count": 55,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.cnas.org/publications/commentary/cnas-insights-matching-policy-to-strategy-the-bill-to-control-chipmaking-equipment",
+          "origin": "homepage-link",
+          "validation_count": 54,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.cnas.org/publications/cnas-insights/cnas-insights-american-ai-exports-need-a-sovereignty-solution",
+          "origin": "homepage-link",
+          "validation_count": 54,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.cnas.org/publications/cnas-insights/new-rules-for-u-s-foreign-aid",
+          "origin": "homepage-link",
+          "validation_count": 54,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.cnas.org/publications/cnas-insights/cnas-insights-year-after-liberation-day-can-trumps-trade-wars-be-salvaged",
+          "origin": "homepage-link",
+          "validation_count": 52,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.cnas.org/publications/cnas-insights/cnas-insights-governing-jailbreak-incidents",
+          "origin": "homepage-link",
+          "validation_count": 52,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.cnas.org/publications/commentary/cnas-insights-the-case-for-long-term-cisa-2015-reauthorization",
+          "origin": "homepage-link",
+          "validation_count": 52,
+          "priority": 4
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "consejomexicano-org",
+      "source_name": "Consejomexicano",
+      "domain": "consejomexicano.org",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://www.consejomexicano.org/rss/",
+          "origin": "html-declared",
+          "validation_count": 15,
+          "priority": 2
+        },
+        {
+          "type": "feed",
+          "url": "https://www.consejomexicano.org/feed/",
+          "origin": "common-endpoint",
+          "validation_count": 15,
+          "priority": 2
+        },
+        {
+          "type": "sitemap",
+          "url": "https://www.consejomexicano.org/sitemap.xml",
+          "origin": "robots.txt",
+          "validation_count": 4,
+          "priority": 3
+        },
+        {
+          "type": "archive",
+          "url": "https://www.consejomexicano.org/analisis-filtrar?from=policy-briefs",
+          "origin": "homepage-link",
+          "validation_count": 4,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.consejomexicano.org/en/regulations/",
+          "origin": "homepage-link",
+          "validation_count": 4,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.consejomexicano.org/en/analysis-filter/?from=reports",
+          "origin": "homepage-link",
+          "validation_count": 4,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.consejomexicano.org/en/analysis-filter/?from=policy-briefs",
+          "origin": "homepage-link",
+          "validation_count": 4,
+          "priority": 4
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "cread-dz",
+      "source_name": "Cread",
+      "domain": "cread.dz",
+      "status": "blocked",
+      "routes": [],
+      "notes": [
+        "Homepage unreachable from mapper."
+      ]
+    },
+    {
+      "source_id": "crisisgroup-org",
+      "source_name": "Crisisgroup",
+      "domain": "crisisgroup.org",
+      "status": "blocked",
+      "routes": [],
+      "notes": [
+        "Homepage unreachable from mapper."
+      ]
+    },
+    {
+      "source_id": "csis-org",
+      "source_name": "Csis",
+      "domain": "csis.org",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://www.csis.org/rss.xml",
+          "origin": "common-endpoint",
+          "validation_count": 10,
+          "priority": 2
+        },
+        {
+          "type": "sitemap",
+          "url": "https://www.csis.org/sitemap.xml",
+          "origin": "common-endpoint",
+          "validation_count": 21,
+          "priority": 3
+        },
+        {
+          "type": "archive",
+          "url": "https://www.csis.org/analysis",
+          "origin": "homepage-link",
+          "validation_count": 990,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://features.csis.org/war-modern-battlefield/",
+          "origin": "homepage-link",
+          "validation_count": 17,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://features.csis.org/Insights-from-the-Russia-Ukraine-War/",
+          "origin": "homepage-link",
+          "validation_count": 14,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.csis.org/programs/defense-budget-analysis",
+          "origin": "homepage-link",
+          "validation_count": 10,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.csis.org/programs/freeman-chair-china-studies",
+          "origin": "homepage-link",
+          "validation_count": 7,
+          "priority": 4
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "derasat-org-bh",
+      "source_name": "Derasat",
+      "domain": "derasat.org.bh",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "wp_api",
+          "url": "https://www.derasat.org.bh/wp-json/wp/v2/posts?per_page=100&page=1",
+          "origin": "wordpress-api",
+          "validation_count": 100,
+          "priority": 1
+        },
+        {
+          "type": "feed",
+          "url": "https://www.derasat.org.bh/en/feed/",
+          "origin": "html-declared",
+          "validation_count": 10,
+          "priority": 2
+        },
+        {
+          "type": "sitemap",
+          "url": "https://www.derasat.org.bh/sitemap_index.xml",
+          "origin": "robots.txt",
+          "validation_count": 9,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://www.derasat.org.bh/sitemap.xml",
+          "origin": "common-endpoint",
+          "validation_count": 9,
+          "priority": 3
+        },
+        {
+          "type": "archive",
+          "url": "https://www.derasat.org.bh/en/research-by-program/",
+          "origin": "homepage-link",
+          "validation_count": 6,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.derasat.org.bh/en/research-by-type/",
+          "origin": "homepage-link",
+          "validation_count": 6,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.derasat.org.bh/en/commentary/",
+          "origin": "homepage-link",
+          "validation_count": 6,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.derasat.org.bh/en/home_en/",
+          "origin": "homepage-link",
+          "validation_count": 4,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.derasat.org.bh/en/strategic-international/",
+          "origin": "homepage-link",
+          "validation_count": 3,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.derasat.org.bh/en/energy-studies/",
+          "origin": "homepage-link",
+          "validation_count": 3,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.derasat.org.bh/en/economics/",
+          "origin": "homepage-link",
+          "validation_count": 3,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.derasat.org.bh/en/strategic-studies_en/",
+          "origin": "homepage-link",
+          "validation_count": 3,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.derasat.org.bh/en/derasat-reports/",
+          "origin": "homepage-link",
+          "validation_count": 3,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.derasat.org.bh/en/derasat-ceo-participates-in-16th-gulf-research-meeting-at-cambridge-university/",
+          "origin": "homepage-link",
+          "validation_count": 3,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.derasat.org.bh/en/derasat-center-ceo-discusses-knowledge-partnership-and-research-cooperation-with-u-s-ambassador/",
+          "origin": "homepage-link",
+          "validation_count": 3,
+          "priority": 4
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "dohainstitute-org",
+      "source_name": "Dohainstitute",
+      "domain": "dohainstitute.org",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "sitemap",
+          "url": "https://www.dohainstitute.org/sitemap.xml",
+          "origin": "robots.txt",
+          "validation_count": 2,
+          "priority": 3
+        },
+        {
+          "type": "archive",
+          "url": "https://www.dohainstitute.org/en/ResearchAndStudies/Pages/index.aspx",
+          "origin": "homepage-link",
+          "validation_count": 23,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.dohainstitute.org/en/ResearchAndStudies/Pages/Studies.aspx",
+          "origin": "homepage-link",
+          "validation_count": 23,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.dohainstitute.org/en/PoliticalStudies/Pages/CaseAnalysis.aspx",
+          "origin": "homepage-link",
+          "validation_count": 22,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.dohainstitute.org/en/PoliticalStudies/Pages/PolicyAnalysis.aspx",
+          "origin": "homepage-link",
+          "validation_count": 22,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.dohainstitute.org/en/PoliticalStudies/Pages/Reports.aspx",
+          "origin": "homepage-link",
+          "validation_count": 22,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.dohainstitute.org/en/ResearchParticipation/Pages/index.aspx",
+          "origin": "homepage-link",
+          "validation_count": 19,
+          "priority": 4
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "ecdpm-org",
+      "source_name": "Ecdpm",
+      "domain": "ecdpm.org",
+      "status": "blocked",
+      "routes": [],
+      "notes": [
+        "Homepage unreachable from mapper."
+      ]
+    },
+    {
+      "source_id": "ecfr-eu",
+      "source_name": "ECFR",
+      "domain": "ecfr.eu",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "wp_api",
+          "url": "https://ecfr.eu/wp-json/wp/v2/posts?per_page=100&page=1",
+          "origin": "wordpress-api",
+          "validation_count": 100,
+          "priority": 1
+        },
+        {
+          "type": "feed",
+          "url": "https://ecfr.eu/feed/",
+          "origin": "registry-direct",
+          "validation_count": 25,
+          "priority": 2
+        },
+        {
+          "type": "feed",
+          "url": "https://ecfr.eu/rss",
+          "origin": "common-endpoint",
+          "validation_count": 25,
+          "priority": 2
+        },
+        {
+          "type": "sitemap",
+          "url": "https://ecfr.eu/sitemap.xml",
+          "origin": "robots.txt",
+          "validation_count": 177,
+          "priority": 3
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "egmontinstitute-be",
+      "source_name": "Egmontinstitute",
+      "domain": "egmontinstitute.be",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "wp_api",
+          "url": "https://egmontinstitute.be/wp-json/wp/v2/posts?per_page=100&page=1",
+          "origin": "wordpress-api",
+          "validation_count": 100,
+          "priority": 1
+        },
+        {
+          "type": "sitemap",
+          "url": "https://egmontinstitute.be/sitemap.xml",
+          "origin": "common-endpoint",
+          "validation_count": 30,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://egmontinstitute.be/sitemap_index.xml",
+          "origin": "common-endpoint",
+          "validation_count": 30,
+          "priority": 3
+        },
+        {
+          "type": "archive",
+          "url": "https://egmontinstitute.be/publications/",
+          "origin": "homepage-link",
+          "validation_count": 13,
+          "priority": 4
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "erf-org-eg",
+      "source_name": "Erf",
+      "domain": "erf.org.eg",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "wp_api",
+          "url": "https://erf.org.eg/wp-json/wp/v2/posts?per_page=100&page=1",
+          "origin": "wordpress-api",
+          "validation_count": 100,
+          "priority": 1
+        },
+        {
+          "type": "feed",
+          "url": "https://erf.org.eg/feed/",
+          "origin": "common-endpoint",
+          "validation_count": 9,
+          "priority": 2
+        },
+        {
+          "type": "feed",
+          "url": "https://erf.org.eg/rss",
+          "origin": "common-endpoint",
+          "validation_count": 9,
+          "priority": 2
+        },
+        {
+          "type": "sitemap",
+          "url": "https://erf.org.eg/sitemap_index.xml",
+          "origin": "robots.txt",
+          "validation_count": 39,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://erf.org.eg/sitemap.xml",
+          "origin": "common-endpoint",
+          "validation_count": 39,
+          "priority": 3
+        },
+        {
+          "type": "archive",
+          "url": "https://erf.org.eg/publication_cat/policy-research-reports/",
+          "origin": "homepage-link",
+          "validation_count": 25,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://erf.org.eg/events/navigating-change-in-jordan-policy-insights-on-employment-inclusion-and-resilience-from-the-jordan-labor-market-panel-survey-2025/",
+          "origin": "homepage-link",
+          "validation_count": 24,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://erf.org.eg/publication_cat/working-paper-series/",
+          "origin": "homepage-link",
+          "validation_count": 23,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://erf.org.eg/publications/",
+          "origin": "homepage-link",
+          "validation_count": 20,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "http://erf.org.eg/publications/",
+          "origin": "homepage-link",
+          "validation_count": 20,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://erf.org.eg/us/annual-reports/",
+          "origin": "homepage-link",
+          "validation_count": 11,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://erf.org.eg/erf_affiliation_tax/research-fellow/",
+          "origin": "homepage-link",
+          "validation_count": 11,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://erf.org.eg/erf_affiliation_tax/research-associates/",
+          "origin": "homepage-link",
+          "validation_count": 11,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://erf.org.eg/programs/",
+          "origin": "homepage-link",
+          "validation_count": 11,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "http://erf.org.eg/programs/",
+          "origin": "homepage-link",
+          "validation_count": 11,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://erf.org.eg/erf_programs_tax/post-conflict-contexts-for-rigorous-political-economy-analysis-and-for-advocacy-of-sustainable-reconstruction/",
+          "origin": "homepage-link",
+          "validation_count": 11,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://erf.org.eg/erf_programs_tax/for-transregional-research-on-private-sector-development-digitization-and-disruptive-technologies/",
+          "origin": "homepage-link",
+          "validation_count": 11,
+          "priority": 4
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "fas-org",
+      "source_name": "Fas",
+      "domain": "fas.org",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "wp_api",
+          "url": "https://fas.org/wp-json/wp/v2/posts?per_page=100&page=1",
+          "origin": "wordpress-api",
+          "validation_count": 1,
+          "priority": 1
+        },
+        {
+          "type": "feed",
+          "url": "https://fas.org/feed/",
+          "origin": "common-endpoint",
+          "validation_count": 1,
+          "priority": 2
+        },
+        {
+          "type": "feed",
+          "url": "https://fas.org/rss",
+          "origin": "common-endpoint",
+          "validation_count": 1,
+          "priority": 2
+        },
+        {
+          "type": "sitemap",
+          "url": "https://fas.org/sitemap_index.xml",
+          "origin": "robots.txt",
+          "validation_count": 24,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://fas.org/sitemap.xml",
+          "origin": "common-endpoint",
+          "validation_count": 24,
+          "priority": 3
+        },
+        {
+          "type": "archive",
+          "url": "https://fas.org/issue/energy/",
+          "origin": "homepage-link",
+          "validation_count": 7,
+          "priority": 4
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "gatewayhouse-in",
+      "source_name": "Gatewayhouse",
+      "domain": "gatewayhouse.in",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://gatewayhouse.in/feed/",
+          "origin": "common-endpoint",
+          "validation_count": 10,
+          "priority": 2
+        },
+        {
+          "type": "sitemap",
+          "url": "https://gatewayhouse.in/sitemap.xml",
+          "origin": "common-endpoint",
+          "validation_count": 245,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://gatewayhouse.in/sitemap-index.xml",
+          "origin": "common-endpoint",
+          "validation_count": 245,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://gatewayhouse.in/sitemap_index.xml",
+          "origin": "common-endpoint",
+          "validation_count": 27,
+          "priority": 3
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "gmfus-org",
+      "source_name": "Gmfus",
+      "domain": "gmfus.org",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://www.gmfus.org/rss.xml",
+          "origin": "common-endpoint",
+          "validation_count": 10,
+          "priority": 2
+        },
+        {
+          "type": "sitemap",
+          "url": "https://www.gmfus.org/sitemap.xml",
+          "origin": "common-endpoint",
+          "validation_count": 5,
+          "priority": 3
+        },
+        {
+          "type": "archive",
+          "url": "https://www.gmfus.org/insights-research",
+          "origin": "homepage-link",
+          "validation_count": 3,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.gmfus.org/policy-insights",
+          "origin": "homepage-link",
+          "validation_count": 3,
+          "priority": 4
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "heritage-org",
+      "source_name": "Heritage Foundation",
+      "domain": "heritage.org",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://www.heritage.org/rss",
+          "origin": "registry-direct",
+          "validation_count": 20,
+          "priority": 2
+        },
+        {
+          "type": "sitemap",
+          "url": "https://www.heritage.org/sitemap.xml",
+          "origin": "common-endpoint",
+          "validation_count": 21,
+          "priority": 3
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "hoover-org",
+      "source_name": "Hoover Institution",
+      "domain": "hoover.org",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://www.hoover.org/rss.xml",
+          "origin": "registry-direct",
+          "validation_count": 10,
+          "priority": 2
+        },
+        {
+          "type": "feed",
+          "url": "https://www.hoover.org/feed/",
+          "origin": "common-endpoint",
+          "validation_count": 10,
+          "priority": 2
+        },
+        {
+          "type": "sitemap",
+          "url": "https://www.hoover.org/sitemap.xml",
+          "origin": "common-endpoint",
+          "validation_count": 2036,
+          "priority": 3
+        },
+        {
+          "type": "archive",
+          "url": "https://www.hoover.org/about/who-we-are/research-team",
+          "origin": "homepage-link",
+          "validation_count": 131,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.hoover.org/",
+          "origin": "homepage-link",
+          "validation_count": 109,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.hoover.org/commentary",
+          "origin": "homepage-link",
+          "validation_count": 103,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.hoover.org/research",
+          "origin": "homepage-link",
+          "validation_count": 101,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.hoover.org/research/type/working-papers",
+          "origin": "homepage-link",
+          "validation_count": 89,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.hoover.org/about/reports",
+          "origin": "homepage-link",
+          "validation_count": 85,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.hoover.org/research/type/articles",
+          "origin": "homepage-link",
+          "validation_count": 85,
+          "priority": 4
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "hudson-org",
+      "source_name": "Hudson Institute",
+      "domain": "hudson.org",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://www.hudson.org/rss.xml",
+          "origin": "registry-direct",
+          "validation_count": 10,
+          "priority": 2
+        },
+        {
+          "type": "sitemap",
+          "url": "https://www.hudson.org/sitemap.xml",
+          "origin": "common-endpoint",
+          "validation_count": 11,
+          "priority": 3
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "iai-it",
+      "source_name": "Iai",
+      "domain": "iai.it",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "sitemap",
+          "url": "https://www.iai.it/sitemap.xml",
+          "origin": "common-endpoint",
+          "validation_count": 16,
+          "priority": 3
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "icct-nl",
+      "source_name": "Icct",
+      "domain": "icct.nl",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://icct.nl/rss.xml",
+          "origin": "common-endpoint",
+          "validation_count": 10,
+          "priority": 2
+        },
+        {
+          "type": "sitemap",
+          "url": "https://icct.nl/sitemap.xml",
+          "origin": "common-endpoint",
+          "validation_count": 2170,
+          "priority": 3
+        },
+        {
+          "type": "archive",
+          "url": "https://icct.nl/publications",
+          "origin": "homepage-link",
+          "validation_count": 27,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://icct.nl/publication/reaction-strategy-making-proscription-far-right-organisations-effective-tool-democratic",
+          "origin": "homepage-link",
+          "validation_count": 7,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://icct.nl/publication/conceptualising-and-addressing-migration-terrorism-nexus-literature-review-case-studies",
+          "origin": "homepage-link",
+          "validation_count": 7,
+          "priority": 4
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "icwa-in",
+      "source_name": "Icwa",
+      "domain": "icwa.in",
+      "status": "blocked",
+      "routes": [],
+      "notes": [
+        "Homepage unreachable from mapper."
+      ]
+    },
+    {
+      "source_id": "idsa-in",
+      "source_name": "Idsa",
+      "domain": "idsa.in",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://idsa.in/feed",
+          "origin": "html-declared",
+          "validation_count": 5,
+          "priority": 2
+        },
+        {
+          "type": "feed",
+          "url": "https://idsa.in/comments/feed",
+          "origin": "html-declared",
+          "validation_count": 5,
+          "priority": 2
+        },
+        {
+          "type": "feed",
+          "url": "https://idsa.in/rss",
+          "origin": "common-endpoint",
+          "validation_count": 5,
+          "priority": 2
+        },
+        {
+          "type": "sitemap",
+          "url": "https://www.idsa.in/sitemap_index.xml",
+          "origin": "robots.txt",
+          "validation_count": 46,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://idsa.in/sitemap.xml",
+          "origin": "common-endpoint",
+          "validation_count": 46,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://idsa.in/sitemap_index.xml",
+          "origin": "common-endpoint",
+          "validation_count": 46,
+          "priority": 3
+        },
+        {
+          "type": "archive",
+          "url": "https://idsa.in/idsa-events/category/event-report",
+          "origin": "homepage-link",
+          "validation_count": 117,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://idsa.in/papers-briefs",
+          "origin": "homepage-link",
+          "validation_count": 12,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://idsa.in/publications",
+          "origin": "homepage-link",
+          "validation_count": 10,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://idsa.in/",
+          "origin": "homepage-link",
+          "validation_count": 9,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://idsa.in/library/newspapers",
+          "origin": "homepage-link",
+          "validation_count": 5,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.idsa.in/?news_categories=op-eds-and-articles",
+          "origin": "homepage-link",
+          "validation_count": 5,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://idsa.in/mp-idsa-annual-reports",
+          "origin": "homepage-link",
+          "validation_count": 5,
+          "priority": 4
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "ifri-org",
+      "source_name": "Ifri",
+      "domain": "ifri.org",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://www.ifri.org/rss.xml",
+          "origin": "common-endpoint",
+          "validation_count": 10,
+          "priority": 2
+        },
+        {
+          "type": "sitemap",
+          "url": "https://www.ifri.org/sitemap.xml",
+          "origin": "common-endpoint",
+          "validation_count": 11,
+          "priority": 3
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "iiss-org",
+      "source_name": "Iiss",
+      "domain": "iiss.org",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "sitemap",
+          "url": "https://www.iiss.org/sitemap.xml",
+          "origin": "common-endpoint",
+          "validation_count": 5621,
+          "priority": 3
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "ipi-org",
+      "source_name": "Ipi",
+      "domain": "ipi.org",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "archive",
+          "url": "https://www.ipi.org/research",
+          "origin": "homepage-link",
+          "validation_count": 7,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.ipi.org/ipi_issues/typecategory/publications",
+          "origin": "homepage-link",
+          "validation_count": 7,
+          "priority": 4
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "ipinst-org",
+      "source_name": "Ipinst",
+      "domain": "ipinst.org",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "wp_api",
+          "url": "https://www.ipinst.org/wp-json/wp/v2/posts?per_page=100&page=1",
+          "origin": "wordpress-api",
+          "validation_count": 100,
+          "priority": 1
+        },
+        {
+          "type": "feed",
+          "url": "https://www.ipinst.org/feed",
+          "origin": "html-declared",
+          "validation_count": 10,
+          "priority": 2
+        },
+        {
+          "type": "feed",
+          "url": "https://www.ipinst.org/comments/feed",
+          "origin": "html-declared",
+          "validation_count": 10,
+          "priority": 2
+        },
+        {
+          "type": "feed",
+          "url": "https://www.ipinst.org/rss",
+          "origin": "common-endpoint",
+          "validation_count": 10,
+          "priority": 2
+        },
+        {
+          "type": "sitemap",
+          "url": "https://www.ipinst.org/sitemap.xml",
+          "origin": "common-endpoint",
+          "validation_count": 4,
+          "priority": 3
+        },
+        {
+          "type": "archive",
+          "url": "https://www.ipinst.org/category/publications",
+          "origin": "homepage-link",
+          "validation_count": 53,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.ipinst.org/research",
+          "origin": "homepage-link",
+          "validation_count": 3,
+          "priority": 4
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "ipis-ir",
+      "source_name": "Ipis",
+      "domain": "ipis.ir",
+      "status": "blocked",
+      "routes": [],
+      "notes": [
+        "No validated official route. Manual mapping required; Google News is intentionally excluded from the primary map."
+      ]
+    },
+    {
+      "source_id": "ipss-addis-org",
+      "source_name": "Ipss-Addis",
+      "domain": "ipss-addis.org",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "wp_api",
+          "url": "https://ipss-addis.org/wp-json/wp/v2/posts?per_page=100&page=1",
+          "origin": "wordpress-api",
+          "validation_count": 100,
+          "priority": 1
+        },
+        {
+          "type": "feed",
+          "url": "https://ipss-addis.org/feed/",
+          "origin": "html-declared",
+          "validation_count": 10,
+          "priority": 2
+        },
+        {
+          "type": "feed",
+          "url": "https://ipss-addis.org/comments/feed/",
+          "origin": "html-declared",
+          "validation_count": 10,
+          "priority": 2
+        },
+        {
+          "type": "feed",
+          "url": "https://ipss-addis.org/rss",
+          "origin": "common-endpoint",
+          "validation_count": 10,
+          "priority": 2
+        },
+        {
+          "type": "sitemap",
+          "url": "https://ipss-addis.org/sitemap_index.xml",
+          "origin": "robots.txt",
+          "validation_count": 6,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://ipss-addis.org/sitemap.xml",
+          "origin": "common-endpoint",
+          "validation_count": 6,
+          "priority": 3
+        },
+        {
+          "type": "archive",
+          "url": "https://ipss-addis.org/publications/",
+          "origin": "homepage-link",
+          "validation_count": 8,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://ipss-addis.org/what-we-do/academic-and-applied-research/",
+          "origin": "homepage-link",
+          "validation_count": 3,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://ipss-addis.org/",
+          "origin": "homepage-link",
+          "validation_count": 3,
+          "priority": 4
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "issafrica-org",
+      "source_name": "Issafrica",
+      "domain": "issafrica.org",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "sitemap",
+          "url": "https://issafrica.org/sitemap.xml",
+          "origin": "common-endpoint",
+          "validation_count": 18539,
+          "priority": 3
+        },
+        {
+          "type": "archive",
+          "url": "https://issafrica.org/research/books-and-other-publications",
+          "origin": "homepage-link",
+          "validation_count": 18,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://issafrica.org/research",
+          "origin": "homepage-link",
+          "validation_count": 12,
+          "priority": 4
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "jamestown-org",
+      "source_name": "The Jamestown Foundation",
+      "domain": "jamestown.org",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://jamestown.org/feed/",
+          "origin": "registry-direct",
+          "validation_count": 10,
+          "priority": 2
+        },
+        {
+          "type": "sitemap",
+          "url": "https://jamestown.org/post-sitemap.xml",
+          "origin": "robots.txt",
+          "validation_count": 1031,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://jamestown.org/attachment-sitemap.xml",
+          "origin": "robots.txt",
+          "validation_count": 1000,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://jamestown.org/attachment-sitemap2.xml",
+          "origin": "robots.txt",
+          "validation_count": 1000,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://jamestown.org/attachment-sitemap3.xml",
+          "origin": "robots.txt",
+          "validation_count": 1000,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://jamestown.org/attachment-sitemap4.xml",
+          "origin": "robots.txt",
+          "validation_count": 1000,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://jamestown.org/attachment-sitemap5.xml",
+          "origin": "robots.txt",
+          "validation_count": 1000,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://jamestown.org/attachment-sitemap6.xml",
+          "origin": "robots.txt",
+          "validation_count": 1000,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://jamestown.org/attachment-sitemap7.xml",
+          "origin": "robots.txt",
+          "validation_count": 1000,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://jamestown.org/attachment-sitemap8.xml",
+          "origin": "robots.txt",
+          "validation_count": 1000,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://jamestown.org/attachment-sitemap9.xml",
+          "origin": "robots.txt",
+          "validation_count": 1000,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://jamestown.org/attachment-sitemap10.xml",
+          "origin": "robots.txt",
+          "validation_count": 1000,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://jamestown.org/attachment-sitemap11.xml",
+          "origin": "robots.txt",
+          "validation_count": 1000,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://jamestown.org/attachment-sitemap12.xml",
+          "origin": "robots.txt",
+          "validation_count": 1000,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://jamestown.org/attachment-sitemap13.xml",
+          "origin": "robots.txt",
+          "validation_count": 1000,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://jamestown.org/attachment-sitemap14.xml",
+          "origin": "robots.txt",
+          "validation_count": 1000,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://jamestown.org/attachment-sitemap15.xml",
+          "origin": "robots.txt",
+          "validation_count": 1000,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://jamestown.org/attachment-sitemap16.xml",
+          "origin": "robots.txt",
+          "validation_count": 1000,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://jamestown.org/attachment-sitemap17.xml",
+          "origin": "robots.txt",
+          "validation_count": 1000,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://jamestown.org/attachment-sitemap18.xml",
+          "origin": "robots.txt",
+          "validation_count": 1000,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://jamestown.org/sitemap_index.xml",
+          "origin": "robots.txt",
+          "validation_count": 104,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://jamestown.org/page-sitemap.xml",
+          "origin": "robots.txt",
+          "validation_count": 18,
+          "priority": 3
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "jiia-or-jp",
+      "source_name": "Jiia",
+      "domain": "jiia.or.jp",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "archive",
+          "url": "https://www.jiia.or.jp/eng/report/ajiss_commentary/",
+          "origin": "homepage-link",
+          "validation_count": 30,
+          "priority": 4
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "jri-co-jp",
+      "source_name": "Jri",
+      "domain": "jri.co.jp",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "archive",
+          "url": "https://www.jri.co.jp/company/business/research/",
+          "origin": "homepage-link",
+          "validation_count": 55,
+          "priority": 4
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "kdi-re-kr",
+      "source_name": "Kdi",
+      "domain": "kdi.re.kr",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "sitemap",
+          "url": "https://www.kdi.re.kr/sitemap.xml",
+          "origin": "common-endpoint",
+          "validation_count": 384,
+          "priority": 3
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "kfcris-com",
+      "source_name": "Kfcris",
+      "domain": "kfcris.com",
+      "status": "blocked",
+      "routes": [],
+      "notes": [
+        "No validated official route. Manual mapping required; Google News is intentionally excluded from the primary map."
+      ]
+    },
+    {
+      "source_id": "kippra-or-ke",
+      "source_name": "Kippra",
+      "domain": "kippra.or.ke",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "wp_api",
+          "url": "https://kippra.or.ke/wp-json/wp/v2/posts?per_page=100&page=1",
+          "origin": "wordpress-api",
+          "validation_count": 100,
+          "priority": 1
+        },
+        {
+          "type": "feed",
+          "url": "https://kippra.or.ke/feed/",
+          "origin": "html-declared",
+          "validation_count": 10,
+          "priority": 2
+        },
+        {
+          "type": "feed",
+          "url": "https://kippra.or.ke/rss",
+          "origin": "common-endpoint",
+          "validation_count": 10,
+          "priority": 2
+        },
+        {
+          "type": "sitemap",
+          "url": "https://kippra.or.ke/wp-sitemap.xml",
+          "origin": "robots.txt",
+          "validation_count": 14,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://kippra.or.ke/sitemap.xml",
+          "origin": "common-endpoint",
+          "validation_count": 14,
+          "priority": 3
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "lcps-lebanon-org",
+      "source_name": "Lcps-Lebanon",
+      "domain": "lcps-lebanon.org",
+      "status": "blocked",
+      "routes": [],
+      "notes": [
+        "No validated official route. Manual mapping required; Google News is intentionally excluded from the primary map."
+      ]
+    },
+    {
+      "source_id": "lkyspp-nus-edu-sg",
+      "source_name": "Lkyspp",
+      "domain": "lkyspp.nus.edu.sg",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "sitemap",
+          "url": "https://lkyspp.nus.edu.sg/sitemap.xml",
+          "origin": "robots.txt",
+          "validation_count": 11829,
+          "priority": 3
+        },
+        {
+          "type": "archive",
+          "url": "https://lkyspp.nus.edu.sg/ips",
+          "origin": "homepage-link",
+          "validation_count": 47,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://lkyspp.nus.edu.sg/research/publications",
+          "origin": "homepage-link",
+          "validation_count": 17,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://lkyspp.nus.edu.sg/research/case-insights-unit",
+          "origin": "homepage-link",
+          "validation_count": 14,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://lkyspp.nus.edu.sg/research/case-insights-unit/all-case-studies",
+          "origin": "homepage-link",
+          "validation_count": 13,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://lkyspp.nus.edu.sg/research/case-insights-unit/case-study-unit-publications",
+          "origin": "homepage-link",
+          "validation_count": 11,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://lkyspp.nus.edu.sg/research",
+          "origin": "homepage-link",
+          "validation_count": 10,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://lkyspp.nus.edu.sg/ongoing-research-projects",
+          "origin": "homepage-link",
+          "validation_count": 10,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://lkyspp.nus.edu.sg/our-research#research-centres",
+          "origin": "homepage-link",
+          "validation_count": 10,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://lkyspp.nus.edu.sg/ongoing-research-projects/policy-studies-public-management-and-governance",
+          "origin": "homepage-link",
+          "validation_count": 10,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://lkyspp.nus.edu.sg/our-people/faculty/chu-jonathan-art",
+          "origin": "homepage-link",
+          "validation_count": 10,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://lkyspp.nus.edu.sg/research#research-centres",
+          "origin": "homepage-link",
+          "validation_count": 10,
+          "priority": 4
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "lowyinstitute-org",
+      "source_name": "Lowy Institute",
+      "domain": "lowyinstitute.org",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://www.lowyinstitute.org/publications/rss.xml",
+          "origin": "registry-direct",
+          "validation_count": 50,
+          "priority": 2
+        },
+        {
+          "type": "feed",
+          "url": "https://www.lowyinstitute.org/feed/",
+          "origin": "common-endpoint",
+          "validation_count": 50,
+          "priority": 2
+        },
+        {
+          "type": "feed",
+          "url": "https://www.lowyinstitute.org/rss",
+          "origin": "common-endpoint",
+          "validation_count": 50,
+          "priority": 2
+        },
+        {
+          "type": "sitemap",
+          "url": "https://www.lowyinstitute.org/sitemap.xml",
+          "origin": "robots.txt",
+          "validation_count": 14908,
+          "priority": 3
+        },
+        {
+          "type": "archive",
+          "url": "https://www.lowyinstitute.org/publications",
+          "origin": "homepage-link",
+          "validation_count": 30,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.lowyinstitute.org/the-interpreter/archive",
+          "origin": "homepage-link",
+          "validation_count": 3,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.lowyinstitute.org/external-publications",
+          "origin": "homepage-link",
+          "validation_count": 3,
+          "priority": 4
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "martenscentre-eu",
+      "source_name": "Martenscentre",
+      "domain": "martenscentre.eu",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "wp_api",
+          "url": "https://www.martenscentre.eu/wp-json/wp/v2/posts?per_page=100&page=1",
+          "origin": "wordpress-api",
+          "validation_count": 100,
+          "priority": 1
+        },
+        {
+          "type": "feed",
+          "url": "https://www.martenscentre.eu/feed/",
+          "origin": "common-endpoint",
+          "validation_count": 10,
+          "priority": 2
+        },
+        {
+          "type": "feed",
+          "url": "https://www.martenscentre.eu/rss",
+          "origin": "common-endpoint",
+          "validation_count": 10,
+          "priority": 2
+        },
+        {
+          "type": "sitemap",
+          "url": "https://www.martenscentre.eu/sitemap.xml",
+          "origin": "common-endpoint",
+          "validation_count": 21,
+          "priority": 3
+        },
+        {
+          "type": "archive",
+          "url": "https://www.martenscentre.eu/publication",
+          "origin": "homepage-link",
+          "validation_count": 43,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.martenscentre.eu/publication/the-legacy-of-tradition-the-making-of-lithuanias-centre-right/",
+          "origin": "homepage-link",
+          "validation_count": 13,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.martenscentre.eu/publication/made-in-china-powered-by-europe-mapping-the-eus-strategic-leverage-over-the-peoples-republic-of-china/",
+          "origin": "homepage-link",
+          "validation_count": 13,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.martenscentre.eu/media-mentions/ukraine-is-becoming-a-foundational-pillar-for-europes-new-security-architecture/",
+          "origin": "homepage-link",
+          "validation_count": 3,
+          "priority": 4
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "mei-edu",
+      "source_name": "Mei",
+      "domain": "mei.edu",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "wp_api",
+          "url": "https://mei.edu/wp-json/wp/v2/posts?per_page=100&page=1",
+          "origin": "wordpress-api",
+          "validation_count": 1,
+          "priority": 1
+        },
+        {
+          "type": "feed",
+          "url": "https://mei.edu/feed/",
+          "origin": "html-declared",
+          "validation_count": 1,
+          "priority": 2
+        },
+        {
+          "type": "feed",
+          "url": "https://mei.edu/comments/feed/",
+          "origin": "html-declared",
+          "validation_count": 1,
+          "priority": 2
+        },
+        {
+          "type": "feed",
+          "url": "https://mei.edu/rss",
+          "origin": "common-endpoint",
+          "validation_count": 1,
+          "priority": 2
+        },
+        {
+          "type": "sitemap",
+          "url": "https://mei.edu/sitemap_index.xml",
+          "origin": "robots.txt",
+          "validation_count": 22,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://mei.edu/sitemap.xml",
+          "origin": "common-endpoint",
+          "validation_count": 22,
+          "priority": 3
+        },
+        {
+          "type": "archive",
+          "url": "https://mei.edu/research-commentary-publications/",
+          "origin": "homepage-link",
+          "validation_count": 24,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://mei.edu/research-commentary-commentary/",
+          "origin": "homepage-link",
+          "validation_count": 24,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://mei.edu/reports/",
+          "origin": "homepage-link",
+          "validation_count": 24,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://mei.edu/research-commentary/",
+          "origin": "homepage-link",
+          "validation_count": 22,
+          "priority": 4
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "mena-studies-org",
+      "source_name": "Mena-Studies",
+      "domain": "mena-studies.org",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "wp_api",
+          "url": "https://mena-studies.org/wp-json/wp/v2/posts?per_page=100&page=1",
+          "origin": "wordpress-api",
+          "validation_count": 100,
+          "priority": 1
+        },
+        {
+          "type": "feed",
+          "url": "https://mena-studies.org/feed/",
+          "origin": "html-declared",
+          "validation_count": 10,
+          "priority": 2
+        },
+        {
+          "type": "feed",
+          "url": "https://mena-studies.org/rss",
+          "origin": "common-endpoint",
+          "validation_count": 10,
+          "priority": 2
+        },
+        {
+          "type": "sitemap",
+          "url": "https://mena-studies.org/sitemap_index.xml",
+          "origin": "robots.txt",
+          "validation_count": 4,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://mena-studies.org/sitemap.xml",
+          "origin": "common-endpoint",
+          "validation_count": 4,
+          "priority": 3
+        },
+        {
+          "type": "archive",
+          "url": "https://mena-studies.org/category/publications/",
+          "origin": "homepage-link",
+          "validation_count": 6,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://mena-studies.org/category/publications/reportsanalyticalbriefs/",
+          "origin": "homepage-link",
+          "validation_count": 6,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://mena-studies.org/category/publications/researchpapers/",
+          "origin": "homepage-link",
+          "validation_count": 6,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://mena-studies.org/",
+          "origin": "homepage-link",
+          "validation_count": 3,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://mena-studies.org/iran-and-the-great-deception/",
+          "origin": "homepage-link",
+          "validation_count": 3,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://mena-studies.org/yasmeen-al-eryani-houthi-de-escalation-is-unlikely-to-last/",
+          "origin": "homepage-link",
+          "validation_count": 3,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://mena-studies.org/youssef-chiheb-political-islam-does-not-seek-power-through-violence-but-through-the-democratic-process/",
+          "origin": "homepage-link",
+          "validation_count": 3,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://mena-studies.org/hijab-symbol-identity-or-instrument-of-conflict/",
+          "origin": "homepage-link",
+          "validation_count": 3,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://mena-studies.org/the-voice-of-the-global-iranian-revolution-confronts-the-rule-of-the-supreme-leader/",
+          "origin": "homepage-link",
+          "validation_count": 3,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://mena-studies.org/syria-as-an-energy-transit-corridor-between-promising-geography-and-a-constrained-reality/",
+          "origin": "homepage-link",
+          "validation_count": 3,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://mena-studies.org/40-days-of-war-against-iran-the-limits-of-a-regionalized-conflict/",
+          "origin": "homepage-link",
+          "validation_count": 3,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://mena-studies.org/on-world-health-day-war-is-the-greatest-threat-to-health/",
+          "origin": "homepage-link",
+          "validation_count": 3,
+          "priority": 4
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "merics-org",
+      "source_name": "Merics",
+      "domain": "merics.org",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://merics.org/rss",
+          "origin": "common-endpoint",
+          "validation_count": 20,
+          "priority": 2
+        },
+        {
+          "type": "sitemap",
+          "url": "https://merics.org/en/sitemap.xml",
+          "origin": "robots.txt",
+          "validation_count": 2213,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://merics.org/sitemap.xml",
+          "origin": "common-endpoint",
+          "validation_count": 2213,
+          "priority": 3
+        },
+        {
+          "type": "archive",
+          "url": "https://merics.org/en/analysis",
+          "origin": "homepage-link",
+          "validation_count": 4,
+          "priority": 4
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "nti-org",
+      "source_name": "Nti",
+      "domain": "nti.org",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "sitemap",
+          "url": "https://www.nti.org/sitemap_index.xml",
+          "origin": "robots.txt",
+          "validation_count": 18,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://www.nti.org/sitemap.xml",
+          "origin": "common-endpoint",
+          "validation_count": 18,
+          "priority": 3
+        },
+        {
+          "type": "archive",
+          "url": "https://www.nti.org/analysis/analysis-search/?f-order=relevance&f-article_type_tax%5B%5D=240&f-article_type_tax%5B%5D=2109",
+          "origin": "homepage-link",
+          "validation_count": 23,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.nti.org/analysis/analysis-search/?f-order=relevance&f-article_type_tax%5B%5D=243",
+          "origin": "homepage-link",
+          "validation_count": 22,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.nti.org/analysis/",
+          "origin": "homepage-link",
+          "validation_count": 21,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.nti.org/about/financials/",
+          "origin": "homepage-link",
+          "validation_count": 4,
+          "priority": 4
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "odi-org",
+      "source_name": "Odi",
+      "domain": "odi.org",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "sitemap",
+          "url": "https://odi.org/sitemap.xml",
+          "origin": "robots.txt",
+          "validation_count": 1,
+          "priority": 3
+        },
+        {
+          "type": "archive",
+          "url": "https://odi.org/en/insights/",
+          "origin": "homepage-link",
+          "validation_count": 26,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://odi.org/en/publications/syria-climate-risks-water-electricity/",
+          "origin": "homepage-link",
+          "validation_count": 4,
+          "priority": 4
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "orfonline-org",
+      "source_name": "Orfonline",
+      "domain": "orfonline.org",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "sitemap",
+          "url": "https://www.orfonline.org/post-tags-sitemap.xml",
+          "origin": "robots.txt",
+          "validation_count": 40000,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://www.orfonline.org/research-sitemap.xml",
+          "origin": "robots.txt",
+          "validation_count": 2033,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://www.orfonline.org/hindi-expert-speak-sitemap.xml",
+          "origin": "robots.txt",
+          "validation_count": 769,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://www.orfonline.org/bangla-expert-speak-sitemap.xml",
+          "origin": "robots.txt",
+          "validation_count": 764,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://www.orfonline.org/marathi-expert-speak-sitemap.xml",
+          "origin": "robots.txt",
+          "validation_count": 593,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://www.orfonline.org/other-sitemap.xml",
+          "origin": "robots.txt",
+          "validation_count": 550,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://www.orfonline.org/video-sitemap.xml",
+          "origin": "robots.txt",
+          "validation_count": 431,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://www.orfonline.org/events-sitemap.xml",
+          "origin": "robots.txt",
+          "validation_count": 234,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://www.orfonline.org/hindi-research-sitemap.xml",
+          "origin": "robots.txt",
+          "validation_count": 184,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://www.orfonline.org/marathi-research-sitemap.xml",
+          "origin": "robots.txt",
+          "validation_count": 139,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://www.orfonline.org/expert-speak-sitemap.xml",
+          "origin": "robots.txt",
+          "validation_count": 66,
+          "priority": 3
+        },
+        {
+          "type": "archive",
+          "url": "https://www.orfonline.org/#collapseOne",
+          "origin": "homepage-link",
+          "validation_count": 14,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.orfonline.org/programme/strategic-studies-programme",
+          "origin": "homepage-link",
+          "validation_count": 13,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.orfonline.org/programme/strategic-studies-programme/strategic-studies",
+          "origin": "homepage-link",
+          "validation_count": 12,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.orfonline.org/content-type/special-reports",
+          "origin": "homepage-link",
+          "validation_count": 11,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.orfonline.org/content-type/occasional-paper",
+          "origin": "homepage-link",
+          "validation_count": 11,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.orfonline.org/content-type/event-reports",
+          "origin": "homepage-link",
+          "validation_count": 11,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.orfonline.org/programme/neighbourhood-studies",
+          "origin": "homepage-link",
+          "validation_count": 10,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.orfonline.org/programme/urban-studies",
+          "origin": "homepage-link",
+          "validation_count": 8,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.orfonline.org/programme/neighbourhood-studies/neighbourhood-studies",
+          "origin": "homepage-link",
+          "validation_count": 6,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.orfonline.org/programme/strategic-studies-programme/maritime-studies",
+          "origin": "homepage-link",
+          "validation_count": 4,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.orfonline.org/programme/strategic-studies-programme/eurasian-studies",
+          "origin": "homepage-link",
+          "validation_count": 4,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.orfonline.org/programme/strategic-studies-programme/regional-studies",
+          "origin": "homepage-link",
+          "validation_count": 3,
+          "priority": 4
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "pewresearch-org",
+      "source_name": "Pew Research Center",
+      "domain": "pewresearch.org",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "wp_api",
+          "url": "https://www.pewresearch.org/wp-json/wp/v2/posts?per_page=100&page=1",
+          "origin": "wordpress-api",
+          "validation_count": 100,
+          "priority": 1
+        },
+        {
+          "type": "feed",
+          "url": "https://www.pewresearch.org/feed",
+          "origin": "registry-direct",
+          "validation_count": 100,
+          "priority": 2
+        },
+        {
+          "type": "feed",
+          "url": "https://www.pewresearch.org/comments/feed/",
+          "origin": "html-declared",
+          "validation_count": 100,
+          "priority": 2
+        },
+        {
+          "type": "feed",
+          "url": "https://www.pewresearch.org/rss",
+          "origin": "common-endpoint",
+          "validation_count": 100,
+          "priority": 2
+        },
+        {
+          "type": "feed",
+          "url": "https://www.pewresearch.org/rss.xml",
+          "origin": "common-endpoint",
+          "validation_count": 100,
+          "priority": 2
+        },
+        {
+          "type": "sitemap",
+          "url": "https://www.pewresearch.org/sitemap-rls.xml",
+          "origin": "robots.txt",
+          "validation_count": 205,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://www.pewresearch.org/sitemap-news.xml",
+          "origin": "robots.txt",
+          "validation_count": 18,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://www.pewresearch.org/sitemap.xml",
+          "origin": "robots.txt",
+          "validation_count": 4,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://www.pewresearch.org/sitemap-taxonomies.xml",
+          "origin": "robots.txt",
+          "validation_count": 4,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://www.pewresearch.org/sitemap_index.xml",
+          "origin": "common-endpoint",
+          "validation_count": 4,
+          "priority": 3
+        },
+        {
+          "type": "archive",
+          "url": "https://www.pewresearch.org/publications/",
+          "origin": "homepage-link",
+          "validation_count": 9,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.pewresearch.org/topic/methodological-research/",
+          "origin": "homepage-link",
+          "validation_count": 6,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.pewresearch.org/topics/",
+          "origin": "homepage-link",
+          "validation_count": 6,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.pewresearch.org/about/",
+          "origin": "homepage-link",
+          "validation_count": 6,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.pewresearch.org/topic/politics-policy/",
+          "origin": "homepage-link",
+          "validation_count": 5,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.pewresearch.org/topic/international-affairs/",
+          "origin": "homepage-link",
+          "validation_count": 5,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.pewresearch.org/topic/religion/",
+          "origin": "homepage-link",
+          "validation_count": 5,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.pewresearch.org/topic/internet-technology/emerging-technology/artificial-intelligence/",
+          "origin": "homepage-link",
+          "validation_count": 5,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.pewresearch.org/our-methods/",
+          "origin": "homepage-link",
+          "validation_count": 5,
+          "priority": 4
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "rand-org",
+      "source_name": "Rand",
+      "domain": "rand.org",
+      "status": "blocked",
+      "routes": [],
+      "notes": [
+        "Homepage unreachable from mapper."
+      ]
+    },
+    {
+      "source_id": "rusi-org",
+      "source_name": "Rusi",
+      "domain": "rusi.org",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://www.rusi.org/rss/whats-new.xml",
+          "origin": "html-declared",
+          "validation_count": 60,
+          "priority": 2
+        },
+        {
+          "type": "feed",
+          "url": "https://www.rusi.org/rss/latest-commentary.xml",
+          "origin": "html-declared",
+          "validation_count": 20,
+          "priority": 2
+        },
+        {
+          "type": "feed",
+          "url": "https://www.rusi.org/rss/latest-publications.xml",
+          "origin": "html-declared",
+          "validation_count": 20,
+          "priority": 2
+        },
+        {
+          "type": "sitemap",
+          "url": "https://www.rusi.org/sitemap-index.xml",
+          "origin": "robots.txt",
+          "validation_count": 1,
+          "priority": 3
+        },
+        {
+          "type": "archive",
+          "url": "https://www.rusi.org/explore-our-research",
+          "origin": "homepage-link",
+          "validation_count": 18,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.rusi.org/explore-our-research/publications",
+          "origin": "homepage-link",
+          "validation_count": 12,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.rusi.org/explore-our-research/research-groups",
+          "origin": "homepage-link",
+          "validation_count": 10,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/north-africas-flaring-problem-europes-gas-opportunity",
+          "origin": "homepage-link",
+          "validation_count": 5,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary",
+          "origin": "homepage-link",
+          "validation_count": 4,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.rusi.org/news-and-comment/in-the-news/uk-faces-tougher-fatf-review-amid-rising-fraud-and-crypto-risks",
+          "origin": "homepage-link",
+          "validation_count": 4,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.rusi.org/news-and-comment/in-the-news/trumps-nuclear-doctrine-anything-possible-price",
+          "origin": "homepage-link",
+          "validation_count": 4,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.rusi.org/news-and-comment/in-the-news/us-signs-landmark-nuclear-agreement-saudi-arabia",
+          "origin": "homepage-link",
+          "validation_count": 4,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.rusi.org/explore-our-research/publications/insights-papers",
+          "origin": "homepage-link",
+          "validation_count": 3,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.rusi.org/explore-our-research/publications/research-papers",
+          "origin": "homepage-link",
+          "validation_count": 3,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.rusi.org/research-event-recordings",
+          "origin": "homepage-link",
+          "validation_count": 3,
+          "priority": 4
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "saiia-org-za",
+      "source_name": "Saiia",
+      "domain": "saiia.org.za",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://saiia.org.za/comments/feed/",
+          "origin": "html-declared",
+          "validation_count": 10,
+          "priority": 2
+        },
+        {
+          "type": "sitemap",
+          "url": "https://saiia.org.za/sitemap_index.xml",
+          "origin": "robots.txt",
+          "validation_count": 24,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://saiia.org.za/sitemap.xml",
+          "origin": "common-endpoint",
+          "validation_count": 24,
+          "priority": 3
+        },
+        {
+          "type": "archive",
+          "url": "https://saiia.org.za/publications/",
+          "origin": "homepage-link",
+          "validation_count": 14,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://saiia.org.za/research/common-ground-insights-stronger-african-coordination-brics/",
+          "origin": "homepage-link",
+          "validation_count": 10,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://saiia.org.za/research-themes/",
+          "origin": "homepage-link",
+          "validation_count": 3,
+          "priority": 4
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "sanaacenter-org",
+      "source_name": "Sanaacenter",
+      "domain": "sanaacenter.org",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "wp_api",
+          "url": "https://sanaacenter.org/wp-json/wp/v2/posts?per_page=100&page=1",
+          "origin": "wordpress-api",
+          "validation_count": 100,
+          "priority": 1
+        },
+        {
+          "type": "feed",
+          "url": "https://sanaacenter.org/feed/",
+          "origin": "common-endpoint",
+          "validation_count": 20,
+          "priority": 2
+        },
+        {
+          "type": "feed",
+          "url": "https://sanaacenter.org/rss",
+          "origin": "common-endpoint",
+          "validation_count": 20,
+          "priority": 2
+        },
+        {
+          "type": "sitemap",
+          "url": "https://sanaacenter.org/sitemap_index.xml",
+          "origin": "robots.txt",
+          "validation_count": 20,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://sanaacenter.org/sitemap.xml",
+          "origin": "common-endpoint",
+          "validation_count": 20,
+          "priority": 3
+        },
+        {
+          "type": "archive",
+          "url": "https://sanaacenter.org/publications/policy-research/27045",
+          "origin": "homepage-link",
+          "validation_count": 181,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://sanaacenter.org/publications/policy-research/27039",
+          "origin": "homepage-link",
+          "validation_count": 154,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://sanaacenter.org/publications/policy-research/25964",
+          "origin": "homepage-link",
+          "validation_count": 140,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://sanaacenter.org/publications/policy-research/12286",
+          "origin": "homepage-link",
+          "validation_count": 29,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://sanaacenter.org/publications/policy-research/27985",
+          "origin": "homepage-link",
+          "validation_count": 24,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://sanaacenter.org/publications/policy-research/27659",
+          "origin": "homepage-link",
+          "validation_count": 23,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://sanaacenter.org/publications/policy-research/27610",
+          "origin": "homepage-link",
+          "validation_count": 22,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://sanaacenter.org/publications/policy-research/25968",
+          "origin": "homepage-link",
+          "validation_count": 22,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://sanaacenter.org/publications/policy-research",
+          "origin": "homepage-link",
+          "validation_count": 21,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://sanaacenter.org/the-yemen-review/jan-mar-2026/26984",
+          "origin": "homepage-link",
+          "validation_count": 19,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://sanaacenter.org/the-yemen-review/jan-mar-2026/26994",
+          "origin": "homepage-link",
+          "validation_count": 19,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://sanaacenter.org/the-yemen-review/jan-mar-2026/27002",
+          "origin": "homepage-link",
+          "validation_count": 19,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://sanaacenter.org/the-yemen-review/jan-mar-2026/27026",
+          "origin": "homepage-link",
+          "validation_count": 19,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://sanaacenter.org/the-yemen-review/jan-mar-2026/27009",
+          "origin": "homepage-link",
+          "validation_count": 18,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://sanaacenter.org/publications",
+          "origin": "homepage-link",
+          "validation_count": 17,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://sanaacenter.org/podcasts/the-reality-of-yemeni-refugees",
+          "origin": "homepage-link",
+          "validation_count": 6,
+          "priority": 4
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "sharqforum-org",
+      "source_name": "Sharqforum",
+      "domain": "sharqforum.org",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "wp_api",
+          "url": "https://www.sharqforum.org/wp-json/wp/v2/posts?per_page=100&page=1",
+          "origin": "wordpress-api",
+          "validation_count": 1,
+          "priority": 1
+        },
+        {
+          "type": "feed",
+          "url": "https://www.sharqforum.org/feed/",
+          "origin": "html-declared",
+          "validation_count": 1,
+          "priority": 2
+        },
+        {
+          "type": "feed",
+          "url": "https://www.sharqforum.org/rss",
+          "origin": "common-endpoint",
+          "validation_count": 1,
+          "priority": 2
+        },
+        {
+          "type": "sitemap",
+          "url": "https://www.sharqforum.org/sitemap.xml",
+          "origin": "common-endpoint",
+          "validation_count": 4,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://www.sharqforum.org/sitemap_index.xml",
+          "origin": "common-endpoint",
+          "validation_count": 4,
+          "priority": 3
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "siis-org-cn",
+      "source_name": "Siis",
+      "domain": "siis.org.cn",
+      "status": "blocked",
+      "routes": [],
+      "notes": [
+        "No validated official route. Manual mapping required; Google News is intentionally excluded from the primary map."
+      ]
+    },
+    {
+      "source_id": "sipri-org",
+      "source_name": "Sipri",
+      "domain": "sipri.org",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "sitemap",
+          "url": "https://www.sipri.org/sitemap.xml",
+          "origin": "robots.txt",
+          "validation_count": 57,
+          "priority": 3
+        },
+        {
+          "type": "archive",
+          "url": "https://www.sipri.org/research",
+          "origin": "homepage-link",
+          "validation_count": 73,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.sipri.org/commentary",
+          "origin": "homepage-link",
+          "validation_count": 51,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.sipri.org/publications/search",
+          "origin": "homepage-link",
+          "validation_count": 47,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.sipri.org/commentary/topical-backgrounder/2026/growth-dual-use-design-research-europe-export-control-risks-and-challenges",
+          "origin": "homepage-link",
+          "validation_count": 33,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.sipri.org/",
+          "origin": "homepage-link",
+          "validation_count": 29,
+          "priority": 4
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "stimson-org",
+      "source_name": "Stimson Center",
+      "domain": "stimson.org",
+      "status": "blocked",
+      "routes": [],
+      "notes": [
+        "Homepage unreachable from mapper."
+      ]
+    },
+    {
+      "source_id": "takshashila-org-in",
+      "source_name": "Takshashila",
+      "domain": "takshashila.org.in",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "sitemap",
+          "url": "https://takshashila.org.in/sitemap.xml",
+          "origin": "robots.txt",
+          "validation_count": 941,
+          "priority": 3
+        },
+        {
+          "type": "archive",
+          "url": "https://takshashila.org.in/pages/publications/",
+          "origin": "homepage-link",
+          "validation_count": 448,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://takshashila.org.in/pages/research-areas",
+          "origin": "homepage-link",
+          "validation_count": 37,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://takshashila.org.in/content/events/TNAS-Conference-.html",
+          "origin": "homepage-link",
+          "validation_count": 3,
+          "priority": 4
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "tcf-org",
+      "source_name": "Tcf",
+      "domain": "tcf.org",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "wp_api",
+          "url": "https://tcf.org/wp-json/wp/v2/posts?per_page=100&page=1",
+          "origin": "wordpress-api",
+          "validation_count": 100,
+          "priority": 1
+        },
+        {
+          "type": "feed",
+          "url": "https://tcf.org/feed/",
+          "origin": "common-endpoint",
+          "validation_count": 10,
+          "priority": 2
+        },
+        {
+          "type": "feed",
+          "url": "https://tcf.org/rss",
+          "origin": "common-endpoint",
+          "validation_count": 10,
+          "priority": 2
+        },
+        {
+          "type": "sitemap",
+          "url": "https://tcf.org/sitemap.xml",
+          "origin": "robots.txt",
+          "validation_count": 14,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://tcf.org/sitemap_index.xml",
+          "origin": "robots.txt",
+          "validation_count": 14,
+          "priority": 3
+        },
+        {
+          "type": "archive",
+          "url": "https://tcf.org/publications/",
+          "origin": "homepage-link",
+          "validation_count": 26,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://tcf.org/#topics-nav",
+          "origin": "homepage-link",
+          "validation_count": 11,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://tcf.org/#nav-mobile-topics",
+          "origin": "homepage-link",
+          "validation_count": 11,
+          "priority": 4
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "thedialogue-org",
+      "source_name": "Thedialogue",
+      "domain": "thedialogue.org",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "wp_api",
+          "url": "https://thedialogue.org/wp-json/wp/v2/posts?per_page=100&page=1",
+          "origin": "wordpress-api",
+          "validation_count": 100,
+          "priority": 1
+        },
+        {
+          "type": "feed",
+          "url": "https://thedialogue.org/feed",
+          "origin": "html-declared",
+          "validation_count": 10,
+          "priority": 2
+        },
+        {
+          "type": "feed",
+          "url": "https://thedialogue.org/rss",
+          "origin": "common-endpoint",
+          "validation_count": 10,
+          "priority": 2
+        },
+        {
+          "type": "sitemap",
+          "url": "https://thedialogue.org/wp-sitemap.xml",
+          "origin": "robots.txt",
+          "validation_count": 31,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://thedialogue.org/sitemap.xml",
+          "origin": "common-endpoint",
+          "validation_count": 31,
+          "priority": 3
+        },
+        {
+          "type": "archive",
+          "url": "https://thedialogue.org/analysis/comparative-policymaking-in-a-shifting-global-architecture-approaches-from-the-caribbean-and-the-pacific-managing-sovereign-waters-2",
+          "origin": "homepage-link",
+          "validation_count": 47,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://thedialogue.org/analysis/",
+          "origin": "homepage-link",
+          "validation_count": 20,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://thedialogue.org/reports-books/",
+          "origin": "homepage-link",
+          "validation_count": 20,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://thedialogue.org/articles-op-eds/",
+          "origin": "homepage-link",
+          "validation_count": 20,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://thedialogue.org/programs-asia/",
+          "origin": "homepage-link",
+          "validation_count": 13,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://thedialogue.org/programs-mexico",
+          "origin": "homepage-link",
+          "validation_count": 13,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://thedialogue.org/programs-remittances/",
+          "origin": "homepage-link",
+          "validation_count": 7,
+          "priority": 4
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "understandingwar-org",
+      "source_name": "Understandingwar",
+      "domain": "understandingwar.org",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "wp_api",
+          "url": "https://understandingwar.org/wp-json/wp/v2/posts?per_page=100&page=1",
+          "origin": "wordpress-api",
+          "validation_count": 10,
+          "priority": 1
+        },
+        {
+          "type": "sitemap",
+          "url": "https://understandingwar.org/sitemap_index.xml",
+          "origin": "robots.txt",
+          "validation_count": 31,
+          "priority": 3
+        },
+        {
+          "type": "sitemap",
+          "url": "https://understandingwar.org/sitemap.xml",
+          "origin": "common-endpoint",
+          "validation_count": 31,
+          "priority": 3
+        },
+        {
+          "type": "archive",
+          "url": "https://understandingwar.org/research",
+          "origin": "homepage-link",
+          "validation_count": 51,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://understandingwar.org/analysis/",
+          "origin": "homepage-link",
+          "validation_count": 30,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://understandingwar.org/education/hertog-war-studies-program/",
+          "origin": "homepage-link",
+          "validation_count": 19,
+          "priority": 4
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "washingtoninstitute-org",
+      "source_name": "Washington Institute",
+      "domain": "washingtoninstitute.org",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "sitemap",
+          "url": "https://www.washingtoninstitute.org/sitemap.xml",
+          "origin": "common-endpoint",
+          "validation_count": 12,
+          "priority": 3
+        }
+      ],
+      "notes": []
+    },
+    {
+      "source_id": "wilsoncenter-org",
+      "source_name": "Wilson Center",
+      "domain": "wilsoncenter.org",
+      "status": "validated",
+      "routes": [
+        {
+          "type": "sitemap",
+          "url": "https://www.wilsoncenter.org/sitemap.xml",
+          "origin": "common-endpoint",
+          "validation_count": 63,
+          "priority": 3
+        },
+        {
+          "type": "archive",
+          "url": "https://www.wilsoncenter.org/insight-analysis",
+          "origin": "homepage-link",
+          "validation_count": 14,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.wilsoncenter.org/congress",
+          "origin": "homepage-link",
+          "validation_count": 9,
+          "priority": 4
+        },
+        {
+          "type": "archive",
+          "url": "https://www.wilsoncenter.org/article/wilson-center-opens-competition-2027-2028-research-fellowships",
+          "origin": "homepage-link",
+          "validation_count": 7,
+          "priority": 4
+        }
+      ],
+      "notes": []
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Mena-Studies",
+    "domain": "mena-studies.org",
+    "status": "complete",
+    "routes_used": "https://mena-studies.org/category/publications/ | https://mena-studies.org/category/publications/reportsanalyticalbriefs/ | https://mena-studies.org/category/publications/researchpapers/ | https://mena-studies.org/ | https://mena-studies.org/iran-and-the-great-deception/ | https://mena-studies.org/yasmeen-al-eryani-houthi-de-escalation-is-unlikely-to-last/ | https://mena-studies.org/youssef-chiheb-political-islam-does-not-seek-power-through-violence-but-through-the-democratic-process/ | https://mena-studies.org/hijab-symbol-identity-or-instrument-of-conflict/ | https://mena-studies.org/the-voice-of-the-global-iranian-revolution-confronts-the-rule-of-the-supreme-leader/ | https://mena-studies.org/syria-as-an-energy-transit-corridor-between-promising-geography-and-a-constrained-reality/ | https://mena-studies.org/40-days-of-war-against-iran-the-limits-of-a-regionalized-conflict/ | https://mena-studies.org/on-world-health-day-war-is-the-greatest-threat-to-health/",
+    "candidate_urls": 6,
+    "dated_items": 0,
+    "matched_items": 0,
+    "duration_seconds": 6.49,
+    "notes": ""
+  }
+}

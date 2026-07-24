@@ -1,0 +1,14 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Center for a New American Security",
+    "domain": "cnas.org",
+    "status": "complete",
+    "routes_used": "https://www.cnas.org/reports | https://www.cnas.org/articles-multimedia | https://www.cnas.org/articles-multimedia?type=commentary",
+    "candidate_urls": 88,
+    "dated_items": 0,
+    "matched_items": 0,
+    "duration_seconds": 13.0,
+    "notes": ""
+  }
+}

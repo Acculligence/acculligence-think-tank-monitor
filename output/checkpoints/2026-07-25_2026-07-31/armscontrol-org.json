@@ -1,0 +1,14 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Armscontrol",
+    "domain": "armscontrol.org",
+    "status": "complete",
+    "routes_used": "https://www.armscontrol.org/reports",
+    "candidate_urls": 16,
+    "dated_items": 0,
+    "matched_items": 0,
+    "duration_seconds": 4.87,
+    "notes": ""
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Arabcenterdc",
+    "domain": "arabcenterdc.org",
+    "status": "complete",
+    "routes_used": "https://arabcenterdc.org/publications/policy-analysis/ | https://arabcenterdc.org/publications/ | https://arabcenterdc.org/publications/research-papers/",
+    "candidate_urls": 12,
+    "dated_items": 0,
+    "matched_items": 0,
+    "duration_seconds": 6.26,
+    "notes": ""
+  }
+}

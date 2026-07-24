@@ -1,0 +1,14 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Erf",
+    "domain": "erf.org.eg",
+    "status": "complete",
+    "routes_used": "https://erf.org.eg/publication_cat/policy-research-reports/ | https://erf.org.eg/events/navigating-change-in-jordan-policy-insights-on-employment-inclusion-and-resilience-from-the-jordan-labor-market-panel-survey-2025/ | https://erf.org.eg/publication_cat/working-paper-series/ | https://erf.org.eg/publications/",
+    "candidate_urls": 49,
+    "dated_items": 0,
+    "matched_items": 0,
+    "duration_seconds": 15.91,
+    "notes": ""
+  }
+}

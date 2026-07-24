@@ -1,0 +1,14 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Saiia",
+    "domain": "saiia.org.za",
+    "status": "complete",
+    "routes_used": "https://saiia.org.za/publications/ | https://saiia.org.za/research/common-ground-insights-stronger-african-coordination-brics/ | https://saiia.org.za/research-themes/",
+    "candidate_urls": 20,
+    "dated_items": 0,
+    "matched_items": 0,
+    "duration_seconds": 15.51,
+    "notes": ""
+  }
+}

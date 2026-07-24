@@ -1,0 +1,14 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Ifri",
+    "domain": "ifri.org",
+    "status": "no_candidates",
+    "routes_used": "",
+    "candidate_urls": 0,
+    "dated_items": 0,
+    "matched_items": 0,
+    "duration_seconds": 2.35,
+    "notes": ""
+  }
+}

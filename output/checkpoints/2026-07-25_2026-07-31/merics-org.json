@@ -1,0 +1,14 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Merics",
+    "domain": "merics.org",
+    "status": "complete",
+    "routes_used": "https://merics.org/en/analysis",
+    "candidate_urls": 8,
+    "dated_items": 0,
+    "matched_items": 0,
+    "duration_seconds": 6.77,
+    "notes": ""
+  }
+}

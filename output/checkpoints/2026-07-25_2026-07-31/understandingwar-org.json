@@ -1,0 +1,14 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Understandingwar",
+    "domain": "understandingwar.org",
+    "status": "complete",
+    "routes_used": "https://understandingwar.org/wp-json/wp/v2/posts?per_page=100&page=1 | https://understandingwar.org/research | https://understandingwar.org/analysis/ | https://understandingwar.org/education/hertog-war-studies-program/",
+    "candidate_urls": 53,
+    "dated_items": 0,
+    "matched_items": 0,
+    "duration_seconds": 13.28,
+    "notes": ""
+  }
+}

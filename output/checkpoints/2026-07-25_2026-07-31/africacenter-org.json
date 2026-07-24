@@ -1,0 +1,14 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Africacenter",
+    "domain": "africacenter.org",
+    "status": "complete",
+    "routes_used": "https://africacenter.org/research/",
+    "candidate_urls": 24,
+    "dated_items": 0,
+    "matched_items": 0,
+    "duration_seconds": 5.8,
+    "notes": ""
+  }
+}

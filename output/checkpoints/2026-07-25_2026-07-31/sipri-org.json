@@ -1,0 +1,14 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Sipri",
+    "domain": "sipri.org",
+    "status": "complete",
+    "routes_used": "https://www.sipri.org/research | https://www.sipri.org/commentary | https://www.sipri.org/publications/search",
+    "candidate_urls": 104,
+    "dated_items": 0,
+    "matched_items": 0,
+    "duration_seconds": 70.85,
+    "notes": ""
+  }
+}

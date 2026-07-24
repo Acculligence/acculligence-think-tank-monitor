@@ -1,0 +1,14 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Idsa",
+    "domain": "idsa.in",
+    "status": "complete",
+    "routes_used": "https://idsa.in/idsa-events/category/event-report | https://idsa.in/papers-briefs | https://idsa.in/publications | https://idsa.in/ | https://idsa.in/library/newspapers | https://www.idsa.in/?news_categories=op-eds-and-articles | https://idsa.in/mp-idsa-annual-reports",
+    "candidate_urls": 60,
+    "dated_items": 0,
+    "matched_items": 0,
+    "duration_seconds": 57.52,
+    "notes": ""
+  }
+}

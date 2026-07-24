@@ -1,0 +1,14 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Atlantic Council",
+    "domain": "atlanticcouncil.org",
+    "status": "complete",
+    "routes_used": "https://www.atlanticcouncil.org/programs/digital-forensic-research-lab/ | https://www.atlanticcouncil.org/in-depth-research-reports/",
+    "candidate_urls": 17,
+    "dated_items": 0,
+    "matched_items": 0,
+    "duration_seconds": 10.23,
+    "notes": ""
+  }
+}

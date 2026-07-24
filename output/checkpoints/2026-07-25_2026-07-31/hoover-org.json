@@ -1,0 +1,14 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Hoover Institution",
+    "domain": "hoover.org",
+    "status": "complete",
+    "routes_used": "https://www.hoover.org/about/who-we-are/research-team | https://www.hoover.org/ | https://www.hoover.org/commentary",
+    "candidate_urls": 77,
+    "dated_items": 0,
+    "matched_items": 0,
+    "duration_seconds": 15.91,
+    "notes": ""
+  }
+}

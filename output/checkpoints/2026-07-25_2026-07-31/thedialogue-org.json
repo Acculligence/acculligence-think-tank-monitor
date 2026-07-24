@@ -1,0 +1,14 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Thedialogue",
+    "domain": "thedialogue.org",
+    "status": "source_timeout",
+    "routes_used": "",
+    "candidate_urls": 0,
+    "dated_items": 0,
+    "matched_items": 0,
+    "duration_seconds": 75.02,
+    "notes": "Hard source timeout after 75 seconds; source skipped safely."
+  }
+}

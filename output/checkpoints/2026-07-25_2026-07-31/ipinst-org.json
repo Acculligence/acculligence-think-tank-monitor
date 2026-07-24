@@ -1,0 +1,14 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Ipinst",
+    "domain": "ipinst.org",
+    "status": "complete",
+    "routes_used": "https://www.ipinst.org/category/publications | https://www.ipinst.org/research",
+    "candidate_urls": 13,
+    "dated_items": 0,
+    "matched_items": 0,
+    "duration_seconds": 9.27,
+    "notes": ""
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "sources": 83,
+  "articles": 0,
+  "statuses": {
+    "blocked": 19,
+    "complete": 47,
+    "no_candidates": 15,
+    "worker_error": 1,
+    "source_timeout": 1
+  },
+  "articles_file": "output/articles_2026-07-25_2026-07-31.csv",
+  "audit_file": "output/audit_2026-07-25_2026-07-31.csv",
+  "checkpoint_directory": "output/checkpoints/2026-07-25_2026-07-31"
+}

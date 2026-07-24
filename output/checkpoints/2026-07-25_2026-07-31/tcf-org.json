@@ -1,0 +1,14 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Tcf",
+    "domain": "tcf.org",
+    "status": "complete",
+    "routes_used": "https://tcf.org/publications/ | https://tcf.org/#topics-nav | https://tcf.org/#nav-mobile-topics",
+    "candidate_urls": 23,
+    "dated_items": 0,
+    "matched_items": 0,
+    "duration_seconds": 9.83,
+    "notes": ""
+  }
+}

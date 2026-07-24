@@ -1,0 +1,14 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Rusi",
+    "domain": "rusi.org",
+    "status": "complete",
+    "routes_used": "https://www.rusi.org/explore-our-research | https://www.rusi.org/explore-our-research/publications | https://www.rusi.org/explore-our-research/research-groups | https://www.rusi.org/explore-our-research/publications/commentary/north-africas-flaring-problem-europes-gas-opportunity | https://www.rusi.org/explore-our-research/publications/commentary | https://www.rusi.org/news-and-comment/in-the-news/uk-faces-tougher-fatf-review-amid-rising-fraud-and-crypto-risks | https://www.rusi.org/news-and-comment/in-the-news/trumps-nuclear-doctrine-anything-possible-price | https://www.rusi.org/news-and-comment/in-the-news/us-signs-landmark-nuclear-agreement-saudi-arabia | https://www.rusi.org/explore-our-research/publications/insights-papers | https://www.rusi.org/explore-our-research/publications/research-papers | https://www.rusi.org/research-event-recordings",
+    "candidate_urls": 20,
+    "dated_items": 0,
+    "matched_items": 0,
+    "duration_seconds": 6.51,
+    "notes": ""
+  }
+}

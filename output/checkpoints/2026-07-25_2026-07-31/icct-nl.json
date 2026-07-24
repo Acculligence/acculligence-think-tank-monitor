@@ -1,0 +1,14 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Icct",
+    "domain": "icct.nl",
+    "status": "complete",
+    "routes_used": "https://icct.nl/publications | https://icct.nl/publication/reaction-strategy-making-proscription-far-right-organisations-effective-tool-democratic | https://icct.nl/publication/conceptualising-and-addressing-migration-terrorism-nexus-literature-review-case-studies",
+    "candidate_urls": 51,
+    "dated_items": 0,
+    "matched_items": 0,
+    "duration_seconds": 10.78,
+    "notes": ""
+  }
+}

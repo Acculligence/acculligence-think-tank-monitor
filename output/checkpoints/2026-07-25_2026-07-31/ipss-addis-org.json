@@ -1,0 +1,14 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Ipss-Addis",
+    "domain": "ipss-addis.org",
+    "status": "complete",
+    "routes_used": "https://ipss-addis.org/publications/ | https://ipss-addis.org/what-we-do/academic-and-applied-research/ | https://ipss-addis.org/",
+    "candidate_urls": 12,
+    "dated_items": 0,
+    "matched_items": 0,
+    "duration_seconds": 8.41,
+    "notes": ""
+  }
+}

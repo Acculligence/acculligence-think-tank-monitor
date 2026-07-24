@@ -1,0 +1,14 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Hudson Institute",
+    "domain": "hudson.org",
+    "status": "no_candidates",
+    "routes_used": "",
+    "candidate_urls": 0,
+    "dated_items": 0,
+    "matched_items": 0,
+    "duration_seconds": 2.18,
+    "notes": ""
+  }
+}

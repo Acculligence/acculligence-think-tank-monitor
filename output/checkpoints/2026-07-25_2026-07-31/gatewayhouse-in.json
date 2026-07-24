@@ -1,0 +1,14 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Gatewayhouse",
+    "domain": "gatewayhouse.in",
+    "status": "no_candidates",
+    "routes_used": "",
+    "candidate_urls": 0,
+    "dated_items": 0,
+    "matched_items": 0,
+    "duration_seconds": 6.16,
+    "notes": ""
+  }
+}

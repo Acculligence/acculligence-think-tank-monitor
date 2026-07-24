@@ -1,0 +1,14 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Derasat",
+    "domain": "derasat.org.bh",
+    "status": "complete",
+    "routes_used": "https://www.derasat.org.bh/en/research-by-program/ | https://www.derasat.org.bh/en/research-by-type/ | https://www.derasat.org.bh/en/commentary/ | https://www.derasat.org.bh/en/home_en/ | https://www.derasat.org.bh/en/strategic-international/ | https://www.derasat.org.bh/en/energy-studies/ | https://www.derasat.org.bh/en/economics/ | https://www.derasat.org.bh/en/strategic-studies_en/ | https://www.derasat.org.bh/en/derasat-reports/ | https://www.derasat.org.bh/en/derasat-ceo-participates-in-16th-gulf-research-meeting-at-cambridge-university/ | https://www.derasat.org.bh/en/derasat-center-ceo-discusses-knowledge-partnership-and-research-cooperation-with-u-s-ambassador/",
+    "candidate_urls": 4,
+    "dated_items": 0,
+    "matched_items": 0,
+    "duration_seconds": 28.14,
+    "notes": ""
+  }
+}

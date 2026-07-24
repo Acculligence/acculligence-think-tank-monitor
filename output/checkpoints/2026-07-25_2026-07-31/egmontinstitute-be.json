@@ -1,0 +1,14 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Egmontinstitute",
+    "domain": "egmontinstitute.be",
+    "status": "complete",
+    "routes_used": "https://egmontinstitute.be/publications/",
+    "candidate_urls": 13,
+    "dated_items": 0,
+    "matched_items": 0,
+    "duration_seconds": 6.44,
+    "notes": ""
+  }
+}

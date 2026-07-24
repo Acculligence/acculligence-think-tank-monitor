@@ -1,0 +1,14 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Csis",
+    "domain": "csis.org",
+    "status": "complete",
+    "routes_used": "https://features.csis.org/war-modern-battlefield/ | https://features.csis.org/Insights-from-the-Russia-Ukraine-War/",
+    "candidate_urls": 25,
+    "dated_items": 0,
+    "matched_items": 0,
+    "duration_seconds": 8.44,
+    "notes": "archive https://www.csis.org/analysis: HTTPError; archive https://www.csis.org/programs/defense-budget-analysis: HTTPError; archive https://www.csis.org/programs/freeman-chair-china-studies: HTTPError"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Arab-Reform",
+    "domain": "arab-reform.net",
+    "status": "complete",
+    "routes_used": "https://www.arab-reform.net/publication/ | https://www.arab-reform.net/category/research-paper/ | https://www.arab-reform.net/category/report/ | https://www.arab-reform.net/category/bawader/ | https://www.arab-reform.net/publication/lebanon-cannot-be-built-on-two-false-choices-rethinking-sovereignty-resistance-and-survival-in-a-changing-middle-east/ | https://www.arab-reform.net/publication/can-syrias-parliament-outgrow-the-flawed-process-that-made-it/ | https://www.arab-reform.net/publication/hormuzs-closure-exposes-iraqs-self-inflicted-wounds/ | https://www.arab-reform.net/publication/the-role-of-palestinian-civil-society-organizations-in-food-sovereignty/ | https://www.arab-reform.net/publication/jordans-new-security-dilemma/ | https://www.arab-reform.net/publication/rinse-and-repeat-youth-co-optation-and-authoritarian-renewal-in-tunisia-and-egypt/ | https://www.arab-reform.net/publication/the-algorithm-of-fear-influencers-impunity-and-the-silencing-of-syrian-women/ | https://www.arab-reform.net/publication/water-justice-and-csos-in-yemen-mapping-report/",
+    "candidate_urls": 100,
+    "dated_items": 0,
+    "matched_items": 0,
+    "duration_seconds": 26.78,
+    "notes": ""
+  }
+}

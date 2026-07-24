@@ -1,0 +1,84 @@
+﻿source,domain,status,routes_used,candidate_urls,dated_items,matched_items,duration_seconds,notes
+Acsus,acsus.org,no_candidates,,0,0,0,6.51,
+Africacenter,africacenter.org,complete,https://africacenter.org/research/,24,0,0,5.8,
+Americanprogress,americanprogress.org,complete,https://www.americanprogress.org/people/ragland-will/ | https://www.americanprogress.org/people/h-a-hellyer/ | https://www.americanprogress.org/about-us/support-our-work/,21,0,0,12.9,
+Arab-Reform,arab-reform.net,complete,https://www.arab-reform.net/publication/ | https://www.arab-reform.net/category/research-paper/ | https://www.arab-reform.net/category/report/ | https://www.arab-reform.net/category/bawader/ | https://www.arab-reform.net/publication/lebanon-cannot-be-built-on-two-false-choices-rethinking-sovereignty-resistance-and-survival-in-a-changing-middle-east/ | https://www.arab-reform.net/publication/can-syrias-parliament-outgrow-the-flawed-process-that-made-it/ | https://www.arab-reform.net/publication/hormuzs-closure-exposes-iraqs-self-inflicted-wounds/ | https://www.arab-reform.net/publication/the-role-of-palestinian-civil-society-organizations-in-food-sovereignty/ | https://www.arab-reform.net/publication/jordans-new-security-dilemma/ | https://www.arab-reform.net/publication/rinse-and-repeat-youth-co-optation-and-authoritarian-renewal-in-tunisia-and-egypt/ | https://www.arab-reform.net/publication/the-algorithm-of-fear-influencers-impunity-and-the-silencing-of-syrian-women/ | https://www.arab-reform.net/publication/water-justice-and-csos-in-yemen-mapping-report/,100,0,0,26.78,
+Arabcenterdc,arabcenterdc.org,complete,https://arabcenterdc.org/publications/policy-analysis/ | https://arabcenterdc.org/publications/ | https://arabcenterdc.org/publications/research-papers/,12,0,0,6.26,
+Armscontrol,armscontrol.org,complete,https://www.armscontrol.org/reports,16,0,0,4.87,
+Atlantic Council,atlanticcouncil.org,complete,https://www.atlanticcouncil.org/programs/digital-forensic-research-lab/ | https://www.atlanticcouncil.org/in-depth-research-reports/,17,0,0,10.23,
+Belfercenter,belfercenter.org,complete,https://www.belfercenter.org/research-analysis,26,0,0,6.17,
+Brookings,brookings.edu,complete,https://www.brookings.edu/programs/governance-studies/ | https://www.brookings.edu/research-programs/ | https://www.brookings.edu/programs/economic-studies/ | https://www.brookings.edu/research-commentary/,10,0,0,4.19,
+Bruegel,bruegel.org,blocked,,0,0,0,0,No validated official route.
+Carnegieendowment,carnegieendowment.org,no_candidates,,0,0,0,2.16,
+Carpo-Bonn,carpo-bonn.org,no_candidates,,0,0,0,3.1,
+Cass,cass.cn,blocked,,0,0,0,0,No validated official route.
+Cato,cato.org,blocked,,0,0,0,0,No validated official route.
+Cebri,cebri.org,blocked,,0,0,0,0,No validated official route.
+Center for a New American Security,cnas.org,complete,https://www.cnas.org/reports | https://www.cnas.org/articles-multimedia | https://www.cnas.org/articles-multimedia?type=commentary,88,0,0,13.0,
+Centre for European Reform,cer.eu,complete,https://www.cer.eu/research,21,0,0,6.94,
+Cfr,cfr.org,complete,https://cfr.org/education/sitemap.xml,1,0,0,4.3,
+Chathamhouse,chathamhouse.org,blocked,,0,0,0,0,No validated official route.
+Chinausfocus,chinausfocus.com,complete,https://www.chinausfocus.com/publication/,42,0,0,28.51,
+Cidob,cidob.org,no_candidates,,0,0,0,2.38,
+Ciis,ciis.org.cn,blocked,,0,0,0,0,No validated official route.
+Clingendael,clingendael.org,blocked,,0,0,0,0,No validated official route.
+Cmec,cmec.org.uk,blocked,,0,0,0,0,No validated official route.
+Consejomexicano,consejomexicano.org,complete,https://www.consejomexicano.org/analisis-filtrar?from=policy-briefs | https://www.consejomexicano.org/en/regulations/ | https://www.consejomexicano.org/en/analysis-filter/?from=reports | https://www.consejomexicano.org/en/analysis-filter/?from=policy-briefs,2,0,0,3.95,
+Cread,cread.dz,blocked,,0,0,0,0,No validated official route.
+Crisisgroup,crisisgroup.org,blocked,,0,0,0,0,No validated official route.
+Csis,csis.org,complete,https://features.csis.org/war-modern-battlefield/ | https://features.csis.org/Insights-from-the-Russia-Ukraine-War/,25,0,0,8.44,archive https://www.csis.org/analysis: HTTPError; archive https://www.csis.org/programs/defense-budget-analysis: HTTPError; archive https://www.csis.org/programs/freeman-chair-china-studies: HTTPError
+Derasat,derasat.org.bh,complete,https://www.derasat.org.bh/en/research-by-program/ | https://www.derasat.org.bh/en/research-by-type/ | https://www.derasat.org.bh/en/commentary/ | https://www.derasat.org.bh/en/home_en/ | https://www.derasat.org.bh/en/strategic-international/ | https://www.derasat.org.bh/en/energy-studies/ | https://www.derasat.org.bh/en/economics/ | https://www.derasat.org.bh/en/strategic-studies_en/ | https://www.derasat.org.bh/en/derasat-reports/ | https://www.derasat.org.bh/en/derasat-ceo-participates-in-16th-gulf-research-meeting-at-cambridge-university/ | https://www.derasat.org.bh/en/derasat-center-ceo-discusses-knowledge-partnership-and-research-cooperation-with-u-s-ambassador/,4,0,0,28.14,
+Dohainstitute,dohainstitute.org,complete,https://www.dohainstitute.org/en/ResearchAndStudies/Pages/index.aspx | https://www.dohainstitute.org/en/ResearchAndStudies/Pages/Studies.aspx | https://www.dohainstitute.org/en/PoliticalStudies/Pages/CaseAnalysis.aspx | https://www.dohainstitute.org/en/PoliticalStudies/Pages/PolicyAnalysis.aspx | https://www.dohainstitute.org/en/PoliticalStudies/Pages/Reports.aspx | https://www.dohainstitute.org/en/ResearchParticipation/Pages/index.aspx,25,0,0,30.39,
+Ecdpm,ecdpm.org,blocked,,0,0,0,0,No validated official route.
+ECFR,ecfr.eu,no_candidates,,0,0,0,15.92,
+Egmontinstitute,egmontinstitute.be,complete,https://egmontinstitute.be/publications/,13,0,0,6.44,
+Erf,erf.org.eg,complete,https://erf.org.eg/publication_cat/policy-research-reports/ | https://erf.org.eg/events/navigating-change-in-jordan-policy-insights-on-employment-inclusion-and-resilience-from-the-jordan-labor-market-panel-survey-2025/ | https://erf.org.eg/publication_cat/working-paper-series/ | https://erf.org.eg/publications/,49,0,0,15.91,
+Fas,fas.org,worker_error,,0,0,0,7.45,double free or corruption (out)
+Gatewayhouse,gatewayhouse.in,no_candidates,,0,0,0,6.16,
+Gmfus,gmfus.org,complete,https://www.gmfus.org/insights-research | https://www.gmfus.org/policy-insights,1,0,0,1.75,
+Heritage Foundation,heritage.org,no_candidates,,0,0,0,1.88,
+Hoover Institution,hoover.org,complete,https://www.hoover.org/about/who-we-are/research-team | https://www.hoover.org/ | https://www.hoover.org/commentary,77,0,0,15.91,
+Hudson Institute,hudson.org,no_candidates,,0,0,0,2.18,
+Iai,iai.it,no_candidates,,0,0,0,1.98,
+Icct,icct.nl,complete,https://icct.nl/publications | https://icct.nl/publication/reaction-strategy-making-proscription-far-right-organisations-effective-tool-democratic | https://icct.nl/publication/conceptualising-and-addressing-migration-terrorism-nexus-literature-review-case-studies,51,0,0,10.78,
+Icwa,icwa.in,blocked,,0,0,0,0,No validated official route.
+Idsa,idsa.in,complete,https://idsa.in/idsa-events/category/event-report | https://idsa.in/papers-briefs | https://idsa.in/publications | https://idsa.in/ | https://idsa.in/library/newspapers | https://www.idsa.in/?news_categories=op-eds-and-articles | https://idsa.in/mp-idsa-annual-reports,60,0,0,57.52,
+Ifri,ifri.org,no_candidates,,0,0,0,2.35,
+Iiss,iiss.org,no_candidates,,0,0,0,4.97,
+Ipi,ipi.org,complete,https://www.ipi.org/research | https://www.ipi.org/ipi_issues/typecategory/publications,7,0,0,3.75,
+Ipinst,ipinst.org,complete,https://www.ipinst.org/category/publications | https://www.ipinst.org/research,13,0,0,9.27,
+Ipis,ipis.ir,blocked,,0,0,0,0,No validated official route.
+Ipss-Addis,ipss-addis.org,complete,https://ipss-addis.org/publications/ | https://ipss-addis.org/what-we-do/academic-and-applied-research/ | https://ipss-addis.org/,12,0,0,8.41,
+Issafrica,issafrica.org,complete,https://issafrica.org/sitemap.xml | https://issafrica.org/research/books-and-other-publications | https://issafrica.org/research,97,0,0,16.35,
+Jiia,jiia.or.jp,complete,https://www.jiia.or.jp/eng/report/ajiss_commentary/,30,0,0,8.6,
+Jri,jri.co.jp,complete,https://www.jri.co.jp/company/business/research/,50,0,0,14.76,
+Kdi,kdi.re.kr,no_candidates,,0,0,0,7.87,
+Kfcris,kfcris.com,blocked,,0,0,0,0,No validated official route.
+Kippra,kippra.or.ke,complete,https://kippra.or.ke/wp-sitemap.xml | https://kippra.or.ke/sitemap.xml,2,0,0,19.85,
+Lcps-Lebanon,lcps-lebanon.org,blocked,,0,0,0,0,No validated official route.
+Lkyspp,lkyspp.nus.edu.sg,complete,https://lkyspp.nus.edu.sg/sitemap.xml | https://lkyspp.nus.edu.sg/ips | https://lkyspp.nus.edu.sg/research/publications | https://lkyspp.nus.edu.sg/research/case-insights-unit | https://lkyspp.nus.edu.sg/research/case-insights-unit/all-case-studies | https://lkyspp.nus.edu.sg/research/case-insights-unit/case-study-unit-publications | https://lkyspp.nus.edu.sg/research,131,0,0,65.53,
+Lowy Institute,lowyinstitute.org,complete,https://www.lowyinstitute.org/publications | https://www.lowyinstitute.org/the-interpreter/archive | https://www.lowyinstitute.org/external-publications,18,0,0,11.9,
+Martenscentre,martenscentre.eu,complete,https://www.martenscentre.eu/sitemap.xml | https://www.martenscentre.eu/publication | https://www.martenscentre.eu/publication/the-legacy-of-tradition-the-making-of-lithuanias-centre-right/ | https://www.martenscentre.eu/publication/made-in-china-powered-by-europe-mapping-the-eus-strategic-leverage-over-the-peoples-republic-of-china/ | https://www.martenscentre.eu/media-mentions/ukraine-is-becoming-a-foundational-pillar-for-europes-new-security-architecture/,56,0,0,52.59,
+Mei,mei.edu,complete,https://mei.edu/research-commentary-publications/ | https://mei.edu/research-commentary-commentary/ | https://mei.edu/reports/ | https://mei.edu/research-commentary/,56,0,0,13.13,
+Mena-Studies,mena-studies.org,complete,https://mena-studies.org/category/publications/ | https://mena-studies.org/category/publications/reportsanalyticalbriefs/ | https://mena-studies.org/category/publications/researchpapers/ | https://mena-studies.org/ | https://mena-studies.org/iran-and-the-great-deception/ | https://mena-studies.org/yasmeen-al-eryani-houthi-de-escalation-is-unlikely-to-last/ | https://mena-studies.org/youssef-chiheb-political-islam-does-not-seek-power-through-violence-but-through-the-democratic-process/ | https://mena-studies.org/hijab-symbol-identity-or-instrument-of-conflict/ | https://mena-studies.org/the-voice-of-the-global-iranian-revolution-confronts-the-rule-of-the-supreme-leader/ | https://mena-studies.org/syria-as-an-energy-transit-corridor-between-promising-geography-and-a-constrained-reality/ | https://mena-studies.org/40-days-of-war-against-iran-the-limits-of-a-regionalized-conflict/ | https://mena-studies.org/on-world-health-day-war-is-the-greatest-threat-to-health/,6,0,0,6.49,
+Merics,merics.org,complete,https://merics.org/en/analysis,8,0,0,6.77,
+News,aei.org,blocked,,0,0,0,0,No validated official route.
+Nti,nti.org,complete,https://www.nti.org/analysis/analysis-search/?f-order=relevance&f-article_type_tax%5B%5D=240&f-article_type_tax%5B%5D=2109 | https://www.nti.org/analysis/analysis-search/?f-order=relevance&f-article_type_tax%5B%5D=243 | https://www.nti.org/analysis/ | https://www.nti.org/about/financials/,25,0,0,5.17,
+Odi,odi.org,complete,https://odi.org/en/insights/ | https://odi.org/en/publications/syria-climate-risks-water-electricity/,24,0,0,4.63,
+Orfonline,orfonline.org,complete,https://www.orfonline.org/programme/strategic-studies-programme | https://www.orfonline.org/programme/strategic-studies-programme/strategic-studies | https://www.orfonline.org/content-type/occasional-paper | https://www.orfonline.org/content-type/event-reports,94,0,0,36.31,archive https://www.orfonline.org/#collapseOne: HTTPError; archive https://www.orfonline.org/content-type/special-reports: HTTPError
+Pew Research Center,pewresearch.org,complete,https://www.pewresearch.org/publications/ | https://www.pewresearch.org/topic/methodological-research/ | https://www.pewresearch.org/topics/ | https://www.pewresearch.org/about/ | https://www.pewresearch.org/topic/politics-policy/ | https://www.pewresearch.org/topic/international-affairs/ | https://www.pewresearch.org/topic/religion/ | https://www.pewresearch.org/topic/internet-technology/emerging-technology/artificial-intelligence/ | https://www.pewresearch.org/our-methods/,7,0,0,5.34,
+Rand,rand.org,blocked,,0,0,0,0,No validated official route.
+Rusi,rusi.org,complete,https://www.rusi.org/explore-our-research | https://www.rusi.org/explore-our-research/publications | https://www.rusi.org/explore-our-research/research-groups | https://www.rusi.org/explore-our-research/publications/commentary/north-africas-flaring-problem-europes-gas-opportunity | https://www.rusi.org/explore-our-research/publications/commentary | https://www.rusi.org/news-and-comment/in-the-news/uk-faces-tougher-fatf-review-amid-rising-fraud-and-crypto-risks | https://www.rusi.org/news-and-comment/in-the-news/trumps-nuclear-doctrine-anything-possible-price | https://www.rusi.org/news-and-comment/in-the-news/us-signs-landmark-nuclear-agreement-saudi-arabia | https://www.rusi.org/explore-our-research/publications/insights-papers | https://www.rusi.org/explore-our-research/publications/research-papers | https://www.rusi.org/research-event-recordings,20,0,0,6.51,
+Saiia,saiia.org.za,complete,https://saiia.org.za/publications/ | https://saiia.org.za/research/common-ground-insights-stronger-african-coordination-brics/ | https://saiia.org.za/research-themes/,20,0,0,15.51,
+Sanaacenter,sanaacenter.org,complete,https://sanaacenter.org/publications/policy-research/27045 | https://sanaacenter.org/publications/policy-research/27039 | https://sanaacenter.org/publications/policy-research/25964,10,0,0,10.01,
+Sharqforum,sharqforum.org,no_candidates,,0,0,0,3.69,
+Siis,siis.org.cn,blocked,,0,0,0,0,No validated official route.
+Sipri,sipri.org,complete,https://www.sipri.org/research | https://www.sipri.org/commentary | https://www.sipri.org/publications/search,104,0,0,70.85,
+Stimson Center,stimson.org,blocked,,0,0,0,0,No validated official route.
+Takshashila,takshashila.org.in,complete,https://takshashila.org.in/pages/publications/ | https://takshashila.org.in/pages/research-areas | https://takshashila.org.in/content/events/TNAS-Conference-.html,113,0,0,22.42,
+Tcf,tcf.org,complete,https://tcf.org/publications/ | https://tcf.org/#topics-nav | https://tcf.org/#nav-mobile-topics,23,0,0,9.83,
+The Jamestown Foundation,jamestown.org,no_candidates,,0,0,0,30.27,
+Thedialogue,thedialogue.org,source_timeout,,0,0,0,75.02,Hard source timeout after 75 seconds; source skipped safely.
+Understandingwar,understandingwar.org,complete,https://understandingwar.org/wp-json/wp/v2/posts?per_page=100&page=1 | https://understandingwar.org/research | https://understandingwar.org/analysis/ | https://understandingwar.org/education/hertog-war-studies-program/,53,0,0,13.28,
+Washington Institute,washingtoninstitute.org,no_candidates,,0,0,0,1.39,
+Wilson Center,wilsoncenter.org,complete,https://www.wilsoncenter.org/insight-analysis | https://www.wilsoncenter.org/congress | https://www.wilsoncenter.org/article/wilson-center-opens-competition-2027-2028-research-fellowships,16,0,0,4.88,

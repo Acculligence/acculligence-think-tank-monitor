@@ -1,0 +1,14 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Issafrica",
+    "domain": "issafrica.org",
+    "status": "complete",
+    "routes_used": "https://issafrica.org/sitemap.xml | https://issafrica.org/research/books-and-other-publications | https://issafrica.org/research",
+    "candidate_urls": 97,
+    "dated_items": 0,
+    "matched_items": 0,
+    "duration_seconds": 16.35,
+    "notes": ""
+  }
+}

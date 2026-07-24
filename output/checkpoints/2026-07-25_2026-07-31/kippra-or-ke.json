@@ -1,0 +1,14 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Kippra",
+    "domain": "kippra.or.ke",
+    "status": "complete",
+    "routes_used": "https://kippra.or.ke/wp-sitemap.xml | https://kippra.or.ke/sitemap.xml",
+    "candidate_urls": 2,
+    "dated_items": 0,
+    "matched_items": 0,
+    "duration_seconds": 19.85,
+    "notes": ""
+  }
+}

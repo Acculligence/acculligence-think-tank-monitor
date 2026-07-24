@@ -1,0 +1,14 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Odi",
+    "domain": "odi.org",
+    "status": "complete",
+    "routes_used": "https://odi.org/en/insights/ | https://odi.org/en/publications/syria-climate-risks-water-electricity/",
+    "candidate_urls": 24,
+    "dated_items": 0,
+    "matched_items": 0,
+    "duration_seconds": 4.63,
+    "notes": ""
+  }
+}

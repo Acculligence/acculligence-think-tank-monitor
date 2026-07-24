@@ -1,0 +1,14 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Pew Research Center",
+    "domain": "pewresearch.org",
+    "status": "complete",
+    "routes_used": "https://www.pewresearch.org/publications/ | https://www.pewresearch.org/topic/methodological-research/ | https://www.pewresearch.org/topics/ | https://www.pewresearch.org/about/ | https://www.pewresearch.org/topic/politics-policy/ | https://www.pewresearch.org/topic/international-affairs/ | https://www.pewresearch.org/topic/religion/ | https://www.pewresearch.org/topic/internet-technology/emerging-technology/artificial-intelligence/ | https://www.pewresearch.org/our-methods/",
+    "candidate_urls": 7,
+    "dated_items": 0,
+    "matched_items": 0,
+    "duration_seconds": 5.34,
+    "notes": ""
+  }
+}

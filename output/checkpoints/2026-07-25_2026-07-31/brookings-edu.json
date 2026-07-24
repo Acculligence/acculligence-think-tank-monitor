@@ -1,0 +1,14 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Brookings",
+    "domain": "brookings.edu",
+    "status": "complete",
+    "routes_used": "https://www.brookings.edu/programs/governance-studies/ | https://www.brookings.edu/research-programs/ | https://www.brookings.edu/programs/economic-studies/ | https://www.brookings.edu/research-commentary/",
+    "candidate_urls": 10,
+    "dated_items": 0,
+    "matched_items": 0,
+    "duration_seconds": 4.19,
+    "notes": ""
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Lowy Institute",
+    "domain": "lowyinstitute.org",
+    "status": "complete",
+    "routes_used": "https://www.lowyinstitute.org/publications | https://www.lowyinstitute.org/the-interpreter/archive | https://www.lowyinstitute.org/external-publications",
+    "candidate_urls": 18,
+    "dated_items": 0,
+    "matched_items": 0,
+    "duration_seconds": 11.9,
+    "notes": ""
+  }
+}

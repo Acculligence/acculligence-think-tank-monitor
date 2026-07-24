@@ -1,0 +1,14 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Cfr",
+    "domain": "cfr.org",
+    "status": "complete",
+    "routes_used": "https://cfr.org/education/sitemap.xml",
+    "candidate_urls": 1,
+    "dated_items": 0,
+    "matched_items": 0,
+    "duration_seconds": 4.3,
+    "notes": ""
+  }
+}

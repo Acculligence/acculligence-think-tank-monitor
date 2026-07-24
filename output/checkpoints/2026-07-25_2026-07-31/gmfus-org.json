@@ -1,0 +1,14 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Gmfus",
+    "domain": "gmfus.org",
+    "status": "complete",
+    "routes_used": "https://www.gmfus.org/insights-research | https://www.gmfus.org/policy-insights",
+    "candidate_urls": 1,
+    "dated_items": 0,
+    "matched_items": 0,
+    "duration_seconds": 1.75,
+    "notes": ""
+  }
+}

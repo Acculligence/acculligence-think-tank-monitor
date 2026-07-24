@@ -1,0 +1,14 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Wilson Center",
+    "domain": "wilsoncenter.org",
+    "status": "complete",
+    "routes_used": "https://www.wilsoncenter.org/insight-analysis | https://www.wilsoncenter.org/congress | https://www.wilsoncenter.org/article/wilson-center-opens-competition-2027-2028-research-fellowships",
+    "candidate_urls": 16,
+    "dated_items": 0,
+    "matched_items": 0,
+    "duration_seconds": 4.88,
+    "notes": ""
+  }
+}
