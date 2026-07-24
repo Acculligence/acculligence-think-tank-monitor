@@ -1,201 +1,226 @@
 #!/usr/bin/env python3
-"""
-Acculligence Think Tank Collector v2
+"""Acculligence Think Tank Monitor v4 controller.
 
-Consumes ONLY config/acquisition_map.json routes that were validated by
-build_acquisition_map.py. It does not perform live route guessing.
-
-Inclusion: ANY approved keyword in title OR cleaned MAIN article/report body.
-Excluded before matching: navigation, related-content modules, recommendations,
-footers, menus, tag clouds and other page furniture.
+Production safety properties:
+- Each source runs in its own child process.
+- A hard timeout kills a stuck source without stopping the run.
+- Several sources run concurrently.
+- Every completed source writes an atomic checkpoint.
+- Reruns resume from existing checkpoints.
+- Final CSV files are built from checkpoints, so partial progress is preserved.
 """
 from __future__ import annotations
-import argparse, csv, hashlib, json, re, time
-from dataclasses import dataclass, asdict
-from datetime import timezone
+
+import argparse
+import csv
+import json
+import os
+import subprocess
+import sys
+import tempfile
+import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
-from urllib.parse import urljoin, urlparse, parse_qs, urlencode, urlunparse
-import requests, feedparser, dateparser
-from bs4 import BeautifulSoup
-import trafilatura
-from dateutil import parser as dtparser
 
-UA="AcculligenceThinkTankCollector/2.0 (+https://acculligence.com)"
-TIMEOUT=30
-S=requests.Session()
-S.headers.update({"User-Agent":UA,"Accept":"text/html,application/xhtml+xml,application/xml,application/json;q=0.9,*/*;q=0.8"})
+ARTICLE_FIELDS = [
+    'source','domain','title','published_at','url','matched_keywords','body',
+    'collection_route','review_status','saudi_summary_ar','topic','sentiment','author'
+]
+AUDIT_FIELDS = [
+    'source','domain','status','routes_used','candidate_urls','dated_items',
+    'matched_items','duration_seconds','notes'
+]
 
-@dataclass
-class Item:
-    source:str; domain:str; title:str; published_at:str; url:str
-    matched_keywords:str; body:str; collection_route:str
-    review_status:str="pending"; saudi_summary_ar:str=""
-    topic:str=""; sentiment:str=""; author:str=""
 
-def get(url,accept=None):
-    r=S.get(url,timeout=TIMEOUT,allow_redirects=True,headers={"Accept":accept} if accept else {})
-    r.raise_for_status(); return r
+def atomic_json(path: Path, payload: dict) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    tmp = path.with_suffix(path.suffix + '.tmp')
+    tmp.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding='utf-8')
+    os.replace(tmp, path)
 
-def same_domain(url,domain):
-    h=urlparse(url).netloc.lower().replace("www.","")
-    return h==domain or h.endswith("."+domain)
 
-def norm_url(u):
-    p=urlparse(u)
-    return f"{p.scheme.lower()}://{p.netloc.lower().replace('www.','')}{p.path.rstrip('/')}"
+def safe_key(source: dict) -> str:
+    raw = str(source.get('source_id') or source.get('domain') or source.get('source_name'))
+    return ''.join(ch if ch.isalnum() or ch in '-_.' else '_' for ch in raw)[:120]
 
-def parse_date(v):
-    if not v:return None
-    try:d=dtparser.parse(v)
-    except Exception:d=dateparser.parse(v)
-    if not d:return None
-    if not d.tzinfo:d=d.replace(tzinfo=timezone.utc)
-    return d.astimezone(timezone.utc)
 
-def extract_article(url):
-    try:r=get(url)
-    except Exception:return None
-    text=trafilatura.extract(
-        r.text,include_comments=False,include_tables=True,include_links=False,
-        favor_recall=True,deduplicate=True
-    ) or ""
-    if not text.strip():return None
-    soup=BeautifulSoup(r.text,"lxml")
-    title=""
-    og=soup.find("meta",property="og:title")
-    if og:title=og.get("content","")
-    if not title and soup.title:title=soup.title.get_text(" ",strip=True)
-    date=""
-    for attrs in [
-        {"property":"article:published_time"},{"name":"date"},{"name":"pubdate"},
-        {"name":"publication_date"},{"itemprop":"datePublished"}
-    ]:
-        t=soup.find("meta",attrs=attrs)
-        if t and t.get("content"):date=t["content"];break
-    if not date:
-        t=soup.find("time")
-        if t:date=t.get("datetime") or t.get_text(" ",strip=True)
-    return title.strip(),text.strip(),date
+def run_source(index: int, total: int, source: dict, args, checkpoint_dir: Path) -> dict:
+    key = safe_key(source)
+    checkpoint = checkpoint_dir / f'{key}.json'
+    if checkpoint.exists() and not args.force:
+        try:
+            data = json.loads(checkpoint.read_text(encoding='utf-8'))
+            print(f'[{index}/{total}] RESUME {source["source_name"]}: {data["audit"]["status"]}', flush=True)
+            return data
+        except Exception:
+            checkpoint.unlink(missing_ok=True)
 
-def keyword_hits(title,body,keywords):
-    hay=title+"\n"+body
-    return [k for k in keywords if re.search(re.escape(k),hay,re.I if k.isascii() else 0)]
+    if source.get('status') != 'validated':
+        payload = {
+            'articles': [],
+            'audit': {
+                'source': source.get('source_name',''),
+                'domain': source.get('domain',''),
+                'status': 'blocked',
+                'routes_used': '',
+                'candidate_urls': 0,
+                'dated_items': 0,
+                'matched_items': 0,
+                'duration_seconds': 0,
+                'notes': 'No validated official route.'
+            }
+        }
+        atomic_json(checkpoint, payload)
+        print(f'[{index}/{total}] BLOCKED {source["source_name"]}', flush=True)
+        return payload
 
-def feed_candidates(url):
-    d=feedparser.parse(url); out=[]
-    for e in getattr(d,"entries",[]):
-        if e.get("link"):
-            out.append({"url":e["link"],"title":e.get("title",""),"date":e.get("published") or e.get("updated") or "","route":url})
-    return out
+    print(f'[{index}/{total}] START {source["source_name"]}', flush=True)
+    started = time.monotonic()
+    with tempfile.TemporaryDirectory(prefix='acculligence-source-') as td:
+        source_file = Path(td) / 'source.json'
+        result_file = Path(td) / 'result.json'
+        source_file.write_text(json.dumps(source, ensure_ascii=False), encoding='utf-8')
+        cmd = [
+            sys.executable, 'source_worker.py',
+            '--source', str(source_file),
+            '--keywords', args.keywords,
+            '--start', args.start,
+            '--end', args.end,
+            '--result', str(result_file),
+            '--request-timeout', str(args.request_timeout),
+            '--max-candidates', str(args.max_candidates),
+            '--article-workers', str(args.article_workers),
+        ]
+        try:
+            completed = subprocess.run(
+                cmd,
+                text=True,
+                capture_output=True,
+                timeout=args.source_timeout,
+                check=False,
+            )
+            if result_file.exists():
+                payload = json.loads(result_file.read_text(encoding='utf-8'))
+            else:
+                message = (completed.stderr or completed.stdout or f'Worker exit code {completed.returncode}').strip()
+                payload = {'articles': [], 'audit': {
+                    'source': source['source_name'], 'domain': source['domain'],
+                    'status': 'worker_error', 'routes_used': '', 'candidate_urls': 0,
+                    'dated_items': 0, 'matched_items': 0,
+                    'duration_seconds': round(time.monotonic()-started, 2),
+                    'notes': message[-1200:],
+                }}
+        except subprocess.TimeoutExpired:
+            payload = {'articles': [], 'audit': {
+                'source': source['source_name'], 'domain': source['domain'],
+                'status': 'source_timeout', 'routes_used': '', 'candidate_urls': 0,
+                'dated_items': 0, 'matched_items': 0,
+                'duration_seconds': round(time.monotonic()-started, 2),
+                'notes': f'Hard source timeout after {args.source_timeout} seconds; source skipped safely.',
+            }}
+        except Exception as exc:
+            payload = {'articles': [], 'audit': {
+                'source': source['source_name'], 'domain': source['domain'],
+                'status': 'controller_error', 'routes_used': '', 'candidate_urls': 0,
+                'dated_items': 0, 'matched_items': 0,
+                'duration_seconds': round(time.monotonic()-started, 2),
+                'notes': repr(exc),
+            }}
 
-def sitemap_candidates(url,domain,limit=30000):
-    try:r=get(url,"application/xml,text/xml,*/*")
-    except Exception:return []
-    soup=BeautifulSoup(r.content,"xml")
-    nested=[x.get_text(strip=True) for x in soup.find_all("sitemap") for x in x.find_all("loc")]
-    if nested:
-        out=[]
-        for n in nested[:200]:
-            out.extend(sitemap_candidates(n,domain,max(100,limit-len(out))))
-            if len(out)>=limit:break
-        return out[:limit]
-    urls=[x.get_text(strip=True) for x in soup.find_all("url") for x in x.find_all("loc")]
-    return [{"url":u,"title":"","date":"","route":url} for u in urls if same_domain(u,domain)][:limit]
+    payload['audit']['duration_seconds'] = round(time.monotonic()-started, 2)
+    atomic_json(checkpoint, payload)
+    print(
+        f'[{index}/{total}] DONE {source["source_name"]}: '
+        f'{payload["audit"]["status"]}, {payload["audit"]["matched_items"]} matches, '
+        f'{payload["audit"]["duration_seconds"]}s',
+        flush=True,
+    )
+    return payload
 
-def wp_candidates(url,domain,max_pages=100):
-    out=[]
-    base=url.split("?")[0]
-    for page in range(1,max_pages+1):
-        q={"per_page":100,"page":page,"_fields":"link,date,title"}
-        try:r=get(base+"?"+urlencode(q),"application/json")
-        except Exception:break
-        try:data=r.json()
-        except Exception:break
-        if not isinstance(data,list) or not data:break
-        for x in data:
-            u=x.get("link","")
-            if u and same_domain(u,domain):
-                title=x.get("title",{}).get("rendered","") if isinstance(x.get("title"),dict) else str(x.get("title",""))
-                out.append({"url":u,"title":BeautifulSoup(title,"lxml").get_text(" ",strip=True),"date":x.get("date",""),"route":url})
-    return out
 
-def archive_candidates(url,domain,max_pages=60):
-    out=[]; current=url
-    for _ in range(max_pages):
-        try:r=get(current)
-        except Exception:break
-        soup=BeautifulSoup(r.text,"lxml")
-        for a in soup.find_all("a",href=True):
-            u=urljoin(r.url,a["href"])
-            p=urlparse(u).path.lower()
-            if same_domain(u,domain) and any(x in p for x in ["/publication","/research","/analysis","/commentary","/article","/report","/insight","/paper","/study"]):
-                out.append({"url":u,"title":a.get_text(" ",strip=True),"date":"","route":url})
-        nxt=soup.find("a",rel=lambda x:x and "next" in x) or soup.find("a",string=re.compile(r"next|older|التالي",re.I))
-        if not nxt or not nxt.get("href"):break
-        current=urljoin(r.url,nxt["href"])
-    return out
+def deduplicate_articles(rows: list[dict]) -> list[dict]:
+    seen = set(); unique = []
+    for row in rows:
+        key = (row.get('url','').rstrip('/').lower(), row.get('title','').strip().lower())
+        if key in seen: continue
+        seen.add(key); unique.append(row)
+    return unique
 
-def main():
-    ap=argparse.ArgumentParser()
-    ap.add_argument("--start",required=True);ap.add_argument("--end",required=True)
-    ap.add_argument("--map",default="config/acquisition_map.json")
-    ap.add_argument("--keywords",default="config/keywords.json")
-    ap.add_argument("--output",default="output")
-    args=ap.parse_args()
-    start=dtparser.parse(args.start+"T00:00:00Z");end=dtparser.parse(args.end+"T23:59:59Z")
-    amap=json.load(open(args.map,encoding="utf-8"))["sources"]
-    keywords=json.load(open(args.keywords,encoding="utf-8"))["keywords"]
-    outdir=Path(args.output);outdir.mkdir(parents=True,exist_ok=True)
-    items=[];audit=[];seen=set()
 
-    for i,s in enumerate(amap,1):
-        print(f"[{i}/{len(amap)}] {s['source_name']}",flush=True)
-        if s["status"]!="validated":
-            audit.append({"source":s["source_name"],"domain":s["domain"],"status":"blocked","routes_used":"","candidate_urls":0,"dated_items":0,"matched_items":0,"notes":"No validated official route."})
-            continue
-        candidates=[];used=[]
-        for route in s["routes"]:
-            typ,url=route["type"],route["url"]
+def write_outputs(payloads: list[dict], output_dir: Path, start: str, end: str) -> tuple[Path, Path]:
+    output_dir.mkdir(parents=True, exist_ok=True)
+    articles = deduplicate_articles([a for p in payloads for a in p.get('articles',[])])
+    audits = [p['audit'] for p in payloads]
+    articles.sort(key=lambda x: (x.get('published_at',''), x.get('source',''), x.get('title','')))
+    audits.sort(key=lambda x: x.get('source','').lower())
+
+    article_path = output_dir / f'articles_{start}_{end}.csv'
+    audit_path = output_dir / f'audit_{start}_{end}.csv'
+    with article_path.open('w', encoding='utf-8-sig', newline='') as f:
+        writer = csv.DictWriter(f, fieldnames=ARTICLE_FIELDS, extrasaction='ignore')
+        writer.writeheader(); writer.writerows(articles)
+    with audit_path.open('w', encoding='utf-8-sig', newline='') as f:
+        writer = csv.DictWriter(f, fieldnames=AUDIT_FIELDS, extrasaction='ignore')
+        writer.writeheader(); writer.writerows(audits)
+    return article_path, audit_path
+
+
+def main() -> int:
+    ap = argparse.ArgumentParser()
+    ap.add_argument('--start', required=True)
+    ap.add_argument('--end', required=True)
+    ap.add_argument('--map', default='config/acquisition_map.json')
+    ap.add_argument('--keywords', default='config/keywords.json')
+    ap.add_argument('--output', default='output')
+    ap.add_argument('--source-workers', type=int, default=8)
+    ap.add_argument('--article-workers', type=int, default=6)
+    ap.add_argument('--source-timeout', type=int, default=75)
+    ap.add_argument('--request-timeout', type=int, default=12)
+    ap.add_argument('--max-candidates', type=int, default=240)
+    ap.add_argument('--force', action='store_true')
+    args = ap.parse_args()
+
+    sources = json.loads(Path(args.map).read_text(encoding='utf-8'))['sources']
+    output_dir = Path(args.output)
+    checkpoint_dir = output_dir / 'checkpoints' / f'{args.start}_{args.end}'
+    checkpoint_dir.mkdir(parents=True, exist_ok=True)
+
+    payloads = []
+    with ThreadPoolExecutor(max_workers=max(1, args.source_workers)) as pool:
+        futures = {
+            pool.submit(run_source, i, len(sources), source, args, checkpoint_dir): source
+            for i, source in enumerate(sources, 1)
+        }
+        for future in as_completed(futures):
             try:
-                if typ=="feed": c=feed_candidates(url)
-                elif typ=="sitemap": c=sitemap_candidates(url,s["domain"])
-                elif typ=="wp_api": c=wp_candidates(url,s["domain"])
-                else:c=archive_candidates(url,s["domain"])
-            except Exception:c=[]
-            if c:used.append(url);candidates.extend(c)
-        unique=[];local=set()
-        for c in candidates:
-            try:k=norm_url(c["url"])
-            except Exception:continue
-            if k not in local:local.add(k);unique.append(c)
-        dated=matched=0
-        for c in unique:
-            key=hashlib.sha1(norm_url(c["url"]).encode()).hexdigest()
-            if key in seen:continue
-            seen.add(key)
-            data=extract_article(c["url"])
-            if not data:continue
-            title,body,pagedate=data
-            d=parse_date(pagedate or c.get("date"))
-            if not d or not(start<=d<=end):continue
-            dated+=1
-            hits=keyword_hits(title,body,keywords)
-            if not hits:continue
-            matched+=1
-            items.append(Item(
-                source=s["source_name"],domain=s["domain"],title=title,published_at=d.isoformat(),
-                url=c["url"],matched_keywords=" | ".join(hits),body=body,collection_route=c.get("route","")
-            ))
-        audit.append({"source":s["source_name"],"domain":s["domain"],"status":"complete","routes_used":" | ".join(used),"candidate_urls":len(unique),"dated_items":dated,"matched_items":matched,"notes":""})
-    fields=list(Item.__dataclass_fields__)
-    art=outdir/f"articles_{args.start}_{args.end}.csv"
-    aud=outdir/f"audit_{args.start}_{args.end}.csv"
-    with open(art,"w",encoding="utf-8-sig",newline="") as f:
-        w=csv.DictWriter(f,fieldnames=fields);w.writeheader()
-        for x in sorted(items,key=lambda z:z.published_at):w.writerow(asdict(x))
-    with open(aud,"w",encoding="utf-8-sig",newline="") as f:
-        fields2=["source","domain","status","routes_used","candidate_urls","dated_items","matched_items","notes"]
-        w=csv.DictWriter(f,fieldnames=fields2);w.writeheader();w.writerows(audit)
-    print(json.dumps({"sources":len(amap),"articles":len(items),"articles_file":str(art),"audit_file":str(aud)},ensure_ascii=False))
-if __name__=="__main__":
-    main()
+                payloads.append(future.result())
+            except Exception as exc:
+                source = futures[future]
+                payloads.append({'articles': [], 'audit': {
+                    'source': source.get('source_name',''), 'domain': source.get('domain',''),
+                    'status': 'unexpected_error', 'routes_used': '', 'candidate_urls': 0,
+                    'dated_items': 0, 'matched_items': 0, 'duration_seconds': 0,
+                    'notes': repr(exc),
+                }})
+
+    article_path, audit_path = write_outputs(payloads, output_dir, args.start, args.end)
+    status_counts = {}
+    for p in payloads:
+        status = p['audit']['status']
+        status_counts[status] = status_counts.get(status, 0) + 1
+    summary = {
+        'sources': len(sources),
+        'articles': sum(len(p.get('articles',[])) for p in payloads),
+        'statuses': status_counts,
+        'articles_file': str(article_path),
+        'audit_file': str(audit_path),
+        'checkpoint_directory': str(checkpoint_dir),
+    }
+    (output_dir / f'summary_{args.start}_{args.end}.json').write_text(
+        json.dumps(summary, ensure_ascii=False, indent=2), encoding='utf-8'
+    )
+    print(json.dumps(summary, ensure_ascii=False), flush=True)
+    return 0
+
+if __name__ == '__main__':
+    raise SystemExit(main())
