@@ -1,1 +1,77 @@
+name: Think Tank Acquisition Map and Monitor
 
+on:
+  workflow_dispatch:
+    inputs:
+      start:
+        description: Start date YYYY-MM-DD
+        required: true
+        default: '2026-07-25'
+      end:
+        description: End date YYYY-MM-DD
+        required: true
+        default: '2026-07-31'
+      rebuild_map:
+        description: Rebuild acquisition map
+        required: true
+        type: choice
+        options:
+          - 'yes'
+          - 'no'
+        default: 'no'
+
+concurrency:
+  group: think-tank-monitor
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    permissions:
+      contents: write
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build validated acquisition map
+        if: ${{ github.event.inputs.rebuild_map == 'yes' || hashFiles('config/acquisition_map.json') == '' }}
+        run: python build_acquisition_map.py
+
+      - name: Save acquisition map
+        if: ${{ github.event.inputs.rebuild_map == 'yes' || hashFiles('config/acquisition_map.json') == '' }}
+        run: |
+          git config user.name "Acculligence Bot"
+          git config user.email "bot@acculligence.com"
+          git add config/acquisition_map.json
+          git commit -m "Update validated acquisition map" || true
+          git push || true
+
+      - name: Ensure acquisition map exists
+        run: test -f config/acquisition_map.json
+
+      - name: Collect publications
+        timeout-minutes: 35
+        run: |
+          START="${{ github.event.inputs.start }}"
+          END="${{ github.event.inputs.end }}"
+          python collector.py --start "$START" --end "$END"
+
+      - name: Commit outputs
+        run: |
+          git config user.name "Acculligence Bot"
+          git config user.email "bot@acculligence.com"
+          git pull --rebase
+          git add output/
+          git commit -m "Update monitoring output" || true
+          git push
