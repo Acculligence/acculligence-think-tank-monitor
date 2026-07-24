@@ -1,0 +1,1662 @@
+[
+  {
+    "id": "acsus-org",
+    "name": "Acsus",
+    "domain": "acsus.org",
+    "country": "United States",
+    "region": "International",
+    "type": "Policy Think Tank",
+    "specialization": "Geopolitics & Foreign Affairs",
+    "language": "English",
+    "registry_feed": "https://news.google.com/rss/search?q=site:acsus.org&hl=en&gl=US&ceid=US:en",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://acsus.org/",
+      "https://www.acsus.org/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:acsus.org&hl=en&gl=US&ceid=US:en",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "aei-org",
+    "name": "News",
+    "domain": "aei.org",
+    "country": "United States",
+    "region": "International",
+    "type": "Policy Think Tank",
+    "specialization": "Business & Economy",
+    "language": "English",
+    "registry_feed": "https://news.google.com/rss/search?q=site:aei.org",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://aei.org/",
+      "https://www.aei.org/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:aei.org",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "africacenter-org",
+    "name": "Africacenter",
+    "domain": "africacenter.org",
+    "country": "United States",
+    "region": "International",
+    "type": "Policy Think Tank",
+    "specialization": "Geopolitics & Foreign Affairs",
+    "language": "English",
+    "registry_feed": "https://news.google.com/rss/search?q=site:africacenter.org",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://africacenter.org/",
+      "https://www.africacenter.org/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:africacenter.org",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "americanprogress-org",
+    "name": "Americanprogress",
+    "domain": "americanprogress.org",
+    "country": "United States",
+    "region": "International",
+    "type": "Policy Think Tank",
+    "specialization": "Business & Economy",
+    "language": "English",
+    "registry_feed": "https://news.google.com/rss/search?q=site:americanprogress.org",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://americanprogress.org/",
+      "https://www.americanprogress.org/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:americanprogress.org",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "arab-reform-net",
+    "name": "Arab-Reform",
+    "domain": "arab-reform.net",
+    "country": "Lebanon",
+    "region": "Regional",
+    "type": "Regional Think Tank",
+    "specialization": "Regional Affairs",
+    "language": "English",
+    "registry_feed": "https://news.google.com/rss/search?q=site:arab-reform.net&hl=en&gl=US&ceid=US:en",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://arab-reform.net/",
+      "https://www.arab-reform.net/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:arab-reform.net&hl=en&gl=US&ceid=US:en",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "arabcenterdc-org",
+    "name": "Arabcenterdc",
+    "domain": "arabcenterdc.org",
+    "country": "United States",
+    "region": "International",
+    "type": "Regional Think Tank",
+    "specialization": "Regional Affairs",
+    "language": "English",
+    "registry_feed": "https://news.google.com/rss/search?q=site:arabcenterdc.org&hl=en&gl=US&ceid=US:en",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://arabcenterdc.org/",
+      "https://www.arabcenterdc.org/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:arabcenterdc.org&hl=en&gl=US&ceid=US:en",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "armscontrol-org",
+    "name": "Armscontrol",
+    "domain": "armscontrol.org",
+    "country": "United States",
+    "region": "International",
+    "type": "Security/Defense Think Tank",
+    "specialization": "Defense & Security",
+    "language": "English",
+    "registry_feed": "https://news.google.com/rss/search?q=site:armscontrol.org",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://armscontrol.org/",
+      "https://www.armscontrol.org/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:armscontrol.org",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "atlanticcouncil-org",
+    "name": "Atlantic Council",
+    "domain": "atlanticcouncil.org",
+    "country": "United States",
+    "region": "International",
+    "type": "Policy Think Tank",
+    "specialization": "Geopolitics & Foreign Affairs",
+    "language": "English",
+    "registry_feed": "https://www.atlanticcouncil.org/feed/",
+    "registry_origin": "direct",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://atlanticcouncil.org/",
+      "https://www.atlanticcouncil.org/"
+    ],
+    "fallback_feed": "https://www.atlanticcouncil.org/feed/",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "belfercenter-org",
+    "name": "Belfercenter",
+    "domain": "belfercenter.org",
+    "country": "United States",
+    "region": "International",
+    "type": "University/Academic",
+    "specialization": "Defense & Security",
+    "language": "English",
+    "registry_feed": "https://news.google.com/rss/search?q=site:belfercenter.org&hl=en&gl=US&ceid=US:en",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://belfercenter.org/",
+      "https://www.belfercenter.org/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:belfercenter.org&hl=en&gl=US&ceid=US:en",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "brookings-edu",
+    "name": "Brookings",
+    "domain": "brookings.edu",
+    "country": "null",
+    "region": "null",
+    "type": "null",
+    "specialization": "null",
+    "language": "null",
+    "registry_feed": "https://news.google.com/rss/search?q=site:brookings.edu&hl=en&gl=US&ceid=US:en",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://brookings.edu/",
+      "https://www.brookings.edu/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:brookings.edu&hl=en&gl=US&ceid=US:en",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "bruegel-org",
+    "name": "Bruegel",
+    "domain": "bruegel.org",
+    "country": "Belgium",
+    "region": "International",
+    "type": "Policy Think Tank",
+    "specialization": "Geopolitics & Foreign Affairs",
+    "language": "English",
+    "registry_feed": "https://news.google.com/rss/search?q=site:bruegel.org",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://bruegel.org/",
+      "https://www.bruegel.org/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:bruegel.org",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "carnegieendowment-org",
+    "name": "Carnegieendowment",
+    "domain": "carnegieendowment.org",
+    "country": "null",
+    "region": "null",
+    "type": "null",
+    "specialization": "null",
+    "language": "null",
+    "registry_feed": "https://news.google.com/rss/search?q=site:carnegieendowment.org&hl=en&gl=US&ceid=US:en",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://carnegieendowment.org/",
+      "https://www.carnegieendowment.org/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:carnegieendowment.org&hl=en&gl=US&ceid=US:en",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "carpo-bonn-org",
+    "name": "Carpo-Bonn",
+    "domain": "carpo-bonn.org",
+    "country": "Germany",
+    "region": "International",
+    "type": "Policy Think Tank",
+    "specialization": "Geopolitics & Foreign Affairs",
+    "language": "English",
+    "registry_feed": "https://news.google.com/rss/search?q=site:carpo-bonn.org&hl=en&gl=US&ceid=US:en",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://carpo-bonn.org/",
+      "https://www.carpo-bonn.org/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:carpo-bonn.org&hl=en&gl=US&ceid=US:en",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "cass-cn",
+    "name": "Cass",
+    "domain": "cass.cn",
+    "country": "China",
+    "region": "International",
+    "type": "State-Affiliated Think Tank",
+    "specialization": "General",
+    "language": "English",
+    "registry_feed": "https://news.google.com/rss/search?q=site:cass.cn&hl=en&gl=US&ceid=US:en",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://cass.cn/",
+      "https://www.cass.cn/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:cass.cn&hl=en&gl=US&ceid=US:en",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "cato-org",
+    "name": "Cato",
+    "domain": "cato.org",
+    "country": "null",
+    "region": "null",
+    "type": "null",
+    "specialization": "null",
+    "language": "null",
+    "registry_feed": "https://news.google.com/rss/search?q=site:cato.org",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://cato.org/",
+      "https://www.cato.org/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:cato.org",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "cebri-org",
+    "name": "Cebri",
+    "domain": "cebri.org",
+    "country": "Brazil",
+    "region": "International",
+    "type": "Policy Think Tank",
+    "specialization": "Geopolitics & Foreign Affairs",
+    "language": "English",
+    "registry_feed": "https://news.google.com/rss/search?q=site:cebri.org&hl=en&gl=US&ceid=US:en",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://cebri.org/",
+      "https://www.cebri.org/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:cebri.org&hl=en&gl=US&ceid=US:en",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "cer-eu",
+    "name": "Centre for European Reform",
+    "domain": "cer.eu",
+    "country": "Belgium",
+    "region": "International",
+    "type": "Online News",
+    "specialization": "General",
+    "language": "English",
+    "registry_feed": "https://www.cer.eu/rss.xml",
+    "registry_origin": "direct",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://cer.eu/",
+      "https://www.cer.eu/"
+    ],
+    "fallback_feed": "https://www.cer.eu/rss.xml",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "cfr-org",
+    "name": "Cfr",
+    "domain": "cfr.org",
+    "country": "null",
+    "region": "null",
+    "type": "null",
+    "specialization": "null",
+    "language": "null",
+    "registry_feed": "https://news.google.com/rss/search?q=site:cfr.org&hl=en&gl=US&ceid=US:en",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://cfr.org/",
+      "https://www.cfr.org/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:cfr.org&hl=en&gl=US&ceid=US:en",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "chathamhouse-org",
+    "name": "Chathamhouse",
+    "domain": "chathamhouse.org",
+    "country": "null",
+    "region": "null",
+    "type": "null",
+    "specialization": "null",
+    "language": "null",
+    "registry_feed": "https://news.google.com/rss/search?q=site:chathamhouse.org",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://chathamhouse.org/",
+      "https://www.chathamhouse.org/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:chathamhouse.org",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "chinausfocus-com",
+    "name": "Chinausfocus",
+    "domain": "chinausfocus.com",
+    "country": "China",
+    "region": "International",
+    "type": "State-Affiliated Think Tank",
+    "specialization": "General",
+    "language": "English",
+    "registry_feed": "https://news.google.com/rss/search?q=site:chinausfocus.com&hl=en&gl=US&ceid=US:en",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://chinausfocus.com/",
+      "https://www.chinausfocus.com/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:chinausfocus.com&hl=en&gl=US&ceid=US:en",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "cidob-org",
+    "name": "Cidob",
+    "domain": "cidob.org",
+    "country": "Spain",
+    "region": "International",
+    "type": "Policy Think Tank",
+    "specialization": "Geopolitics & Foreign Affairs",
+    "language": "English",
+    "registry_feed": "https://news.google.com/rss/search?q=site:cidob.org&hl=en&gl=US&ceid=US:en",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://cidob.org/",
+      "https://www.cidob.org/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:cidob.org&hl=en&gl=US&ceid=US:en",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "ciis-org-cn",
+    "name": "Ciis",
+    "domain": "ciis.org.cn",
+    "country": "China",
+    "region": "International",
+    "type": "State-Affiliated Think Tank",
+    "specialization": "General",
+    "language": "English",
+    "registry_feed": "https://news.google.com/rss/search?q=site:ciis.org.cn&hl=en&gl=US&ceid=US:en",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://ciis.org.cn/",
+      "https://www.ciis.org.cn/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:ciis.org.cn&hl=en&gl=US&ceid=US:en",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "clingendael-org",
+    "name": "Clingendael",
+    "domain": "clingendael.org",
+    "country": "Netherlands",
+    "region": "International",
+    "type": "Policy Think Tank",
+    "specialization": "Geopolitics & Foreign Affairs",
+    "language": "English",
+    "registry_feed": "https://news.google.com/rss/search?q=site:clingendael.org&hl=en&gl=US&ceid=US:en",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://clingendael.org/",
+      "https://www.clingendael.org/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:clingendael.org&hl=en&gl=US&ceid=US:en",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "cmec-org-uk",
+    "name": "Cmec",
+    "domain": "cmec.org.uk",
+    "country": "United Kingdom",
+    "region": "International",
+    "type": "Think Tank",
+    "specialization": "Geopolitics & Foreign Affairs",
+    "language": "English",
+    "registry_feed": "https://news.google.com/rss/search?q=site:cmec.org.uk&hl=en&gl=US&ceid=US:en",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://cmec.org.uk/",
+      "https://www.cmec.org.uk/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:cmec.org.uk&hl=en&gl=US&ceid=US:en",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "cnas-org",
+    "name": "Center for a New American Security",
+    "domain": "cnas.org",
+    "country": "United States",
+    "region": "International",
+    "type": "Security/Defense Think Tank",
+    "specialization": "Defense & Security",
+    "language": "English",
+    "registry_feed": "https://www.cnas.org/feed",
+    "registry_origin": "direct",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://cnas.org/",
+      "https://www.cnas.org/"
+    ],
+    "fallback_feed": "https://www.cnas.org/feed",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "consejomexicano-org",
+    "name": "Consejomexicano",
+    "domain": "consejomexicano.org",
+    "country": "Mexico",
+    "region": "International",
+    "type": "Policy Think Tank",
+    "specialization": "Geopolitics & Foreign Affairs",
+    "language": "English",
+    "registry_feed": "https://news.google.com/rss/search?q=site:consejomexicano.org&hl=en&gl=US&ceid=US:en",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://consejomexicano.org/",
+      "https://www.consejomexicano.org/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:consejomexicano.org&hl=en&gl=US&ceid=US:en",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "cread-dz",
+    "name": "Cread",
+    "domain": "cread.dz",
+    "country": "Algeria",
+    "region": "Regional",
+    "type": "Policy Think Tank",
+    "specialization": "Regional Affairs",
+    "language": "English",
+    "registry_feed": "https://news.google.com/rss/search?q=site:cread.dz&hl=en&gl=US&ceid=US:en",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://cread.dz/",
+      "https://www.cread.dz/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:cread.dz&hl=en&gl=US&ceid=US:en",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "crisisgroup-org",
+    "name": "Crisisgroup",
+    "domain": "crisisgroup.org",
+    "country": "null",
+    "region": "null",
+    "type": "null",
+    "specialization": "null",
+    "language": "null",
+    "registry_feed": "https://news.google.com/rss/search?q=site:crisisgroup.org",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://crisisgroup.org/",
+      "https://www.crisisgroup.org/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:crisisgroup.org",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "csis-org",
+    "name": "Csis",
+    "domain": "csis.org",
+    "country": "null",
+    "region": "null",
+    "type": "null",
+    "specialization": "null",
+    "language": "null",
+    "registry_feed": "https://news.google.com/rss/search?q=site:csis.org&hl=en&gl=US&ceid=US:en",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://csis.org/",
+      "https://www.csis.org/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:csis.org&hl=en&gl=US&ceid=US:en",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "derasat-org-bh",
+    "name": "Derasat",
+    "domain": "derasat.org.bh",
+    "country": "Bahrain",
+    "region": "Regional",
+    "type": "Regional Think Tank",
+    "specialization": "Regional Affairs",
+    "language": "English",
+    "registry_feed": "https://news.google.com/rss/search?q=site:derasat.org.bh&hl=en&gl=US&ceid=US:en",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://derasat.org.bh/",
+      "https://www.derasat.org.bh/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:derasat.org.bh&hl=en&gl=US&ceid=US:en",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "dohainstitute-org",
+    "name": "Dohainstitute",
+    "domain": "dohainstitute.org",
+    "country": "Qatar",
+    "region": "Regional",
+    "type": "University/Academic",
+    "specialization": "Regional Affairs",
+    "language": "English",
+    "registry_feed": "https://news.google.com/rss/search?q=site:dohainstitute.org&hl=en&gl=US&ceid=US:en",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://dohainstitute.org/",
+      "https://www.dohainstitute.org/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:dohainstitute.org&hl=en&gl=US&ceid=US:en",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "ecdpm-org",
+    "name": "Ecdpm",
+    "domain": "ecdpm.org",
+    "country": "Netherlands",
+    "region": "International",
+    "type": "Policy Think Tank",
+    "specialization": "Geopolitics & Foreign Affairs",
+    "language": "English",
+    "registry_feed": "https://news.google.com/rss/search?q=site:ecdpm.org&hl=en&gl=US&ceid=US:en",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://ecdpm.org/",
+      "https://www.ecdpm.org/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:ecdpm.org&hl=en&gl=US&ceid=US:en",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "ecfr-eu",
+    "name": "ECFR",
+    "domain": "ecfr.eu",
+    "country": "United Kingdom",
+    "region": "International",
+    "type": "Online News",
+    "specialization": "General",
+    "language": "English",
+    "registry_feed": "https://ecfr.eu/feed/",
+    "registry_origin": "direct",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://ecfr.eu/",
+      "https://www.ecfr.eu/"
+    ],
+    "fallback_feed": "https://ecfr.eu/feed/",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "egmontinstitute-be",
+    "name": "Egmontinstitute",
+    "domain": "egmontinstitute.be",
+    "country": "Belgium",
+    "region": "International",
+    "type": "Online News",
+    "specialization": "General",
+    "language": "English",
+    "registry_feed": "https://news.google.com/rss/search?q=site:egmontinstitute.be",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://egmontinstitute.be/",
+      "https://www.egmontinstitute.be/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:egmontinstitute.be",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "erf-org-eg",
+    "name": "Erf",
+    "domain": "erf.org.eg",
+    "country": "Egypt",
+    "region": "Regional",
+    "type": "Regional Think Tank",
+    "specialization": "Regional Affairs",
+    "language": "English",
+    "registry_feed": "https://news.google.com/rss/search?q=site:erf.org.eg&hl=en&gl=US&ceid=US:en",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://erf.org.eg/",
+      "https://www.erf.org.eg/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:erf.org.eg&hl=en&gl=US&ceid=US:en",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "fas-org",
+    "name": "Fas",
+    "domain": "fas.org",
+    "country": "United States",
+    "region": "International",
+    "type": "Security/Defense Think Tank",
+    "specialization": "Defense & Security",
+    "language": "English",
+    "registry_feed": "https://news.google.com/rss/search?q=site:fas.org&hl=en&gl=US&ceid=US:en",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://fas.org/",
+      "https://www.fas.org/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:fas.org&hl=en&gl=US&ceid=US:en",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "gatewayhouse-in",
+    "name": "Gatewayhouse",
+    "domain": "gatewayhouse.in",
+    "country": "India",
+    "region": "International",
+    "type": "Policy Think Tank",
+    "specialization": "Development & Governance",
+    "language": "English",
+    "registry_feed": "https://news.google.com/rss/search?q=site:gatewayhouse.in&hl=en&gl=US&ceid=US:en",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://gatewayhouse.in/",
+      "https://www.gatewayhouse.in/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:gatewayhouse.in&hl=en&gl=US&ceid=US:en",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "gmfus-org",
+    "name": "Gmfus",
+    "domain": "gmfus.org",
+    "country": "null",
+    "region": "null",
+    "type": "null",
+    "specialization": "null",
+    "language": "null",
+    "registry_feed": "https://news.google.com/rss/search?q=site:gmfus.org",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://gmfus.org/",
+      "https://www.gmfus.org/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:gmfus.org",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "heritage-org",
+    "name": "Heritage Foundation",
+    "domain": "heritage.org",
+    "country": "United States",
+    "region": "International",
+    "type": "Online News",
+    "specialization": "General",
+    "language": "English",
+    "registry_feed": "https://www.heritage.org/rss",
+    "registry_origin": "direct",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://heritage.org/",
+      "https://www.heritage.org/"
+    ],
+    "fallback_feed": "https://www.heritage.org/rss",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "hoover-org",
+    "name": "Hoover Institution",
+    "domain": "hoover.org",
+    "country": "United States",
+    "region": "International",
+    "type": "Online News",
+    "specialization": "General",
+    "language": "English",
+    "registry_feed": "https://www.hoover.org/rss.xml",
+    "registry_origin": "direct",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://hoover.org/",
+      "https://www.hoover.org/"
+    ],
+    "fallback_feed": "https://www.hoover.org/rss.xml",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "hudson-org",
+    "name": "Hudson Institute",
+    "domain": "hudson.org",
+    "country": "United States",
+    "region": "International",
+    "type": "Policy Think Tank",
+    "specialization": "Geopolitics & Foreign Affairs",
+    "language": "English",
+    "registry_feed": "https://www.hudson.org/rss.xml",
+    "registry_origin": "direct",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://hudson.org/",
+      "https://www.hudson.org/"
+    ],
+    "fallback_feed": "https://www.hudson.org/rss.xml",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "iai-it",
+    "name": "Iai",
+    "domain": "iai.it",
+    "country": "Italy",
+    "region": "International",
+    "type": "Online News",
+    "specialization": "General",
+    "language": "English",
+    "registry_feed": "https://news.google.com/rss/search?q=site:iai.it",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://iai.it/",
+      "https://www.iai.it/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:iai.it",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "icct-nl",
+    "name": "Icct",
+    "domain": "icct.nl",
+    "country": "null",
+    "region": "null",
+    "type": "null",
+    "specialization": "null",
+    "language": "null",
+    "registry_feed": "https://news.google.com/rss/search?q=site:icct.nl",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://icct.nl/",
+      "https://www.icct.nl/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:icct.nl",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "icwa-in",
+    "name": "Icwa",
+    "domain": "icwa.in",
+    "country": "India",
+    "region": "International",
+    "type": "Policy Think Tank",
+    "specialization": "Development & Governance",
+    "language": "English",
+    "registry_feed": "https://news.google.com/rss/search?q=site:icwa.in&hl=en&gl=US&ceid=US:en",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://icwa.in/",
+      "https://www.icwa.in/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:icwa.in&hl=en&gl=US&ceid=US:en",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "idsa-in",
+    "name": "Idsa",
+    "domain": "idsa.in",
+    "country": "null",
+    "region": "null",
+    "type": "null",
+    "specialization": "null",
+    "language": "null",
+    "registry_feed": "https://news.google.com/rss/search?q=site:idsa.in",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://idsa.in/",
+      "https://www.idsa.in/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:idsa.in",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "ifri-org",
+    "name": "Ifri",
+    "domain": "ifri.org",
+    "country": "null",
+    "region": "null",
+    "type": "null",
+    "specialization": "null",
+    "language": "null",
+    "registry_feed": "https://news.google.com/rss/search?q=site:ifri.org",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://ifri.org/",
+      "https://www.ifri.org/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:ifri.org",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "iiss-org",
+    "name": "Iiss",
+    "domain": "iiss.org",
+    "country": "null",
+    "region": "null",
+    "type": "null",
+    "specialization": "null",
+    "language": "null",
+    "registry_feed": "https://news.google.com/rss/search?q=site:iiss.org",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://iiss.org/",
+      "https://www.iiss.org/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:iiss.org",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "ipi-org",
+    "name": "Ipi",
+    "domain": "ipi.org",
+    "country": "Austria",
+    "region": "International",
+    "type": "Policy Think Tank",
+    "specialization": "Geopolitics & Foreign Affairs",
+    "language": "English",
+    "registry_feed": "https://news.google.com/rss/search?q=site:ipi.org&hl=en&gl=US&ceid=US:en",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://ipi.org/",
+      "https://www.ipi.org/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:ipi.org&hl=en&gl=US&ceid=US:en",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "ipinst-org",
+    "name": "Ipinst",
+    "domain": "ipinst.org",
+    "country": "United States",
+    "region": "International",
+    "type": "Policy Think Tank",
+    "specialization": "Geopolitics & Foreign Affairs",
+    "language": "English",
+    "registry_feed": "https://news.google.com/rss/search?q=site:ipinst.org&hl=en&gl=US&ceid=US:en",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://ipinst.org/",
+      "https://www.ipinst.org/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:ipinst.org&hl=en&gl=US&ceid=US:en",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "ipis-ir",
+    "name": "Ipis",
+    "domain": "ipis.ir",
+    "country": "Iran",
+    "region": "International",
+    "type": "State-Affiliated Think Tank",
+    "specialization": "Defense & Security",
+    "language": "English",
+    "registry_feed": "https://news.google.com/rss/search?q=site:ipis.ir&hl=en&gl=US&ceid=US:en",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://ipis.ir/",
+      "https://www.ipis.ir/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:ipis.ir&hl=en&gl=US&ceid=US:en",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "ipss-addis-org",
+    "name": "Ipss-Addis",
+    "domain": "ipss-addis.org",
+    "country": "Ethiopia",
+    "region": "International",
+    "type": "Regional Think Tank",
+    "specialization": "Regional Affairs",
+    "language": "English",
+    "registry_feed": "https://news.google.com/rss/search?q=site:ipss-addis.org&hl=en&gl=US&ceid=US:en",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://ipss-addis.org/",
+      "https://www.ipss-addis.org/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:ipss-addis.org&hl=en&gl=US&ceid=US:en",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "issafrica-org",
+    "name": "Issafrica",
+    "domain": "issafrica.org",
+    "country": "null",
+    "region": "null",
+    "type": "null",
+    "specialization": "null",
+    "language": "null",
+    "registry_feed": "https://news.google.com/rss/search?q=site:issafrica.org",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://issafrica.org/",
+      "https://www.issafrica.org/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:issafrica.org",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "jamestown-org",
+    "name": "The Jamestown Foundation",
+    "domain": "jamestown.org",
+    "country": "United States",
+    "region": "International",
+    "type": "Online News",
+    "specialization": "Geopolitics & Foreign Affairs",
+    "language": "English",
+    "registry_feed": "https://jamestown.org/feed/",
+    "registry_origin": "direct",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://jamestown.org/",
+      "https://www.jamestown.org/"
+    ],
+    "fallback_feed": "https://jamestown.org/feed/",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "jiia-or-jp",
+    "name": "Jiia",
+    "domain": "jiia.or.jp",
+    "country": "Japan",
+    "region": "International",
+    "type": "Policy Think Tank",
+    "specialization": "Geopolitics & Foreign Affairs",
+    "language": "English",
+    "registry_feed": "https://news.google.com/rss/search?q=site:jiia.or.jp&hl=en&gl=US&ceid=US:en",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://jiia.or.jp/",
+      "https://www.jiia.or.jp/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:jiia.or.jp&hl=en&gl=US&ceid=US:en",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "jri-co-jp",
+    "name": "Jri",
+    "domain": "jri.co.jp",
+    "country": "Japan",
+    "region": "International",
+    "type": "Think Tank",
+    "specialization": "Business & Economy",
+    "language": "English",
+    "registry_feed": "https://news.google.com/rss/search?q=site:jri.co.jp&hl=en&gl=US&ceid=US:en",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://jri.co.jp/",
+      "https://www.jri.co.jp/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:jri.co.jp&hl=en&gl=US&ceid=US:en",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "kdi-re-kr",
+    "name": "Kdi",
+    "domain": "kdi.re.kr",
+    "country": "South Korea",
+    "region": "International",
+    "type": "Policy Think Tank",
+    "specialization": "Business & Economy",
+    "language": "English",
+    "registry_feed": "https://news.google.com/rss/search?q=site:kdi.re.kr&hl=en&gl=US&ceid=US:en",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://kdi.re.kr/",
+      "https://www.kdi.re.kr/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:kdi.re.kr&hl=en&gl=US&ceid=US:en",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "kfcris-com",
+    "name": "Kfcris",
+    "domain": "kfcris.com",
+    "country": "Saudi Arabia",
+    "region": "Regional",
+    "type": "Regional Think Tank",
+    "specialization": "Regional Affairs",
+    "language": "English",
+    "registry_feed": "https://news.google.com/rss/search?q=site:kfcris.com&hl=en&gl=US&ceid=US:en",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://kfcris.com/",
+      "https://www.kfcris.com/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:kfcris.com&hl=en&gl=US&ceid=US:en",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "kippra-or-ke",
+    "name": "Kippra",
+    "domain": "kippra.or.ke",
+    "country": "Kenya",
+    "region": "International",
+    "type": "Regional Think Tank",
+    "specialization": "Regional Affairs",
+    "language": "English",
+    "registry_feed": "https://news.google.com/rss/search?q=site:kippra.or.ke&hl=en&gl=US&ceid=US:en",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://kippra.or.ke/",
+      "https://www.kippra.or.ke/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:kippra.or.ke&hl=en&gl=US&ceid=US:en",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "lcps-lebanon-org",
+    "name": "Lcps-Lebanon",
+    "domain": "lcps-lebanon.org",
+    "country": "Lebanon",
+    "region": "Regional",
+    "type": "Regional Think Tank",
+    "specialization": "Regional Affairs",
+    "language": "English",
+    "registry_feed": "https://news.google.com/rss/search?q=site:lcps-lebanon.org&hl=en&gl=US&ceid=US:en",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://lcps-lebanon.org/",
+      "https://www.lcps-lebanon.org/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:lcps-lebanon.org&hl=en&gl=US&ceid=US:en",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "lkyspp-nus-edu-sg",
+    "name": "Lkyspp",
+    "domain": "lkyspp.nus.edu.sg",
+    "country": "null",
+    "region": "null",
+    "type": "null",
+    "specialization": "null",
+    "language": "null",
+    "registry_feed": "https://news.google.com/rss/search?q=site:lkyspp.nus.edu.sg",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://lkyspp.nus.edu.sg/",
+      "https://www.lkyspp.nus.edu.sg/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:lkyspp.nus.edu.sg",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "lowyinstitute-org",
+    "name": "Lowy Institute",
+    "domain": "lowyinstitute.org",
+    "country": "Australia",
+    "region": "International",
+    "type": "Online News",
+    "specialization": "Geopolitics & Foreign Affairs",
+    "language": "English",
+    "registry_feed": "https://www.lowyinstitute.org/publications/rss.xml",
+    "registry_origin": "direct",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://lowyinstitute.org/",
+      "https://www.lowyinstitute.org/"
+    ],
+    "fallback_feed": "https://www.lowyinstitute.org/publications/rss.xml",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "martenscentre-eu",
+    "name": "Martenscentre",
+    "domain": "martenscentre.eu",
+    "country": "Belgium",
+    "region": "International",
+    "type": "Online News",
+    "specialization": "General",
+    "language": "English",
+    "registry_feed": "https://news.google.com/rss/search?q=site:martenscentre.eu",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://martenscentre.eu/",
+      "https://www.martenscentre.eu/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:martenscentre.eu",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "mei-edu",
+    "name": "Mei",
+    "domain": "mei.edu",
+    "country": "null",
+    "region": "null",
+    "type": "null",
+    "specialization": "null",
+    "language": "null",
+    "registry_feed": "https://news.google.com/rss/search?q=site:mei.edu&hl=en-US&gl=US&ceid=US:en",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://mei.edu/",
+      "https://www.mei.edu/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:mei.edu&hl=en-US&gl=US&ceid=US:en",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "mena-studies-org",
+    "name": "Mena-Studies",
+    "domain": "mena-studies.org",
+    "country": "United Kingdom",
+    "region": "International",
+    "type": "Regional Think Tank",
+    "specialization": "Geopolitics & Foreign Affairs",
+    "language": "English",
+    "registry_feed": "https://news.google.com/rss/search?q=site:mena-studies.org&hl=en&gl=US&ceid=US:en",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://mena-studies.org/",
+      "https://www.mena-studies.org/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:mena-studies.org&hl=en&gl=US&ceid=US:en",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "merics-org",
+    "name": "Merics",
+    "domain": "merics.org",
+    "country": "Germany",
+    "region": "International",
+    "type": "Policy Think Tank",
+    "specialization": "Geopolitics & Foreign Affairs",
+    "language": "English",
+    "registry_feed": "https://news.google.com/rss/search?q=site:merics.org&hl=en&gl=US&ceid=US:en",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://merics.org/",
+      "https://www.merics.org/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:merics.org&hl=en&gl=US&ceid=US:en",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "nti-org",
+    "name": "Nti",
+    "domain": "nti.org",
+    "country": "null",
+    "region": "null",
+    "type": "null",
+    "specialization": "null",
+    "language": "null",
+    "registry_feed": "https://news.google.com/rss/search?q=site:nti.org",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://nti.org/",
+      "https://www.nti.org/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:nti.org",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "odi-org",
+    "name": "Odi",
+    "domain": "odi.org",
+    "country": "United Kingdom",
+    "region": "International",
+    "type": "Policy Think Tank",
+    "specialization": "Geopolitics & Foreign Affairs",
+    "language": "English",
+    "registry_feed": "https://news.google.com/rss/search?q=site:odi.org&hl=en&gl=US&ceid=US:en",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://odi.org/",
+      "https://www.odi.org/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:odi.org&hl=en&gl=US&ceid=US:en",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "orfonline-org",
+    "name": "Orfonline",
+    "domain": "orfonline.org",
+    "country": "null",
+    "region": "null",
+    "type": "null",
+    "specialization": "null",
+    "language": "null",
+    "registry_feed": "https://news.google.com/rss/search?q=site:orfonline.org",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://orfonline.org/",
+      "https://www.orfonline.org/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:orfonline.org",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "pewresearch-org",
+    "name": "Pew Research Center",
+    "domain": "pewresearch.org",
+    "country": "United States",
+    "region": "International",
+    "type": "Online News",
+    "specialization": "Development & Governance",
+    "language": "English",
+    "registry_feed": "https://www.pewresearch.org/feed",
+    "registry_origin": "direct",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://pewresearch.org/",
+      "https://www.pewresearch.org/"
+    ],
+    "fallback_feed": "https://www.pewresearch.org/feed",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "rand-org",
+    "name": "Rand",
+    "domain": "rand.org",
+    "country": "null",
+    "region": "null",
+    "type": "null",
+    "specialization": "null",
+    "language": "null",
+    "registry_feed": "https://news.google.com/rss/search?q=site:rand.org",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://rand.org/",
+      "https://www.rand.org/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:rand.org",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "rusi-org",
+    "name": "Rusi",
+    "domain": "rusi.org",
+    "country": "null",
+    "region": "null",
+    "type": "null",
+    "specialization": "null",
+    "language": "null",
+    "registry_feed": "https://news.google.com/rss/search?q=site:rusi.org",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://rusi.org/",
+      "https://www.rusi.org/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:rusi.org",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "saiia-org-za",
+    "name": "Saiia",
+    "domain": "saiia.org.za",
+    "country": "South Africa",
+    "region": "International",
+    "type": "Regional Think Tank",
+    "specialization": "Regional Affairs",
+    "language": "English",
+    "registry_feed": "https://news.google.com/rss/search?q=site:saiia.org.za&hl=en&gl=US&ceid=US:en",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://saiia.org.za/",
+      "https://www.saiia.org.za/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:saiia.org.za&hl=en&gl=US&ceid=US:en",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "sanaacenter-org",
+    "name": "Sanaacenter",
+    "domain": "sanaacenter.org",
+    "country": "Yemen",
+    "region": "Regional",
+    "type": "Regional Think Tank",
+    "specialization": "Regional Affairs",
+    "language": "English",
+    "registry_feed": "https://news.google.com/rss/search?q=site:sanaacenter.org&hl=en&gl=US&ceid=US:en",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://sanaacenter.org/",
+      "https://www.sanaacenter.org/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:sanaacenter.org&hl=en&gl=US&ceid=US:en",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "sharqforum-org",
+    "name": "Sharqforum",
+    "domain": "sharqforum.org",
+    "country": "Turkey",
+    "region": "International",
+    "type": "Regional Think Tank",
+    "specialization": "Geopolitics & Foreign Affairs",
+    "language": "English",
+    "registry_feed": "https://news.google.com/rss/search?q=site:sharqforum.org&hl=en&gl=US&ceid=US:en",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://sharqforum.org/",
+      "https://www.sharqforum.org/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:sharqforum.org&hl=en&gl=US&ceid=US:en",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "siis-org-cn",
+    "name": "Siis",
+    "domain": "siis.org.cn",
+    "country": "China",
+    "region": "International",
+    "type": "State-Affiliated Think Tank",
+    "specialization": "General",
+    "language": "English",
+    "registry_feed": "https://news.google.com/rss/search?q=site:siis.org.cn&hl=en&gl=US&ceid=US:en",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://siis.org.cn/",
+      "https://www.siis.org.cn/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:siis.org.cn&hl=en&gl=US&ceid=US:en",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "sipri-org",
+    "name": "Sipri",
+    "domain": "sipri.org",
+    "country": "null",
+    "region": "null",
+    "type": "null",
+    "specialization": "null",
+    "language": "null",
+    "registry_feed": "https://news.google.com/rss/search?q=site:sipri.org",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://sipri.org/",
+      "https://www.sipri.org/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:sipri.org",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "stimson-org",
+    "name": "Stimson Center",
+    "domain": "stimson.org",
+    "country": "United States",
+    "region": "International",
+    "type": "Online News",
+    "specialization": "General",
+    "language": "English",
+    "registry_feed": "https://www.stimson.org/feed/",
+    "registry_origin": "direct",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://stimson.org/",
+      "https://www.stimson.org/"
+    ],
+    "fallback_feed": "https://www.stimson.org/feed/",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "takshashila-org-in",
+    "name": "Takshashila",
+    "domain": "takshashila.org.in",
+    "country": "India",
+    "region": "International",
+    "type": "Policy Think Tank",
+    "specialization": "Development & Governance",
+    "language": "English",
+    "registry_feed": "https://news.google.com/rss/search?q=site:takshashila.org.in&hl=en&gl=US&ceid=US:en",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://takshashila.org.in/",
+      "https://www.takshashila.org.in/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:takshashila.org.in&hl=en&gl=US&ceid=US:en",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "tcf-org",
+    "name": "Tcf",
+    "domain": "tcf.org",
+    "country": "United States",
+    "region": "International",
+    "type": "Policy Think Tank",
+    "specialization": "Business & Economy",
+    "language": "English",
+    "registry_feed": "https://news.google.com/rss/search?q=site:tcf.org&hl=en&gl=US&ceid=US:en",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://tcf.org/",
+      "https://www.tcf.org/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:tcf.org&hl=en&gl=US&ceid=US:en",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "thedialogue-org",
+    "name": "Thedialogue",
+    "domain": "thedialogue.org",
+    "country": "United States",
+    "region": "International",
+    "type": "Policy Think Tank",
+    "specialization": "Business & Economy",
+    "language": "English",
+    "registry_feed": "https://news.google.com/rss/search?q=site:thedialogue.org&hl=en&gl=US&ceid=US:en",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://thedialogue.org/",
+      "https://www.thedialogue.org/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:thedialogue.org&hl=en&gl=US&ceid=US:en",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "understandingwar-org",
+    "name": "Understandingwar",
+    "domain": "understandingwar.org",
+    "country": "null",
+    "region": "null",
+    "type": "null",
+    "specialization": "null",
+    "language": "null",
+    "registry_feed": "https://news.google.com/rss/search?q=site:understandingwar.org",
+    "registry_origin": "google_news",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://understandingwar.org/",
+      "https://www.understandingwar.org/"
+    ],
+    "fallback_feed": "https://news.google.com/rss/search?q=site:understandingwar.org",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "washingtoninstitute-org",
+    "name": "Washington Institute",
+    "domain": "washingtoninstitute.org",
+    "country": "United States",
+    "region": "International",
+    "type": "Regional Think Tank",
+    "specialization": "Middle East",
+    "language": "English",
+    "registry_feed": "https://www.washingtoninstitute.org/rss.xml",
+    "registry_origin": "direct",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://washingtoninstitute.org/",
+      "https://www.washingtoninstitute.org/"
+    ],
+    "fallback_feed": "https://www.washingtoninstitute.org/rss.xml",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  },
+  {
+    "id": "wilsoncenter-org",
+    "name": "Wilson Center",
+    "domain": "wilsoncenter.org",
+    "country": "United States",
+    "region": "International",
+    "type": "Policy Think Tank",
+    "specialization": "Geopolitics & Foreign Affairs",
+    "language": "English",
+    "registry_feed": "https://www.wilsoncenter.org/rss.xml",
+    "registry_origin": "direct",
+    "enabled": true,
+    "collection_mode": "auto_discover",
+    "seed_urls": [
+      "https://wilsoncenter.org/",
+      "https://www.wilsoncenter.org/"
+    ],
+    "fallback_feed": "https://www.wilsoncenter.org/rss.xml",
+    "notes": "Auto-discover official RSS/Atom, sitemap, publication archive and article URLs; use Google News only as fallback."
+  }
+]

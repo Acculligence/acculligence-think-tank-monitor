@@ -1,0 +1,18 @@
+{
+  "match": "ANY",
+  "fields": [
+    "title",
+    "clean_main_body"
+  ],
+  "keywords": [
+    "Saudi",
+    "Riyadh",
+    "Jeddah",
+    "Aramco",
+    "bin Salman",
+    "السعودية",
+    "الرياض",
+    "جدة",
+    "أرامكو"
+  ]
+}

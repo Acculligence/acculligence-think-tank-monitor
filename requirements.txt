@@ -1,0 +1,7 @@
+requests>=2.32.0
+feedparser>=6.0.11
+beautifulsoup4>=4.12.3
+lxml>=5.2.0
+trafilatura>=1.12.0
+python-dateutil>=2.9.0
+dateparser>=1.2.0
