@@ -1,4 +1,4 @@
-name: Think Tank Acquisition Map and Monitor
+name: Think Tank Acquisition Map and Monitor v4
 
 on:
   workflow_dispatch:
@@ -15,19 +15,17 @@ on:
         description: Rebuild acquisition map
         required: true
         type: choice
-        options:
-          - 'yes'
-          - 'no'
+        options: ['no', 'yes']
         default: 'no'
 
 concurrency:
-  group: think-tank-monitor
+  group: think-tank-monitor-v4
   cancel-in-progress: false
 
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 50
+    timeout-minutes: 45
     permissions:
       contents: write
 
@@ -60,18 +58,32 @@ jobs:
       - name: Ensure acquisition map exists
         run: test -f config/acquisition_map.json
 
-      - name: Collect publications
-        timeout-minutes: 35
+      - name: Collect publications safely
         run: |
-          START="${{ github.event.inputs.start }}"
-          END="${{ github.event.inputs.end }}"
-          python collector.py --start "$START" --end "$END"
+          python collector.py \
+            --start "${{ github.event.inputs.start }}" \
+            --end "${{ github.event.inputs.end }}" \
+            --source-workers 8 \
+            --article-workers 6 \
+            --source-timeout 75 \
+            --request-timeout 12 \
+            --max-candidates 240
 
-      - name: Commit outputs
+      - name: Upload outputs and checkpoints
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: think-tank-monitor-${{ github.event.inputs.start }}-${{ github.event.inputs.end }}
+          path: output/
+          if-no-files-found: warn
+          retention-days: 30
+
+      - name: Commit outputs and checkpoints
+        if: always()
         run: |
           git config user.name "Acculligence Bot"
           git config user.email "bot@acculligence.com"
-          git pull --rebase
-          git add output/
-          git commit -m "Update monitoring output" || true
-          git push
+          git pull --rebase || true
+          git add output/ config/acquisition_map.json
+          git commit -m "Update think tank monitoring output" || true
+          git push || true
