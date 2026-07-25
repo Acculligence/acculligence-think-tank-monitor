@@ -1,0 +1,2247 @@
+{
+  "version": "5.0",
+  "generated_from": "Acculligence existing dashboard registries",
+  "sources": [
+    {
+      "source_id": "acsus-org",
+      "source_name": "Acsus",
+      "domain": "acsus.org",
+      "country": "United States",
+      "region": "International",
+      "source_type": "Policy Think Tank",
+      "specialization": "Geopolitics & Foreign Affairs",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:acsus.org&hl=en&gl=US&ceid=US:en",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 4,
+          "articles_last_30_days": 3,
+          "duplicate_pct": 0.0,
+          "suggested_action": "MANUAL_CHECK",
+          "governance_status": "unreviewed"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "aei-org",
+      "source_name": "News",
+      "domain": "aei.org",
+      "country": "United States",
+      "region": "International",
+      "source_type": "Policy Think Tank",
+      "specialization": "Business & Economy",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:aei.org",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 1594,
+          "articles_last_30_days": 572,
+          "duplicate_pct": 0.69,
+          "suggested_action": "MANUAL_CHECK",
+          "governance_status": "unreviewed"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "africacenter-org",
+      "source_name": "Africacenter",
+      "domain": "africacenter.org",
+      "country": "United States",
+      "region": "International",
+      "source_type": "Policy Think Tank",
+      "specialization": "Geopolitics & Foreign Affairs",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:africacenter.org",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 13,
+          "articles_last_30_days": 6,
+          "duplicate_pct": 0.0,
+          "suggested_action": "MANUAL_CHECK",
+          "governance_status": "unreviewed"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "americanprogress-org",
+      "source_name": "Americanprogress",
+      "domain": "americanprogress.org",
+      "country": "United States",
+      "region": "International",
+      "source_type": "Policy Think Tank",
+      "specialization": "Business & Economy",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:americanprogress.org",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 71,
+          "articles_last_30_days": 16,
+          "duplicate_pct": 1.41,
+          "suggested_action": "MANUAL_CHECK",
+          "governance_status": "unreviewed"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "arab-reform-net",
+      "source_name": "Arab-Reform",
+      "domain": "arab-reform.net",
+      "country": "Lebanon",
+      "region": "Regional",
+      "source_type": "Regional Think Tank",
+      "specialization": "Regional Affairs",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:arab-reform.net&hl=en&gl=US&ceid=US:en",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 44,
+          "articles_last_30_days": 4,
+          "duplicate_pct": 2.27,
+          "suggested_action": "MANUAL_CHECK",
+          "governance_status": "unreviewed"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "arabcenterdc-org",
+      "source_name": "Arabcenterdc",
+      "domain": "arabcenterdc.org",
+      "country": "United States",
+      "region": "International",
+      "source_type": "Regional Think Tank",
+      "specialization": "Regional Affairs",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:arabcenterdc.org&hl=en&gl=US&ceid=US:en",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 26,
+          "articles_last_30_days": 5,
+          "duplicate_pct": 0.0,
+          "suggested_action": "MANUAL_CHECK",
+          "governance_status": "unreviewed"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "armscontrol-org",
+      "source_name": "Armscontrol",
+      "domain": "armscontrol.org",
+      "country": "United States",
+      "region": "International",
+      "source_type": "Security/Defense Think Tank",
+      "specialization": "Defense & Security",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:armscontrol.org",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 14,
+          "articles_last_30_days": 4,
+          "duplicate_pct": 0.0,
+          "suggested_action": "MANUAL_CHECK",
+          "governance_status": "unreviewed"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "atlanticcouncil-org",
+      "source_name": "Atlantic Council",
+      "domain": "atlanticcouncil.org",
+      "country": "United States",
+      "region": "International",
+      "source_type": "Policy Think Tank",
+      "specialization": "Geopolitics & Foreign Affairs",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://www.atlanticcouncil.org/feed/",
+          "origin": "direct",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 485,
+          "articles_last_30_days": 145,
+          "duplicate_pct": 0.0,
+          "suggested_action": "KEEP_CANDIDATE",
+          "governance_status": "unreviewed"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "belfercenter-org",
+      "source_name": "Belfercenter",
+      "domain": "belfercenter.org",
+      "country": "United States",
+      "region": "International",
+      "source_type": "University/Academic",
+      "specialization": "Defense & Security",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:belfercenter.org&hl=en&gl=US&ceid=US:en",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 6,
+          "articles_last_30_days": 1,
+          "duplicate_pct": 0.0,
+          "suggested_action": "MANUAL_CHECK",
+          "governance_status": "unreviewed"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "brookings-edu",
+      "source_name": "Brookings",
+      "domain": "brookings.edu",
+      "country": "null",
+      "region": "null",
+      "source_type": "null",
+      "specialization": "null",
+      "language": "null",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:brookings.edu&hl=en&gl=US&ceid=US:en",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 0,
+          "articles_last_30_days": 0,
+          "duplicate_pct": 0.0,
+          "suggested_action": "registry_existing",
+          "governance_status": ""
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "bruegel-org",
+      "source_name": "Bruegel",
+      "domain": "bruegel.org",
+      "country": "Belgium",
+      "region": "International",
+      "source_type": "Policy Think Tank",
+      "specialization": "Geopolitics & Foreign Affairs",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:bruegel.org",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 119,
+          "articles_last_30_days": 31,
+          "duplicate_pct": 10.92,
+          "suggested_action": "MANUAL_CHECK",
+          "governance_status": "unreviewed"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "carnegieendowment-org",
+      "source_name": "Carnegieendowment",
+      "domain": "carnegieendowment.org",
+      "country": "null",
+      "region": "null",
+      "source_type": "null",
+      "specialization": "null",
+      "language": "null",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:carnegieendowment.org&hl=en&gl=US&ceid=US:en",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 0,
+          "articles_last_30_days": 0,
+          "duplicate_pct": 0.0,
+          "suggested_action": "registry_existing",
+          "governance_status": ""
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "carpo-bonn-org",
+      "source_name": "Carpo-Bonn",
+      "domain": "carpo-bonn.org",
+      "country": "Germany",
+      "region": "International",
+      "source_type": "Policy Think Tank",
+      "specialization": "Geopolitics & Foreign Affairs",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:carpo-bonn.org&hl=en&gl=US&ceid=US:en",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 6,
+          "articles_last_30_days": 0,
+          "duplicate_pct": 0.0,
+          "suggested_action": "CHECK_INACTIVE",
+          "governance_status": "unreviewed"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "cass-cn",
+      "source_name": "Cass",
+      "domain": "cass.cn",
+      "country": "China",
+      "region": "International",
+      "source_type": "State-Affiliated Think Tank",
+      "specialization": "General",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:cass.cn&hl=en&gl=US&ceid=US:en",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 60,
+          "articles_last_30_days": 19,
+          "duplicate_pct": 76.67,
+          "suggested_action": "MANUAL_CHECK",
+          "governance_status": "REPLACE"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "cato-org",
+      "source_name": "Cato",
+      "domain": "cato.org",
+      "country": "null",
+      "region": "null",
+      "source_type": "null",
+      "specialization": "null",
+      "language": "null",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:cato.org",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 0,
+          "articles_last_30_days": 0,
+          "duplicate_pct": 0.0,
+          "suggested_action": "registry_existing",
+          "governance_status": ""
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "cebri-org",
+      "source_name": "Cebri",
+      "domain": "cebri.org",
+      "country": "Brazil",
+      "region": "International",
+      "source_type": "Policy Think Tank",
+      "specialization": "Geopolitics & Foreign Affairs",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:cebri.org&hl=en&gl=US&ceid=US:en",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 66,
+          "articles_last_30_days": 23,
+          "duplicate_pct": 12.12,
+          "suggested_action": "MANUAL_CHECK",
+          "governance_status": "unreviewed"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "cer-eu",
+      "source_name": "Centre for European Reform",
+      "domain": "cer.eu",
+      "country": "Belgium",
+      "region": "International",
+      "source_type": "Online News",
+      "specialization": "General",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://www.cer.eu/rss.xml",
+          "origin": "direct",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 10,
+          "articles_last_30_days": 3,
+          "duplicate_pct": 0.0,
+          "suggested_action": "KEEP_CANDIDATE",
+          "governance_status": "unreviewed"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "cfr-org",
+      "source_name": "Cfr",
+      "domain": "cfr.org",
+      "country": "null",
+      "region": "null",
+      "source_type": "null",
+      "specialization": "null",
+      "language": "null",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:cfr.org&hl=en&gl=US&ceid=US:en",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 0,
+          "articles_last_30_days": 0,
+          "duplicate_pct": 0.0,
+          "suggested_action": "registry_existing",
+          "governance_status": ""
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "chathamhouse-org",
+      "source_name": "Chathamhouse",
+      "domain": "chathamhouse.org",
+      "country": "null",
+      "region": "null",
+      "source_type": "null",
+      "specialization": "null",
+      "language": "null",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:chathamhouse.org",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 0,
+          "articles_last_30_days": 0,
+          "duplicate_pct": 0.0,
+          "suggested_action": "registry_existing",
+          "governance_status": ""
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "chinausfocus-com",
+      "source_name": "Chinausfocus",
+      "domain": "chinausfocus.com",
+      "country": "China",
+      "region": "International",
+      "source_type": "State-Affiliated Think Tank",
+      "specialization": "General",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:chinausfocus.com&hl=en&gl=US&ceid=US:en",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 15,
+          "articles_last_30_days": 2,
+          "duplicate_pct": 0.0,
+          "suggested_action": "MANUAL_CHECK",
+          "governance_status": "unreviewed"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "cidob-org",
+      "source_name": "Cidob",
+      "domain": "cidob.org",
+      "country": "Spain",
+      "region": "International",
+      "source_type": "Policy Think Tank",
+      "specialization": "Geopolitics & Foreign Affairs",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:cidob.org&hl=en&gl=US&ceid=US:en",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 172,
+          "articles_last_30_days": 18,
+          "duplicate_pct": 53.49,
+          "suggested_action": "MANUAL_CHECK",
+          "governance_status": "unreviewed"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "ciis-org-cn",
+      "source_name": "Ciis",
+      "domain": "ciis.org.cn",
+      "country": "China",
+      "region": "International",
+      "source_type": "State-Affiliated Think Tank",
+      "specialization": "General",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:ciis.org.cn&hl=en&gl=US&ceid=US:en",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 21,
+          "articles_last_30_days": 4,
+          "duplicate_pct": 14.29,
+          "suggested_action": "MANUAL_CHECK",
+          "governance_status": "unreviewed"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "clingendael-org",
+      "source_name": "Clingendael",
+      "domain": "clingendael.org",
+      "country": "Netherlands",
+      "region": "International",
+      "source_type": "Policy Think Tank",
+      "specialization": "Geopolitics & Foreign Affairs",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:clingendael.org&hl=en&gl=US&ceid=US:en",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 72,
+          "articles_last_30_days": 18,
+          "duplicate_pct": 36.11,
+          "suggested_action": "MANUAL_CHECK",
+          "governance_status": "unreviewed"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "cmec-org-uk",
+      "source_name": "Cmec",
+      "domain": "cmec.org.uk",
+      "country": "United Kingdom",
+      "region": "International",
+      "source_type": "Think Tank",
+      "specialization": "Geopolitics & Foreign Affairs",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:cmec.org.uk&hl=en&gl=US&ceid=US:en",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 5,
+          "articles_last_30_days": 3,
+          "duplicate_pct": 0.0,
+          "suggested_action": "MANUAL_CHECK",
+          "governance_status": "unreviewed"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "cnas-org",
+      "source_name": "Center for a New American Security",
+      "domain": "cnas.org",
+      "country": "United States",
+      "region": "International",
+      "source_type": "Security/Defense Think Tank",
+      "specialization": "Defense & Security",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://www.cnas.org/feed",
+          "origin": "direct",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 0,
+          "articles_last_30_days": 0,
+          "duplicate_pct": 0.0,
+          "suggested_action": "registry_existing",
+          "governance_status": ""
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "consejomexicano-org",
+      "source_name": "Consejomexicano",
+      "domain": "consejomexicano.org",
+      "country": "Mexico",
+      "region": "International",
+      "source_type": "Policy Think Tank",
+      "specialization": "Geopolitics & Foreign Affairs",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:consejomexicano.org&hl=en&gl=US&ceid=US:en",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 4,
+          "articles_last_30_days": 4,
+          "duplicate_pct": 0.0,
+          "suggested_action": "MANUAL_CHECK",
+          "governance_status": "unreviewed"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "cread-dz",
+      "source_name": "Cread",
+      "domain": "cread.dz",
+      "country": "Algeria",
+      "region": "Regional",
+      "source_type": "Policy Think Tank",
+      "specialization": "Regional Affairs",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:cread.dz&hl=en&gl=US&ceid=US:en",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 2,
+          "articles_last_30_days": 2,
+          "duplicate_pct": 0.0,
+          "suggested_action": "MANUAL_CHECK",
+          "governance_status": "null"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "crisisgroup-org",
+      "source_name": "Crisisgroup",
+      "domain": "crisisgroup.org",
+      "country": "null",
+      "region": "null",
+      "source_type": "null",
+      "specialization": "null",
+      "language": "null",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://www.crisisgroup.org/rss",
+          "origin": "direct",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 20,
+          "articles_last_30_days": 20,
+          "duplicate_pct": 0.0,
+          "suggested_action": "KEEP_CANDIDATE",
+          "governance_status": "null"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "csis-org",
+      "source_name": "Csis",
+      "domain": "csis.org",
+      "country": "null",
+      "region": "null",
+      "source_type": "null",
+      "specialization": "null",
+      "language": "null",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:csis.org&hl=en&gl=US&ceid=US:en",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 0,
+          "articles_last_30_days": 0,
+          "duplicate_pct": 0.0,
+          "suggested_action": "registry_existing",
+          "governance_status": ""
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "derasat-org-bh",
+      "source_name": "Derasat",
+      "domain": "derasat.org.bh",
+      "country": "Bahrain",
+      "region": "Regional",
+      "source_type": "Regional Think Tank",
+      "specialization": "Regional Affairs",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:derasat.org.bh&hl=en&gl=US&ceid=US:en",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 49,
+          "articles_last_30_days": 15,
+          "duplicate_pct": 6.12,
+          "suggested_action": "MANUAL_CHECK",
+          "governance_status": "unreviewed"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "dohainstitute-org",
+      "source_name": "Dohainstitute",
+      "domain": "dohainstitute.org",
+      "country": "Qatar",
+      "region": "Regional",
+      "source_type": "University/Academic",
+      "specialization": "Regional Affairs",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:dohainstitute.org&hl=en&gl=US&ceid=US:en",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 9,
+          "articles_last_30_days": 1,
+          "duplicate_pct": 11.11,
+          "suggested_action": "MANUAL_CHECK",
+          "governance_status": "unreviewed"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "ecdpm-org",
+      "source_name": "Ecdpm",
+      "domain": "ecdpm.org",
+      "country": "Netherlands",
+      "region": "International",
+      "source_type": "Policy Think Tank",
+      "specialization": "Geopolitics & Foreign Affairs",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:ecdpm.org&hl=en&gl=US&ceid=US:en",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 54,
+          "articles_last_30_days": 12,
+          "duplicate_pct": 0.0,
+          "suggested_action": "MANUAL_CHECK",
+          "governance_status": "unreviewed"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "ecfr-eu",
+      "source_name": "ECFR",
+      "domain": "ecfr.eu",
+      "country": "United Kingdom",
+      "region": "International",
+      "source_type": "Online News",
+      "specialization": "General",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://ecfr.eu/feed/",
+          "origin": "direct",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 92,
+          "articles_last_30_days": 27,
+          "duplicate_pct": 1.09,
+          "suggested_action": "KEEP_CANDIDATE",
+          "governance_status": "unreviewed"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "egmontinstitute-be",
+      "source_name": "Egmontinstitute",
+      "domain": "egmontinstitute.be",
+      "country": "Belgium",
+      "region": "International",
+      "source_type": "Online News",
+      "specialization": "General",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:egmontinstitute.be",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 46,
+          "articles_last_30_days": 8,
+          "duplicate_pct": 0.0,
+          "suggested_action": "MANUAL_CHECK",
+          "governance_status": "unreviewed"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "erf-org-eg",
+      "source_name": "Erf",
+      "domain": "erf.org.eg",
+      "country": "Egypt",
+      "region": "Regional",
+      "source_type": "Regional Think Tank",
+      "specialization": "Regional Affairs",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:erf.org.eg&hl=en&gl=US&ceid=US:en",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 103,
+          "articles_last_30_days": 15,
+          "duplicate_pct": 0.97,
+          "suggested_action": "MANUAL_CHECK",
+          "governance_status": "unreviewed"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "fas-org",
+      "source_name": "Fas",
+      "domain": "fas.org",
+      "country": "United States",
+      "region": "International",
+      "source_type": "Security/Defense Think Tank",
+      "specialization": "Defense & Security",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:fas.org&hl=en&gl=US&ceid=US:en",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 35,
+          "articles_last_30_days": 8,
+          "duplicate_pct": 2.86,
+          "suggested_action": "MANUAL_CHECK",
+          "governance_status": "unreviewed"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "gatewayhouse-in",
+      "source_name": "Gatewayhouse",
+      "domain": "gatewayhouse.in",
+      "country": "India",
+      "region": "International",
+      "source_type": "Policy Think Tank",
+      "specialization": "Development & Governance",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:gatewayhouse.in&hl=en&gl=US&ceid=US:en",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 9,
+          "articles_last_30_days": 2,
+          "duplicate_pct": 0.0,
+          "suggested_action": "MANUAL_CHECK",
+          "governance_status": "null"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "gmfus-org",
+      "source_name": "Gmfus",
+      "domain": "gmfus.org",
+      "country": "null",
+      "region": "null",
+      "source_type": "null",
+      "specialization": "null",
+      "language": "null",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://www.gmfus.org/rss.xml",
+          "origin": "direct",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 124,
+          "articles_last_30_days": 51,
+          "duplicate_pct": 0.81,
+          "suggested_action": "KEEP_CANDIDATE",
+          "governance_status": "unreviewed"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "heritage-org",
+      "source_name": "Heritage Foundation",
+      "domain": "heritage.org",
+      "country": "United States",
+      "region": "International",
+      "source_type": "Online News",
+      "specialization": "General",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://www.heritage.org/rss",
+          "origin": "direct",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 192,
+          "articles_last_30_days": 47,
+          "duplicate_pct": 0.0,
+          "suggested_action": "KEEP_CANDIDATE",
+          "governance_status": "unreviewed"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "hoover-org",
+      "source_name": "Hoover Institution",
+      "domain": "hoover.org",
+      "country": "United States",
+      "region": "International",
+      "source_type": "Online News",
+      "specialization": "General",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://www.hoover.org/rss.xml",
+          "origin": "direct",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 899,
+          "articles_last_30_days": 325,
+          "duplicate_pct": 3.45,
+          "suggested_action": "KEEP_CANDIDATE",
+          "governance_status": "unreviewed"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "hudson-org",
+      "source_name": "Hudson Institute",
+      "domain": "hudson.org",
+      "country": "United States",
+      "region": "International",
+      "source_type": "Policy Think Tank",
+      "specialization": "Geopolitics & Foreign Affairs",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://www.hudson.org/rss.xml",
+          "origin": "direct",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 0,
+          "articles_last_30_days": 0,
+          "duplicate_pct": 0.0,
+          "suggested_action": "registry_existing",
+          "governance_status": ""
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "iai-it",
+      "source_name": "Iai",
+      "domain": "iai.it",
+      "country": "Italy",
+      "region": "International",
+      "source_type": "Online News",
+      "specialization": "General",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:iai.it",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 82,
+          "articles_last_30_days": 11,
+          "duplicate_pct": 41.46,
+          "suggested_action": "MANUAL_CHECK",
+          "governance_status": "unreviewed"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "icct-nl",
+      "source_name": "Icct",
+      "domain": "icct.nl",
+      "country": "null",
+      "region": "null",
+      "source_type": "null",
+      "specialization": "null",
+      "language": "null",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:icct.nl",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 0,
+          "articles_last_30_days": 0,
+          "duplicate_pct": 0.0,
+          "suggested_action": "registry_existing",
+          "governance_status": ""
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "icwa-in",
+      "source_name": "Icwa",
+      "domain": "icwa.in",
+      "country": "India",
+      "region": "International",
+      "source_type": "Policy Think Tank",
+      "specialization": "Development & Governance",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:icwa.in&hl=en&gl=US&ceid=US:en",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 64,
+          "articles_last_30_days": 14,
+          "duplicate_pct": 9.38,
+          "suggested_action": "MANUAL_CHECK",
+          "governance_status": "unreviewed"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "idsa-in",
+      "source_name": "Idsa",
+      "domain": "idsa.in",
+      "country": "null",
+      "region": "null",
+      "source_type": "null",
+      "specialization": "null",
+      "language": "null",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:idsa.in",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 0,
+          "articles_last_30_days": 0,
+          "duplicate_pct": 0.0,
+          "suggested_action": "registry_existing",
+          "governance_status": ""
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "ifri-org",
+      "source_name": "Ifri",
+      "domain": "ifri.org",
+      "country": "null",
+      "region": "null",
+      "source_type": "null",
+      "specialization": "null",
+      "language": "null",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:ifri.org",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 0,
+          "articles_last_30_days": 0,
+          "duplicate_pct": 0.0,
+          "suggested_action": "registry_existing",
+          "governance_status": ""
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "iiss-org",
+      "source_name": "Iiss",
+      "domain": "iiss.org",
+      "country": "null",
+      "region": "null",
+      "source_type": "null",
+      "specialization": "null",
+      "language": "null",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:iiss.org",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 0,
+          "articles_last_30_days": 0,
+          "duplicate_pct": 0.0,
+          "suggested_action": "registry_existing",
+          "governance_status": ""
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "ipi-org",
+      "source_name": "Ipi",
+      "domain": "ipi.org",
+      "country": "Austria",
+      "region": "International",
+      "source_type": "Policy Think Tank",
+      "specialization": "Geopolitics & Foreign Affairs",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:ipi.org&hl=en&gl=US&ceid=US:en",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 15,
+          "articles_last_30_days": 0,
+          "duplicate_pct": 26.67,
+          "suggested_action": "CHECK_INACTIVE",
+          "governance_status": "unreviewed"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "ipinst-org",
+      "source_name": "Ipinst",
+      "domain": "ipinst.org",
+      "country": "United States",
+      "region": "International",
+      "source_type": "Policy Think Tank",
+      "specialization": "Geopolitics & Foreign Affairs",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:ipinst.org&hl=en&gl=US&ceid=US:en",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 5,
+          "articles_last_30_days": 2,
+          "duplicate_pct": 20.0,
+          "suggested_action": "MANUAL_CHECK",
+          "governance_status": "unreviewed"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "ipis-ir",
+      "source_name": "Ipis",
+      "domain": "ipis.ir",
+      "country": "Iran",
+      "region": "International",
+      "source_type": "State-Affiliated Think Tank",
+      "specialization": "Defense & Security",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:ipis.ir&hl=en&gl=US&ceid=US:en",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 284,
+          "articles_last_30_days": 14,
+          "duplicate_pct": 21.13,
+          "suggested_action": "MANUAL_CHECK",
+          "governance_status": "unreviewed"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "ipss-addis-org",
+      "source_name": "Ipss-Addis",
+      "domain": "ipss-addis.org",
+      "country": "Ethiopia",
+      "region": "International",
+      "source_type": "Regional Think Tank",
+      "specialization": "Regional Affairs",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:ipss-addis.org&hl=en&gl=US&ceid=US:en",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 43,
+          "articles_last_30_days": 14,
+          "duplicate_pct": 0.0,
+          "suggested_action": "MANUAL_CHECK",
+          "governance_status": "unreviewed"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "issafrica-org",
+      "source_name": "Issafrica",
+      "domain": "issafrica.org",
+      "country": "null",
+      "region": "null",
+      "source_type": "null",
+      "specialization": "null",
+      "language": "null",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:issafrica.org",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 0,
+          "articles_last_30_days": 0,
+          "duplicate_pct": 0.0,
+          "suggested_action": "registry_existing",
+          "governance_status": ""
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "jamestown-org",
+      "source_name": "The Jamestown Foundation",
+      "domain": "jamestown.org",
+      "country": "United States",
+      "region": "International",
+      "source_type": "Online News",
+      "specialization": "Geopolitics & Foreign Affairs",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://jamestown.org/feed/",
+          "origin": "direct",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 187,
+          "articles_last_30_days": 80,
+          "duplicate_pct": 0.0,
+          "suggested_action": "KEEP_CANDIDATE",
+          "governance_status": "unreviewed"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "jiia-or-jp",
+      "source_name": "Jiia",
+      "domain": "jiia.or.jp",
+      "country": "Japan",
+      "region": "International",
+      "source_type": "Policy Think Tank",
+      "specialization": "Geopolitics & Foreign Affairs",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:jiia.or.jp&hl=en&gl=US&ceid=US:en",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 49,
+          "articles_last_30_days": 12,
+          "duplicate_pct": 8.16,
+          "suggested_action": "MANUAL_CHECK",
+          "governance_status": "unreviewed"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "jri-co-jp",
+      "source_name": "Jri",
+      "domain": "jri.co.jp",
+      "country": "Japan",
+      "region": "International",
+      "source_type": "Think Tank",
+      "specialization": "Business & Economy",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:jri.co.jp&hl=en&gl=US&ceid=US:en",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 15,
+          "articles_last_30_days": 3,
+          "duplicate_pct": 6.67,
+          "suggested_action": "MANUAL_CHECK",
+          "governance_status": "unreviewed"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "kdi-re-kr",
+      "source_name": "Kdi",
+      "domain": "kdi.re.kr",
+      "country": "South Korea",
+      "region": "International",
+      "source_type": "Policy Think Tank",
+      "specialization": "Business & Economy",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:kdi.re.kr&hl=en&gl=US&ceid=US:en",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 545,
+          "articles_last_30_days": 119,
+          "duplicate_pct": 31.01,
+          "suggested_action": "MANUAL_CHECK",
+          "governance_status": "unreviewed"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "kfcris-com",
+      "source_name": "Kfcris",
+      "domain": "kfcris.com",
+      "country": "Saudi Arabia",
+      "region": "Regional",
+      "source_type": "Regional Think Tank",
+      "specialization": "Regional Affairs",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:kfcris.com&hl=en&gl=US&ceid=US:en",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 5,
+          "articles_last_30_days": 4,
+          "duplicate_pct": 60.0,
+          "suggested_action": "MANUAL_CHECK",
+          "governance_status": "null"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "kippra-or-ke",
+      "source_name": "Kippra",
+      "domain": "kippra.or.ke",
+      "country": "Kenya",
+      "region": "International",
+      "source_type": "Regional Think Tank",
+      "specialization": "Regional Affairs",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:kippra.or.ke&hl=en&gl=US&ceid=US:en",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 1790,
+          "articles_last_30_days": 1706,
+          "duplicate_pct": 94.75,
+          "suggested_action": "CHECK_REPLACEMENT",
+          "governance_status": "REPLACE"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "lcps-lebanon-org",
+      "source_name": "Lcps-Lebanon",
+      "domain": "lcps-lebanon.org",
+      "country": "Lebanon",
+      "region": "Regional",
+      "source_type": "Regional Think Tank",
+      "specialization": "Regional Affairs",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:lcps-lebanon.org&hl=en&gl=US&ceid=US:en",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 15,
+          "articles_last_30_days": 5,
+          "duplicate_pct": 6.67,
+          "suggested_action": "MANUAL_CHECK",
+          "governance_status": "unreviewed"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "lkyspp-nus-edu-sg",
+      "source_name": "Lkyspp",
+      "domain": "lkyspp.nus.edu.sg",
+      "country": "null",
+      "region": "null",
+      "source_type": "null",
+      "specialization": "null",
+      "language": "null",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:lkyspp.nus.edu.sg",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 0,
+          "articles_last_30_days": 0,
+          "duplicate_pct": 0.0,
+          "suggested_action": "registry_existing",
+          "governance_status": ""
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "lowyinstitute-org",
+      "source_name": "Lowy Institute",
+      "domain": "lowyinstitute.org",
+      "country": "Australia",
+      "region": "International",
+      "source_type": "Online News",
+      "specialization": "Geopolitics & Foreign Affairs",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://www.lowyinstitute.org/publications/rss.xml",
+          "origin": "direct",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 45,
+          "articles_last_30_days": 28,
+          "duplicate_pct": 4.44,
+          "suggested_action": "KEEP_CANDIDATE",
+          "governance_status": "unreviewed"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "martenscentre-eu",
+      "source_name": "Martenscentre",
+      "domain": "martenscentre.eu",
+      "country": "Belgium",
+      "region": "International",
+      "source_type": "Online News",
+      "specialization": "General",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:martenscentre.eu",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 11,
+          "articles_last_30_days": 3,
+          "duplicate_pct": 0.0,
+          "suggested_action": "MANUAL_CHECK",
+          "governance_status": "unreviewed"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "mei-edu",
+      "source_name": "Mei",
+      "domain": "mei.edu",
+      "country": "null",
+      "region": "null",
+      "source_type": "null",
+      "specialization": "null",
+      "language": "null",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:mei.edu&hl=en-US&gl=US&ceid=US:en",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 0,
+          "articles_last_30_days": 0,
+          "duplicate_pct": 0.0,
+          "suggested_action": "registry_existing",
+          "governance_status": ""
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "mena-studies-org",
+      "source_name": "Mena-Studies",
+      "domain": "mena-studies.org",
+      "country": "United Kingdom",
+      "region": "International",
+      "source_type": "Regional Think Tank",
+      "specialization": "Geopolitics & Foreign Affairs",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:mena-studies.org&hl=en&gl=US&ceid=US:en",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 4,
+          "articles_last_30_days": 0,
+          "duplicate_pct": 0.0,
+          "suggested_action": "CHECK_INACTIVE",
+          "governance_status": "unreviewed"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "merics-org",
+      "source_name": "Merics",
+      "domain": "merics.org",
+      "country": "Germany",
+      "region": "International",
+      "source_type": "Policy Think Tank",
+      "specialization": "Geopolitics & Foreign Affairs",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:merics.org&hl=en&gl=US&ceid=US:en",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 80,
+          "articles_last_30_days": 19,
+          "duplicate_pct": 27.5,
+          "suggested_action": "MANUAL_CHECK",
+          "governance_status": "unreviewed"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "nti-org",
+      "source_name": "Nti",
+      "domain": "nti.org",
+      "country": "null",
+      "region": "null",
+      "source_type": "null",
+      "specialization": "null",
+      "language": "null",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:nti.org",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 0,
+          "articles_last_30_days": 0,
+          "duplicate_pct": 0.0,
+          "suggested_action": "registry_existing",
+          "governance_status": ""
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "odi-org",
+      "source_name": "Odi",
+      "domain": "odi.org",
+      "country": "United Kingdom",
+      "region": "International",
+      "source_type": "Policy Think Tank",
+      "specialization": "Geopolitics & Foreign Affairs",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:odi.org&hl=en&gl=US&ceid=US:en",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 121,
+          "articles_last_30_days": 37,
+          "duplicate_pct": 4.96,
+          "suggested_action": "MANUAL_CHECK",
+          "governance_status": "unreviewed"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "orfonline-org",
+      "source_name": "Orfonline",
+      "domain": "orfonline.org",
+      "country": "null",
+      "region": "null",
+      "source_type": "null",
+      "specialization": "null",
+      "language": "null",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:orfonline.org",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 0,
+          "articles_last_30_days": 0,
+          "duplicate_pct": 0.0,
+          "suggested_action": "registry_existing",
+          "governance_status": ""
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "pewresearch-org",
+      "source_name": "Pew Research Center",
+      "domain": "pewresearch.org",
+      "country": "United States",
+      "region": "International",
+      "source_type": "Online News",
+      "specialization": "Development & Governance",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://www.pewresearch.org/feed/",
+          "origin": "direct",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 83,
+          "articles_last_30_days": 1,
+          "duplicate_pct": 16.87,
+          "suggested_action": "KEEP_CANDIDATE",
+          "governance_status": "unreviewed"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "rand-org",
+      "source_name": "Rand",
+      "domain": "rand.org",
+      "country": "null",
+      "region": "null",
+      "source_type": "null",
+      "specialization": "null",
+      "language": "null",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:rand.org",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 0,
+          "articles_last_30_days": 0,
+          "duplicate_pct": 0.0,
+          "suggested_action": "registry_existing",
+          "governance_status": ""
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "rusi-org",
+      "source_name": "Rusi",
+      "domain": "rusi.org",
+      "country": "null",
+      "region": "null",
+      "source_type": "null",
+      "specialization": "null",
+      "language": "null",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:rusi.org",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 0,
+          "articles_last_30_days": 0,
+          "duplicate_pct": 0.0,
+          "suggested_action": "registry_existing",
+          "governance_status": ""
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "saiia-org-za",
+      "source_name": "Saiia",
+      "domain": "saiia.org.za",
+      "country": "South Africa",
+      "region": "International",
+      "source_type": "Regional Think Tank",
+      "specialization": "Regional Affairs",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:saiia.org.za&hl=en&gl=US&ceid=US:en",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 41,
+          "articles_last_30_days": 7,
+          "duplicate_pct": 12.2,
+          "suggested_action": "MANUAL_CHECK",
+          "governance_status": "unreviewed"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "sanaacenter-org",
+      "source_name": "Sanaacenter",
+      "domain": "sanaacenter.org",
+      "country": "Yemen",
+      "region": "Regional",
+      "source_type": "Regional Think Tank",
+      "specialization": "Regional Affairs",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:sanaacenter.org&hl=en&gl=US&ceid=US:en",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 13,
+          "articles_last_30_days": 3,
+          "duplicate_pct": 7.69,
+          "suggested_action": "MANUAL_CHECK",
+          "governance_status": "null"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "sharqforum-org",
+      "source_name": "Sharqforum",
+      "domain": "sharqforum.org",
+      "country": "Turkey",
+      "region": "International",
+      "source_type": "Regional Think Tank",
+      "specialization": "Geopolitics & Foreign Affairs",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:sharqforum.org&hl=en&gl=US&ceid=US:en",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 3,
+          "articles_last_30_days": 1,
+          "duplicate_pct": 0.0,
+          "suggested_action": "MANUAL_CHECK",
+          "governance_status": "unreviewed"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "siis-org-cn",
+      "source_name": "Siis",
+      "domain": "siis.org.cn",
+      "country": "China",
+      "region": "International",
+      "source_type": "State-Affiliated Think Tank",
+      "specialization": "General",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:siis.org.cn&hl=en&gl=US&ceid=US:en",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 8,
+          "articles_last_30_days": 3,
+          "duplicate_pct": 87.5,
+          "suggested_action": "CHECK_REPLACEMENT",
+          "governance_status": "unreviewed"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "sipri-org",
+      "source_name": "Sipri",
+      "domain": "sipri.org",
+      "country": "null",
+      "region": "null",
+      "source_type": "null",
+      "specialization": "null",
+      "language": "null",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:sipri.org",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 0,
+          "articles_last_30_days": 0,
+          "duplicate_pct": 0.0,
+          "suggested_action": "registry_existing",
+          "governance_status": ""
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "stimson-org",
+      "source_name": "Stimson Center",
+      "domain": "stimson.org",
+      "country": "United States",
+      "region": "International",
+      "source_type": "Online News",
+      "specialization": "General",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://www.stimson.org/feed/",
+          "origin": "direct",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 46,
+          "articles_last_30_days": 0,
+          "duplicate_pct": 0.0,
+          "suggested_action": "CHECK_INACTIVE",
+          "governance_status": "unreviewed"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "takshashila-org-in",
+      "source_name": "Takshashila",
+      "domain": "takshashila.org.in",
+      "country": "India",
+      "region": "International",
+      "source_type": "Policy Think Tank",
+      "specialization": "Development & Governance",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:takshashila.org.in&hl=en&gl=US&ceid=US:en",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 65,
+          "articles_last_30_days": 20,
+          "duplicate_pct": 0.0,
+          "suggested_action": "MANUAL_CHECK",
+          "governance_status": "unreviewed"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "tcf-org",
+      "source_name": "Tcf",
+      "domain": "tcf.org",
+      "country": "United States",
+      "region": "International",
+      "source_type": "Policy Think Tank",
+      "specialization": "Business & Economy",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:tcf.org&hl=en&gl=US&ceid=US:en",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 7,
+          "articles_last_30_days": 3,
+          "duplicate_pct": 0.0,
+          "suggested_action": "MANUAL_CHECK",
+          "governance_status": "unreviewed"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "thedialogue-org",
+      "source_name": "Thedialogue",
+      "domain": "thedialogue.org",
+      "country": "United States",
+      "region": "International",
+      "source_type": "Policy Think Tank",
+      "specialization": "Business & Economy",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:thedialogue.org&hl=en&gl=US&ceid=US:en",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 13,
+          "articles_last_30_days": 5,
+          "duplicate_pct": 7.69,
+          "suggested_action": "MANUAL_CHECK",
+          "governance_status": "unreviewed"
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "understandingwar-org",
+      "source_name": "Understandingwar",
+      "domain": "understandingwar.org",
+      "country": "null",
+      "region": "null",
+      "source_type": "null",
+      "specialization": "null",
+      "language": "null",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:understandingwar.org",
+          "origin": "google_news",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 0,
+          "articles_last_30_days": 0,
+          "duplicate_pct": 0.0,
+          "suggested_action": "registry_existing",
+          "governance_status": ""
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "washingtoninstitute-org",
+      "source_name": "Washington Institute",
+      "domain": "washingtoninstitute.org",
+      "country": "United States",
+      "region": "International",
+      "source_type": "Regional Think Tank",
+      "specialization": "Middle East",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://www.washingtoninstitute.org/rss.xml",
+          "origin": "direct",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 0,
+          "articles_last_30_days": 0,
+          "duplicate_pct": 0.0,
+          "suggested_action": "registry_existing",
+          "governance_status": ""
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    },
+    {
+      "source_id": "wilsoncenter-org",
+      "source_name": "Wilson Center",
+      "domain": "wilsoncenter.org",
+      "country": "United States",
+      "region": "International",
+      "source_type": "Policy Think Tank",
+      "specialization": "Geopolitics & Foreign Affairs",
+      "language": "English",
+      "status": "validated",
+      "route_priority": "existing_dashboard_first",
+      "routes": [
+        {
+          "type": "feed",
+          "url": "https://www.wilsoncenter.org/rss.xml",
+          "origin": "direct",
+          "evidence": "existing_dashboard_registry",
+          "articles_count": 0,
+          "articles_last_30_days": 0,
+          "duplicate_pct": 0.0,
+          "suggested_action": "registry_existing",
+          "governance_status": ""
+        }
+      ],
+      "fallback_discovery": true,
+      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+    }
+  ]
+}
