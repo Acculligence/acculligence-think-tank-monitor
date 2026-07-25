@@ -27,7 +27,7 @@ ARTICLE_FIELDS = [
     'collection_route','review_status','saudi_summary_ar','topic','sentiment','author'
 ]
 AUDIT_FIELDS = [
-    'source','domain','status','routes_used','candidate_urls','dated_items',
+    'source','domain','status','routes_used','candidate_urls','dated_items','feed_items',
     'matched_items','duration_seconds','notes'
 ]
 
@@ -65,6 +65,7 @@ def run_source(index: int, total: int, source: dict, args, checkpoint_dir: Path)
                 'routes_used': '',
                 'candidate_urls': 0,
                 'dated_items': 0,
+                'feed_items': 0,
                 'matched_items': 0,
                 'duration_seconds': 0,
                 'notes': 'No validated official route.'
@@ -106,7 +107,7 @@ def run_source(index: int, total: int, source: dict, args, checkpoint_dir: Path)
                 payload = {'articles': [], 'audit': {
                     'source': source['source_name'], 'domain': source['domain'],
                     'status': 'worker_error', 'routes_used': '', 'candidate_urls': 0,
-                    'dated_items': 0, 'matched_items': 0,
+                    'dated_items': 0, 'feed_items': 0, 'matched_items': 0,
                     'duration_seconds': round(time.monotonic()-started, 2),
                     'notes': message[-1200:],
                 }}
@@ -114,7 +115,7 @@ def run_source(index: int, total: int, source: dict, args, checkpoint_dir: Path)
             payload = {'articles': [], 'audit': {
                 'source': source['source_name'], 'domain': source['domain'],
                 'status': 'source_timeout', 'routes_used': '', 'candidate_urls': 0,
-                'dated_items': 0, 'matched_items': 0,
+                'dated_items': 0, 'feed_items': 0, 'matched_items': 0,
                 'duration_seconds': round(time.monotonic()-started, 2),
                 'notes': f'Hard source timeout after {args.source_timeout} seconds; source skipped safely.',
             }}
@@ -122,7 +123,7 @@ def run_source(index: int, total: int, source: dict, args, checkpoint_dir: Path)
             payload = {'articles': [], 'audit': {
                 'source': source['source_name'], 'domain': source['domain'],
                 'status': 'controller_error', 'routes_used': '', 'candidate_urls': 0,
-                'dated_items': 0, 'matched_items': 0,
+                'dated_items': 0, 'feed_items': 0, 'matched_items': 0,
                 'duration_seconds': round(time.monotonic()-started, 2),
                 'notes': repr(exc),
             }}
@@ -169,7 +170,7 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument('--start', required=True)
     ap.add_argument('--end', required=True)
-    ap.add_argument('--map', default='config/acquisition_map.json')
+    ap.add_argument('--map', default='config/source_registry.json')
     ap.add_argument('--keywords', default='config/keywords.json')
     ap.add_argument('--output', default='output')
     ap.add_argument('--source-workers', type=int, default=8)
@@ -199,7 +200,7 @@ def main() -> int:
                 payloads.append({'articles': [], 'audit': {
                     'source': source.get('source_name',''), 'domain': source.get('domain',''),
                     'status': 'unexpected_error', 'routes_used': '', 'candidate_urls': 0,
-                    'dated_items': 0, 'matched_items': 0, 'duration_seconds': 0,
+                    'dated_items': 0, 'feed_items': 0, 'matched_items': 0, 'duration_seconds': 0,
                     'notes': repr(exc),
                 }})
 
