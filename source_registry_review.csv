@@ -1,0 +1,84 @@
+﻿source_name,domain,feed_url,origin,articles_count,articles_last_30_days,duplicate_pct,suggested_action,governance_status
+Acsus,acsus.org,https://news.google.com/rss/search?q=site:acsus.org&hl=en&gl=US&ceid=US:en,google_news,4,3,0.0,MANUAL_CHECK,unreviewed
+News,aei.org,https://news.google.com/rss/search?q=site:aei.org,google_news,1594,572,0.69,MANUAL_CHECK,unreviewed
+Africacenter,africacenter.org,https://news.google.com/rss/search?q=site:africacenter.org,google_news,13,6,0.0,MANUAL_CHECK,unreviewed
+Americanprogress,americanprogress.org,https://news.google.com/rss/search?q=site:americanprogress.org,google_news,71,16,1.41,MANUAL_CHECK,unreviewed
+Arab-Reform,arab-reform.net,https://news.google.com/rss/search?q=site:arab-reform.net&hl=en&gl=US&ceid=US:en,google_news,44,4,2.27,MANUAL_CHECK,unreviewed
+Arabcenterdc,arabcenterdc.org,https://news.google.com/rss/search?q=site:arabcenterdc.org&hl=en&gl=US&ceid=US:en,google_news,26,5,0.0,MANUAL_CHECK,unreviewed
+Armscontrol,armscontrol.org,https://news.google.com/rss/search?q=site:armscontrol.org,google_news,14,4,0.0,MANUAL_CHECK,unreviewed
+Atlantic Council,atlanticcouncil.org,https://www.atlanticcouncil.org/feed/,direct,485,145,0.0,KEEP_CANDIDATE,unreviewed
+Belfercenter,belfercenter.org,https://news.google.com/rss/search?q=site:belfercenter.org&hl=en&gl=US&ceid=US:en,google_news,6,1,0.0,MANUAL_CHECK,unreviewed
+Brookings,brookings.edu,https://news.google.com/rss/search?q=site:brookings.edu&hl=en&gl=US&ceid=US:en,google_news,0,0,0.0,registry_existing,
+Bruegel,bruegel.org,https://news.google.com/rss/search?q=site:bruegel.org,google_news,119,31,10.92,MANUAL_CHECK,unreviewed
+Carnegieendowment,carnegieendowment.org,https://news.google.com/rss/search?q=site:carnegieendowment.org&hl=en&gl=US&ceid=US:en,google_news,0,0,0.0,registry_existing,
+Carpo-Bonn,carpo-bonn.org,https://news.google.com/rss/search?q=site:carpo-bonn.org&hl=en&gl=US&ceid=US:en,google_news,6,0,0.0,CHECK_INACTIVE,unreviewed
+Cass,cass.cn,https://news.google.com/rss/search?q=site:cass.cn&hl=en&gl=US&ceid=US:en,google_news,60,19,76.67,MANUAL_CHECK,REPLACE
+Cato,cato.org,https://news.google.com/rss/search?q=site:cato.org,google_news,0,0,0.0,registry_existing,
+Cebri,cebri.org,https://news.google.com/rss/search?q=site:cebri.org&hl=en&gl=US&ceid=US:en,google_news,66,23,12.12,MANUAL_CHECK,unreviewed
+Centre for European Reform,cer.eu,https://www.cer.eu/rss.xml,direct,10,3,0.0,KEEP_CANDIDATE,unreviewed
+Cfr,cfr.org,https://news.google.com/rss/search?q=site:cfr.org&hl=en&gl=US&ceid=US:en,google_news,0,0,0.0,registry_existing,
+Chathamhouse,chathamhouse.org,https://news.google.com/rss/search?q=site:chathamhouse.org,google_news,0,0,0.0,registry_existing,
+Chinausfocus,chinausfocus.com,https://news.google.com/rss/search?q=site:chinausfocus.com&hl=en&gl=US&ceid=US:en,google_news,15,2,0.0,MANUAL_CHECK,unreviewed
+Cidob,cidob.org,https://news.google.com/rss/search?q=site:cidob.org&hl=en&gl=US&ceid=US:en,google_news,172,18,53.49,MANUAL_CHECK,unreviewed
+Ciis,ciis.org.cn,https://news.google.com/rss/search?q=site:ciis.org.cn&hl=en&gl=US&ceid=US:en,google_news,21,4,14.29,MANUAL_CHECK,unreviewed
+Clingendael,clingendael.org,https://news.google.com/rss/search?q=site:clingendael.org&hl=en&gl=US&ceid=US:en,google_news,72,18,36.11,MANUAL_CHECK,unreviewed
+Cmec,cmec.org.uk,https://news.google.com/rss/search?q=site:cmec.org.uk&hl=en&gl=US&ceid=US:en,google_news,5,3,0.0,MANUAL_CHECK,unreviewed
+Center for a New American Security,cnas.org,https://www.cnas.org/feed,direct,0,0,0.0,registry_existing,
+Consejomexicano,consejomexicano.org,https://news.google.com/rss/search?q=site:consejomexicano.org&hl=en&gl=US&ceid=US:en,google_news,4,4,0.0,MANUAL_CHECK,unreviewed
+Cread,cread.dz,https://news.google.com/rss/search?q=site:cread.dz&hl=en&gl=US&ceid=US:en,google_news,2,2,0.0,MANUAL_CHECK,null
+Crisisgroup,crisisgroup.org,https://www.crisisgroup.org/rss,direct,20,20,0.0,KEEP_CANDIDATE,null
+Csis,csis.org,https://news.google.com/rss/search?q=site:csis.org&hl=en&gl=US&ceid=US:en,google_news,0,0,0.0,registry_existing,
+Derasat,derasat.org.bh,https://news.google.com/rss/search?q=site:derasat.org.bh&hl=en&gl=US&ceid=US:en,google_news,49,15,6.12,MANUAL_CHECK,unreviewed
+Dohainstitute,dohainstitute.org,https://news.google.com/rss/search?q=site:dohainstitute.org&hl=en&gl=US&ceid=US:en,google_news,9,1,11.11,MANUAL_CHECK,unreviewed
+Ecdpm,ecdpm.org,https://news.google.com/rss/search?q=site:ecdpm.org&hl=en&gl=US&ceid=US:en,google_news,54,12,0.0,MANUAL_CHECK,unreviewed
+ECFR,ecfr.eu,https://ecfr.eu/feed/,direct,92,27,1.09,KEEP_CANDIDATE,unreviewed
+Egmontinstitute,egmontinstitute.be,https://news.google.com/rss/search?q=site:egmontinstitute.be,google_news,46,8,0.0,MANUAL_CHECK,unreviewed
+Erf,erf.org.eg,https://news.google.com/rss/search?q=site:erf.org.eg&hl=en&gl=US&ceid=US:en,google_news,103,15,0.97,MANUAL_CHECK,unreviewed
+Fas,fas.org,https://news.google.com/rss/search?q=site:fas.org&hl=en&gl=US&ceid=US:en,google_news,35,8,2.86,MANUAL_CHECK,unreviewed
+Gatewayhouse,gatewayhouse.in,https://news.google.com/rss/search?q=site:gatewayhouse.in&hl=en&gl=US&ceid=US:en,google_news,9,2,0.0,MANUAL_CHECK,null
+Gmfus,gmfus.org,https://www.gmfus.org/rss.xml,direct,124,51,0.81,KEEP_CANDIDATE,unreviewed
+Heritage Foundation,heritage.org,https://www.heritage.org/rss,direct,192,47,0.0,KEEP_CANDIDATE,unreviewed
+Hoover Institution,hoover.org,https://www.hoover.org/rss.xml,direct,899,325,3.45,KEEP_CANDIDATE,unreviewed
+Hudson Institute,hudson.org,https://www.hudson.org/rss.xml,direct,0,0,0.0,registry_existing,
+Iai,iai.it,https://news.google.com/rss/search?q=site:iai.it,google_news,82,11,41.46,MANUAL_CHECK,unreviewed
+Icct,icct.nl,https://news.google.com/rss/search?q=site:icct.nl,google_news,0,0,0.0,registry_existing,
+Icwa,icwa.in,https://news.google.com/rss/search?q=site:icwa.in&hl=en&gl=US&ceid=US:en,google_news,64,14,9.38,MANUAL_CHECK,unreviewed
+Idsa,idsa.in,https://news.google.com/rss/search?q=site:idsa.in,google_news,0,0,0.0,registry_existing,
+Ifri,ifri.org,https://news.google.com/rss/search?q=site:ifri.org,google_news,0,0,0.0,registry_existing,
+Iiss,iiss.org,https://news.google.com/rss/search?q=site:iiss.org,google_news,0,0,0.0,registry_existing,
+Ipi,ipi.org,https://news.google.com/rss/search?q=site:ipi.org&hl=en&gl=US&ceid=US:en,google_news,15,0,26.67,CHECK_INACTIVE,unreviewed
+Ipinst,ipinst.org,https://news.google.com/rss/search?q=site:ipinst.org&hl=en&gl=US&ceid=US:en,google_news,5,2,20.0,MANUAL_CHECK,unreviewed
+Ipis,ipis.ir,https://news.google.com/rss/search?q=site:ipis.ir&hl=en&gl=US&ceid=US:en,google_news,284,14,21.13,MANUAL_CHECK,unreviewed
+Ipss-Addis,ipss-addis.org,https://news.google.com/rss/search?q=site:ipss-addis.org&hl=en&gl=US&ceid=US:en,google_news,43,14,0.0,MANUAL_CHECK,unreviewed
+Issafrica,issafrica.org,https://news.google.com/rss/search?q=site:issafrica.org,google_news,0,0,0.0,registry_existing,
+The Jamestown Foundation,jamestown.org,https://jamestown.org/feed/,direct,187,80,0.0,KEEP_CANDIDATE,unreviewed
+Jiia,jiia.or.jp,https://news.google.com/rss/search?q=site:jiia.or.jp&hl=en&gl=US&ceid=US:en,google_news,49,12,8.16,MANUAL_CHECK,unreviewed
+Jri,jri.co.jp,https://news.google.com/rss/search?q=site:jri.co.jp&hl=en&gl=US&ceid=US:en,google_news,15,3,6.67,MANUAL_CHECK,unreviewed
+Kdi,kdi.re.kr,https://news.google.com/rss/search?q=site:kdi.re.kr&hl=en&gl=US&ceid=US:en,google_news,545,119,31.01,MANUAL_CHECK,unreviewed
+Kfcris,kfcris.com,https://news.google.com/rss/search?q=site:kfcris.com&hl=en&gl=US&ceid=US:en,google_news,5,4,60.0,MANUAL_CHECK,null
+Kippra,kippra.or.ke,https://news.google.com/rss/search?q=site:kippra.or.ke&hl=en&gl=US&ceid=US:en,google_news,1790,1706,94.75,CHECK_REPLACEMENT,REPLACE
+Lcps-Lebanon,lcps-lebanon.org,https://news.google.com/rss/search?q=site:lcps-lebanon.org&hl=en&gl=US&ceid=US:en,google_news,15,5,6.67,MANUAL_CHECK,unreviewed
+Lkyspp,lkyspp.nus.edu.sg,https://news.google.com/rss/search?q=site:lkyspp.nus.edu.sg,google_news,0,0,0.0,registry_existing,
+Lowy Institute,lowyinstitute.org,https://www.lowyinstitute.org/publications/rss.xml,direct,45,28,4.44,KEEP_CANDIDATE,unreviewed
+Martenscentre,martenscentre.eu,https://news.google.com/rss/search?q=site:martenscentre.eu,google_news,11,3,0.0,MANUAL_CHECK,unreviewed
+Mei,mei.edu,https://news.google.com/rss/search?q=site:mei.edu&hl=en-US&gl=US&ceid=US:en,google_news,0,0,0.0,registry_existing,
+Mena-Studies,mena-studies.org,https://news.google.com/rss/search?q=site:mena-studies.org&hl=en&gl=US&ceid=US:en,google_news,4,0,0.0,CHECK_INACTIVE,unreviewed
+Merics,merics.org,https://news.google.com/rss/search?q=site:merics.org&hl=en&gl=US&ceid=US:en,google_news,80,19,27.5,MANUAL_CHECK,unreviewed
+Nti,nti.org,https://news.google.com/rss/search?q=site:nti.org,google_news,0,0,0.0,registry_existing,
+Odi,odi.org,https://news.google.com/rss/search?q=site:odi.org&hl=en&gl=US&ceid=US:en,google_news,121,37,4.96,MANUAL_CHECK,unreviewed
+Orfonline,orfonline.org,https://news.google.com/rss/search?q=site:orfonline.org,google_news,0,0,0.0,registry_existing,
+Pew Research Center,pewresearch.org,https://www.pewresearch.org/feed/,direct,83,1,16.87,KEEP_CANDIDATE,unreviewed
+Rand,rand.org,https://news.google.com/rss/search?q=site:rand.org,google_news,0,0,0.0,registry_existing,
+Rusi,rusi.org,https://news.google.com/rss/search?q=site:rusi.org,google_news,0,0,0.0,registry_existing,
+Saiia,saiia.org.za,https://news.google.com/rss/search?q=site:saiia.org.za&hl=en&gl=US&ceid=US:en,google_news,41,7,12.2,MANUAL_CHECK,unreviewed
+Sanaacenter,sanaacenter.org,https://news.google.com/rss/search?q=site:sanaacenter.org&hl=en&gl=US&ceid=US:en,google_news,13,3,7.69,MANUAL_CHECK,null
+Sharqforum,sharqforum.org,https://news.google.com/rss/search?q=site:sharqforum.org&hl=en&gl=US&ceid=US:en,google_news,3,1,0.0,MANUAL_CHECK,unreviewed
+Siis,siis.org.cn,https://news.google.com/rss/search?q=site:siis.org.cn&hl=en&gl=US&ceid=US:en,google_news,8,3,87.5,CHECK_REPLACEMENT,unreviewed
+Sipri,sipri.org,https://news.google.com/rss/search?q=site:sipri.org,google_news,0,0,0.0,registry_existing,
+Stimson Center,stimson.org,https://www.stimson.org/feed/,direct,46,0,0.0,CHECK_INACTIVE,unreviewed
+Takshashila,takshashila.org.in,https://news.google.com/rss/search?q=site:takshashila.org.in&hl=en&gl=US&ceid=US:en,google_news,65,20,0.0,MANUAL_CHECK,unreviewed
+Tcf,tcf.org,https://news.google.com/rss/search?q=site:tcf.org&hl=en&gl=US&ceid=US:en,google_news,7,3,0.0,MANUAL_CHECK,unreviewed
+Thedialogue,thedialogue.org,https://news.google.com/rss/search?q=site:thedialogue.org&hl=en&gl=US&ceid=US:en,google_news,13,5,7.69,MANUAL_CHECK,unreviewed
+Understandingwar,understandingwar.org,https://news.google.com/rss/search?q=site:understandingwar.org,google_news,0,0,0.0,registry_existing,
+Washington Institute,washingtoninstitute.org,https://www.washingtoninstitute.org/rss.xml,direct,0,0,0.0,registry_existing,
+Wilson Center,wilsoncenter.org,https://www.wilsoncenter.org/rss.xml,direct,0,0,0.0,registry_existing,
