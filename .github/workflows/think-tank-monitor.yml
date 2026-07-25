@@ -1,25 +1,25 @@
-name: Think Tank Acquisition Map and Monitor v4
+name: Think Tank Monitor v5 — Existing Registry First
 
 on:
   workflow_dispatch:
     inputs:
       start:
-        description: Start date YYYY-MM-DD
+        description: Completed start date YYYY-MM-DD
         required: true
-        default: '2026-07-25'
+        default: '2026-07-18'
       end:
-        description: End date YYYY-MM-DD
+        description: Completed end date YYYY-MM-DD
         required: true
-        default: '2026-07-31'
-      rebuild_map:
-        description: Rebuild acquisition map
+        default: '2026-07-24'
+      force:
+        description: Ignore existing checkpoints
         required: true
         type: choice
-        options: ['no', 'yes']
-        default: 'no'
+        options: ['yes','no']
+        default: 'yes'
 
 concurrency:
-  group: think-tank-monitor-v4
+  group: think-tank-monitor-v5
   cancel-in-progress: false
 
 jobs:
@@ -28,62 +28,55 @@ jobs:
     timeout-minutes: 45
     permissions:
       contents: write
-
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
           cache: pip
-
       - name: Install dependencies
         run: pip install -r requirements.txt
-
-      - name: Build validated acquisition map
-        if: ${{ github.event.inputs.rebuild_map == 'yes' || hashFiles('config/acquisition_map.json') == '' }}
-        run: python build_acquisition_map.py
-
-      - name: Save acquisition map
-        if: ${{ github.event.inputs.rebuild_map == 'yes' || hashFiles('config/acquisition_map.json') == '' }}
+      - name: Verify existing source registry
         run: |
-          git config user.name "Acculligence Bot"
-          git config user.email "bot@acculligence.com"
-          git add config/acquisition_map.json
-          git commit -m "Update validated acquisition map" || true
-          git push || true
-
-      - name: Ensure acquisition map exists
-        run: test -f config/acquisition_map.json
-
-      - name: Collect publications safely
+          test -f config/source_registry.json
+          python - <<'PY'
+          import json
+          p=json.load(open('config/source_registry.json',encoding='utf-8'))
+          assert len(p['sources']) == 83
+          assert all(s.get('routes') for s in p['sources'])
+          print({'sources':len(p['sources']),'validated':sum(s['status']=='validated' for s in p['sources'])})
+          PY
+      - name: Collect publications from existing feeds
+        timeout-minutes: 30
         run: |
+          EXTRA=""
+          if [ "${{ github.event.inputs.force }}" = "yes" ]; then EXTRA="--force"; fi
           python collector.py \
             --start "${{ github.event.inputs.start }}" \
             --end "${{ github.event.inputs.end }}" \
+            --map config/source_registry.json \
             --source-workers 8 \
             --article-workers 6 \
             --source-timeout 75 \
             --request-timeout 12 \
-            --max-candidates 240
-
+            --max-candidates 300 \
+            $EXTRA
       - name: Upload outputs and checkpoints
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: think-tank-monitor-${{ github.event.inputs.start }}-${{ github.event.inputs.end }}
+          name: think-tank-monitor-v5-${{ github.event.inputs.start }}-${{ github.event.inputs.end }}
           path: output/
           if-no-files-found: warn
           retention-days: 30
-
-      - name: Commit outputs and checkpoints
+      - name: Commit outputs
         if: always()
         run: |
           git config user.name "Acculligence Bot"
           git config user.email "bot@acculligence.com"
-          git pull --rebase || true
-          git add output/ config/acquisition_map.json
-          git commit -m "Update think tank monitoring output" || true
-          git push || true
+          git pull --rebase
+          git add output/ config/source_registry.json
+          git commit -m "Update v5 think tank monitoring output" || true
+          git push
