@@ -1,0 +1,15 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Gmfus",
+    "domain": "gmfus.org",
+    "status": "complete",
+    "routes_used": "https://www.gmfus.org/rss.xml",
+    "candidate_urls": 9,
+    "dated_items": 9,
+    "feed_items": 10,
+    "matched_items": 0,
+    "duration_seconds": 4.34,
+    "notes": ""
+  }
+}

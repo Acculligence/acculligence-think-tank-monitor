@@ -1,0 +1,15 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Bruegel",
+    "domain": "bruegel.org",
+    "status": "complete",
+    "routes_used": "https://news.google.com/rss/search?q=site:bruegel.org",
+    "candidate_urls": 5,
+    "dated_items": 5,
+    "feed_items": 100,
+    "matched_items": 0,
+    "duration_seconds": 3.77,
+    "notes": ""
+  }
+}

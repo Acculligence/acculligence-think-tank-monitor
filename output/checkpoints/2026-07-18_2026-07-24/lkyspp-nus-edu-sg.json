@@ -1,0 +1,15 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Lkyspp",
+    "domain": "lkyspp.nus.edu.sg",
+    "status": "complete",
+    "routes_used": "https://news.google.com/rss/search?q=site:lkyspp.nus.edu.sg",
+    "candidate_urls": 0,
+    "dated_items": 0,
+    "feed_items": 100,
+    "matched_items": 0,
+    "duration_seconds": 2.76,
+    "notes": ""
+  }
+}

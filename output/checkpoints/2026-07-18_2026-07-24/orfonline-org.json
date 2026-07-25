@@ -1,0 +1,15 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Orfonline",
+    "domain": "orfonline.org",
+    "status": "complete",
+    "routes_used": "https://news.google.com/rss/search?q=site:orfonline.org",
+    "candidate_urls": 4,
+    "dated_items": 4,
+    "feed_items": 100,
+    "matched_items": 0,
+    "duration_seconds": 2.0,
+    "notes": ""
+  }
+}

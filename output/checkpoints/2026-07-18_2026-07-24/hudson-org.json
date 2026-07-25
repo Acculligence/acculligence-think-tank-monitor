@@ -1,0 +1,15 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Hudson Institute",
+    "domain": "hudson.org",
+    "status": "complete",
+    "routes_used": "https://www.hudson.org/rss.xml",
+    "candidate_urls": 10,
+    "dated_items": 10,
+    "feed_items": 10,
+    "matched_items": 0,
+    "duration_seconds": 5.65,
+    "notes": ""
+  }
+}

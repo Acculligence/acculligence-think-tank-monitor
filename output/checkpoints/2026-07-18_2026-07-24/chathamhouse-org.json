@@ -1,0 +1,15 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Chathamhouse",
+    "domain": "chathamhouse.org",
+    "status": "complete",
+    "routes_used": "https://news.google.com/rss/search?q=site:chathamhouse.org",
+    "candidate_urls": 7,
+    "dated_items": 7,
+    "feed_items": 100,
+    "matched_items": 0,
+    "duration_seconds": 3.0,
+    "notes": ""
+  }
+}

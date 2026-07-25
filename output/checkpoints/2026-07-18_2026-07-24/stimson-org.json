@@ -1,0 +1,15 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Stimson Center",
+    "domain": "stimson.org",
+    "status": "route_error",
+    "routes_used": "",
+    "candidate_urls": 0,
+    "dated_items": 0,
+    "feed_items": 0,
+    "matched_items": 0,
+    "duration_seconds": 2.63,
+    "notes": "feed https://www.stimson.org/feed/: HTTPError: 403 Client Error: Forbidden for url: https://www.stimson.org/feed/"
+  }
+}

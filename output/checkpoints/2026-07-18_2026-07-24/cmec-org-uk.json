@@ -1,0 +1,15 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Cmec",
+    "domain": "cmec.org.uk",
+    "status": "complete",
+    "routes_used": "https://news.google.com/rss/search?q=site:cmec.org.uk&hl=en&gl=US&ceid=US:en",
+    "candidate_urls": 2,
+    "dated_items": 2,
+    "feed_items": 13,
+    "matched_items": 0,
+    "duration_seconds": 2.71,
+    "notes": ""
+  }
+}

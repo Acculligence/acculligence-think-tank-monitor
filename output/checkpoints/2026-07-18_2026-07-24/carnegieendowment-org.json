@@ -1,0 +1,31 @@
+{
+  "articles": [
+    {
+      "source": "Carnegieendowment",
+      "domain": "carnegieendowment.org",
+      "title": "What We Know About the U.S.-Saudi Nuclear Deal - Carnegie Endowment for International Peace",
+      "published_at": "2026-07-23T21:29:10+00:00",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOM1JQRWFldERkd085dWhNQlB4SDNNRUNfWVhnS19GRkd4UWIzVHpuajZxd1NQTnBkTEFvMHd4RFVZMVpOVEhDSDA3VU80OUJhbVN4TFpOaHZjQWR5cjJmZ3poNzN5dmtnTE5zQ1A2MkhESUNYUVlhZ012RzNLLWlxbXNmV3Nob0JkYV9PTDFsUXIyLVdvNnM5aFk3eHBFNlE?oc=5",
+      "matched_keywords": "Saudi",
+      "body": "What We Know About the U.S.-Saudi Nuclear Deal Carnegie Endowment for International Peace",
+      "collection_route": "https://news.google.com/rss/search?q=site:carnegieendowment.org&hl=en&gl=US&ceid=US:en",
+      "review_status": "discovery_partial",
+      "saudi_summary_ar": "",
+      "topic": "",
+      "sentiment": "",
+      "author": ""
+    }
+  ],
+  "audit": {
+    "source": "Carnegieendowment",
+    "domain": "carnegieendowment.org",
+    "status": "complete",
+    "routes_used": "https://news.google.com/rss/search?q=site:carnegieendowment.org&hl=en&gl=US&ceid=US:en",
+    "candidate_urls": 3,
+    "dated_items": 3,
+    "feed_items": 100,
+    "matched_items": 1,
+    "duration_seconds": 3.16,
+    "notes": ""
+  }
+}

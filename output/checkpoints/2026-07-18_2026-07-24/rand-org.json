@@ -1,0 +1,15 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Rand",
+    "domain": "rand.org",
+    "status": "complete",
+    "routes_used": "https://news.google.com/rss/search?q=site:rand.org",
+    "candidate_urls": 3,
+    "dated_items": 3,
+    "feed_items": 100,
+    "matched_items": 0,
+    "duration_seconds": 2.72,
+    "notes": ""
+  }
+}

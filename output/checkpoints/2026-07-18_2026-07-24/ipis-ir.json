@@ -1,0 +1,15 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Ipis",
+    "domain": "ipis.ir",
+    "status": "complete",
+    "routes_used": "https://news.google.com/rss/search?q=site:ipis.ir&hl=en&gl=US&ceid=US:en",
+    "candidate_urls": 1,
+    "dated_items": 1,
+    "feed_items": 69,
+    "matched_items": 0,
+    "duration_seconds": 2.58,
+    "notes": ""
+  }
+}

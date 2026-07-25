@@ -1,0 +1,15 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Cato",
+    "domain": "cato.org",
+    "status": "complete",
+    "routes_used": "https://news.google.com/rss/search?q=site:cato.org",
+    "candidate_urls": 37,
+    "dated_items": 37,
+    "feed_items": 100,
+    "matched_items": 0,
+    "duration_seconds": 2.8,
+    "notes": ""
+  }
+}

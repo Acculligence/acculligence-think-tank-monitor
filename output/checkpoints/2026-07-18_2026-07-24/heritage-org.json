@@ -1,0 +1,15 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Heritage Foundation",
+    "domain": "heritage.org",
+    "status": "complete",
+    "routes_used": "https://www.heritage.org/rss",
+    "candidate_urls": 16,
+    "dated_items": 16,
+    "feed_items": 20,
+    "matched_items": 0,
+    "duration_seconds": 2.73,
+    "notes": ""
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Carpo-Bonn",
+    "domain": "carpo-bonn.org",
+    "status": "complete",
+    "routes_used": "https://news.google.com/rss/search?q=site:carpo-bonn.org&hl=en&gl=US&ceid=US:en",
+    "candidate_urls": 0,
+    "dated_items": 0,
+    "feed_items": 100,
+    "matched_items": 0,
+    "duration_seconds": 2.52,
+    "notes": ""
+  }
+}

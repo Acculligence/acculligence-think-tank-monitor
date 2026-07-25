@@ -1,0 +1,15 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Understandingwar",
+    "domain": "understandingwar.org",
+    "status": "complete",
+    "routes_used": "https://news.google.com/rss/search?q=site:understandingwar.org",
+    "candidate_urls": 18,
+    "dated_items": 18,
+    "feed_items": 100,
+    "matched_items": 0,
+    "duration_seconds": 2.43,
+    "notes": ""
+  }
+}

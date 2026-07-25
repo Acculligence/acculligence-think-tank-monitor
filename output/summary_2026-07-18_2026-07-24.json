@@ -1,0 +1,11 @@
+{
+  "sources": 83,
+  "articles": 12,
+  "statuses": {
+    "complete": 79,
+    "route_error": 4
+  },
+  "articles_file": "output/articles_2026-07-18_2026-07-24.csv",
+  "audit_file": "output/audit_2026-07-18_2026-07-24.csv",
+  "checkpoint_directory": "output/checkpoints/2026-07-18_2026-07-24"
+}

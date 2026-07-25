@@ -1,0 +1,31 @@
+{
+  "articles": [
+    {
+      "source": "Cfr",
+      "domain": "cfr.org",
+      "title": "The U.S.-Saudi Nuclear Deal Set Off Tremors. Is It Still Alive? - Council on Foreign Relations",
+      "published_at": "2026-07-23T20:54:50+00:00",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQmlNcUc4RzQ2dDhFWk5oOHdHU2hpdW1PWkxsTS0tYUdHcjg5MkN6REwwQWhQblJrWFllM185c3MzYXBYeXZwSjNkckVGOGhSOG9qanJwTi1HVTlaeXotNHdFd2s3UTB5QnQ4YVRSYzhoNmliT0N6VFYtdXpEV1RndTAtMld6TUhQZ0EtY0JyVUN6WVE?oc=5",
+      "matched_keywords": "Saudi",
+      "body": "The U.S.-Saudi Nuclear Deal Set Off Tremors. Is It Still Alive? Council on Foreign Relations",
+      "collection_route": "https://news.google.com/rss/search?q=site:cfr.org&hl=en&gl=US&ceid=US:en",
+      "review_status": "discovery_partial",
+      "saudi_summary_ar": "",
+      "topic": "",
+      "sentiment": "",
+      "author": ""
+    }
+  ],
+  "audit": {
+    "source": "Cfr",
+    "domain": "cfr.org",
+    "status": "complete",
+    "routes_used": "https://news.google.com/rss/search?q=site:cfr.org&hl=en&gl=US&ceid=US:en",
+    "candidate_urls": 13,
+    "dated_items": 13,
+    "feed_items": 100,
+    "matched_items": 1,
+    "duration_seconds": 2.77,
+    "notes": ""
+  }
+}

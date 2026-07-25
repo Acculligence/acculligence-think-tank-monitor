@@ -1,0 +1,15 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Gatewayhouse",
+    "domain": "gatewayhouse.in",
+    "status": "complete",
+    "routes_used": "https://news.google.com/rss/search?q=site:gatewayhouse.in&hl=en&gl=US&ceid=US:en",
+    "candidate_urls": 0,
+    "dated_items": 0,
+    "feed_items": 100,
+    "matched_items": 0,
+    "duration_seconds": 2.13,
+    "notes": ""
+  }
+}

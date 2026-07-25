@@ -1,0 +1,15 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Kippra",
+    "domain": "kippra.or.ke",
+    "status": "complete",
+    "routes_used": "https://news.google.com/rss/search?q=site:kippra.or.ke&hl=en&gl=US&ceid=US:en",
+    "candidate_urls": 24,
+    "dated_items": 24,
+    "feed_items": 100,
+    "matched_items": 0,
+    "duration_seconds": 2.18,
+    "notes": ""
+  }
+}

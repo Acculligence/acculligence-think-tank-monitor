@@ -1,0 +1,15 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Sipri",
+    "domain": "sipri.org",
+    "status": "complete",
+    "routes_used": "https://news.google.com/rss/search?q=site:sipri.org",
+    "candidate_urls": 2,
+    "dated_items": 2,
+    "feed_items": 100,
+    "matched_items": 0,
+    "duration_seconds": 2.34,
+    "notes": ""
+  }
+}

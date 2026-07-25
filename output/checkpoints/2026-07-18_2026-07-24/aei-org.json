@@ -1,0 +1,15 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "News",
+    "domain": "aei.org",
+    "status": "complete",
+    "routes_used": "https://news.google.com/rss/search?q=site:aei.org",
+    "candidate_urls": 51,
+    "dated_items": 51,
+    "feed_items": 100,
+    "matched_items": 0,
+    "duration_seconds": 3.61,
+    "notes": ""
+  }
+}

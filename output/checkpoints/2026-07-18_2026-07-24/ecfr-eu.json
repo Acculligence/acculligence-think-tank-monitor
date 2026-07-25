@@ -1,0 +1,15 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "ECFR",
+    "domain": "ecfr.eu",
+    "status": "complete",
+    "routes_used": "https://ecfr.eu/feed/",
+    "candidate_urls": 7,
+    "dated_items": 7,
+    "feed_items": 25,
+    "matched_items": 0,
+    "duration_seconds": 5.85,
+    "notes": ""
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Acsus",
+    "domain": "acsus.org",
+    "status": "complete",
+    "routes_used": "https://news.google.com/rss/search?q=site:acsus.org&hl=en&gl=US&ceid=US:en",
+    "candidate_urls": 0,
+    "dated_items": 0,
+    "feed_items": 24,
+    "matched_items": 0,
+    "duration_seconds": 2.72,
+    "notes": ""
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Merics",
+    "domain": "merics.org",
+    "status": "complete",
+    "routes_used": "https://news.google.com/rss/search?q=site:merics.org&hl=en&gl=US&ceid=US:en",
+    "candidate_urls": 3,
+    "dated_items": 3,
+    "feed_items": 100,
+    "matched_items": 0,
+    "duration_seconds": 2.44,
+    "notes": ""
+  }
+}

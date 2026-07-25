@@ -1,0 +1,15 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Kdi",
+    "domain": "kdi.re.kr",
+    "status": "complete",
+    "routes_used": "https://news.google.com/rss/search?q=site:kdi.re.kr&hl=en&gl=US&ceid=US:en",
+    "candidate_urls": 19,
+    "dated_items": 19,
+    "feed_items": 100,
+    "matched_items": 0,
+    "duration_seconds": 2.9,
+    "notes": ""
+  }
+}

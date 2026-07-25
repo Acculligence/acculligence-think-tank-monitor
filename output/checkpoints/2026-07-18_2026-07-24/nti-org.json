@@ -1,0 +1,15 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Nti",
+    "domain": "nti.org",
+    "status": "complete",
+    "routes_used": "https://news.google.com/rss/search?q=site:nti.org",
+    "candidate_urls": 1,
+    "dated_items": 1,
+    "feed_items": 100,
+    "matched_items": 0,
+    "duration_seconds": 2.68,
+    "notes": ""
+  }
+}

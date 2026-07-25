@@ -1,0 +1,15 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Mena-Studies",
+    "domain": "mena-studies.org",
+    "status": "complete",
+    "routes_used": "https://news.google.com/rss/search?q=site:mena-studies.org&hl=en&gl=US&ceid=US:en",
+    "candidate_urls": 0,
+    "dated_items": 0,
+    "feed_items": 48,
+    "matched_items": 0,
+    "duration_seconds": 2.53,
+    "notes": ""
+  }
+}

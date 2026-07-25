@@ -1,0 +1,15 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Brookings",
+    "domain": "brookings.edu",
+    "status": "complete",
+    "routes_used": "https://news.google.com/rss/search?q=site:brookings.edu&hl=en&gl=US&ceid=US:en",
+    "candidate_urls": 19,
+    "dated_items": 19,
+    "feed_items": 100,
+    "matched_items": 0,
+    "duration_seconds": 2.99,
+    "notes": ""
+  }
+}

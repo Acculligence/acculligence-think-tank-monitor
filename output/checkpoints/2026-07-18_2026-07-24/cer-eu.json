@@ -1,0 +1,15 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Centre for European Reform",
+    "domain": "cer.eu",
+    "status": "complete",
+    "routes_used": "https://www.cer.eu/rss.xml",
+    "candidate_urls": 0,
+    "dated_items": 0,
+    "feed_items": 10,
+    "matched_items": 0,
+    "duration_seconds": 3.32,
+    "notes": ""
+  }
+}

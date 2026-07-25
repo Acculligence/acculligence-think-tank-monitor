@@ -1,0 +1,15 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Mei",
+    "domain": "mei.edu",
+    "status": "complete",
+    "routes_used": "https://news.google.com/rss/search?q=site:mei.edu&hl=en-US&gl=US&ceid=US:en",
+    "candidate_urls": 0,
+    "dated_items": 0,
+    "feed_items": 100,
+    "matched_items": 0,
+    "duration_seconds": 3.2,
+    "notes": ""
+  }
+}

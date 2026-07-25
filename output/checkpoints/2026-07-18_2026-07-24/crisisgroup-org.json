@@ -1,0 +1,15 @@
+{
+  "articles": [],
+  "audit": {
+    "source": "Crisisgroup",
+    "domain": "crisisgroup.org",
+    "status": "complete",
+    "routes_used": "https://www.crisisgroup.org/rss",
+    "candidate_urls": 0,
+    "dated_items": 0,
+    "feed_items": 10,
+    "matched_items": 0,
+    "duration_seconds": 3.5,
+    "notes": ""
+  }
+}
