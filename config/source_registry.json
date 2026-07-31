@@ -1,6 +1,6 @@
 {
-  "version": "5.0",
-  "generated_from": "Acculligence existing dashboard registries",
+  "version": "mvp-simple-1.0",
+  "generated_from": "existing_registry_plus_runtime_probe_2026-07-31",
   "sources": [
     {
       "source_id": "acsus-org",
@@ -31,7 +31,7 @@
     },
     {
       "source_id": "aei-org",
-      "source_name": "News",
+      "source_name": "American Enterprise Institute",
       "domain": "aei.org",
       "country": "United States",
       "region": "International",
@@ -201,22 +201,25 @@
       "specialization": "Geopolitics & Foreign Affairs",
       "language": "English",
       "status": "validated",
-      "route_priority": "existing_dashboard_first",
+      "route_priority": "direct_then_google_news_fallback",
       "routes": [
         {
           "type": "feed",
           "url": "https://www.atlanticcouncil.org/feed/",
           "origin": "direct",
-          "evidence": "existing_dashboard_registry",
-          "articles_count": 485,
-          "articles_last_30_days": 145,
-          "duplicate_pct": 0.0,
-          "suggested_action": "KEEP_CANDIDATE",
-          "governance_status": "unreviewed"
+          "evidence": "runtime_probe_2026-07-31",
+          "suggested_action": "KEEP"
+        },
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:atlanticcouncil.org&hl=en&gl=US&ceid=US:en",
+          "origin": "google_news",
+          "evidence": "generated_fallback",
+          "suggested_action": "FALLBACK"
         }
       ],
       "fallback_discovery": true,
-      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+      "notes": "Direct feed confirmed by runtime probe; Google News retained as fallback discovery."
     },
     {
       "source_id": "belfercenter-org",
@@ -490,7 +493,7 @@
     },
     {
       "source_id": "chathamhouse-org",
-      "source_name": "Chathamhouse",
+      "source_name": "Chatham House",
       "domain": "chathamhouse.org",
       "country": "null",
       "region": "null",
@@ -498,22 +501,25 @@
       "specialization": "null",
       "language": "null",
       "status": "validated",
-      "route_priority": "existing_dashboard_first",
+      "route_priority": "direct_then_google_news_fallback",
       "routes": [
         {
           "type": "feed",
-          "url": "https://news.google.com/rss/search?q=site:chathamhouse.org",
+          "url": "https://www.chathamhouse.org/path/whatsnew.xml",
+          "origin": "direct",
+          "evidence": "runtime_probe_2026-07-31",
+          "suggested_action": "KEEP"
+        },
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:chathamhouse.org&hl=en&gl=US&ceid=US:en",
           "origin": "google_news",
           "evidence": "existing_dashboard_registry",
-          "articles_count": 0,
-          "articles_last_30_days": 0,
-          "duplicate_pct": 0.0,
-          "suggested_action": "registry_existing",
-          "governance_status": ""
+          "suggested_action": "FALLBACK"
         }
       ],
       "fallback_discovery": true,
-      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+      "notes": "Direct feed confirmed by runtime probe; Google News retained as fallback discovery."
     },
     {
       "source_id": "chinausfocus-com",
@@ -1065,22 +1071,25 @@
       "specialization": "General",
       "language": "English",
       "status": "validated",
-      "route_priority": "existing_dashboard_first",
+      "route_priority": "direct_then_google_news_fallback",
       "routes": [
         {
           "type": "feed",
-          "url": "https://www.hoover.org/rss.xml",
+          "url": "https://www.hoover.org/feed",
           "origin": "direct",
-          "evidence": "existing_dashboard_registry",
-          "articles_count": 899,
-          "articles_last_30_days": 325,
-          "duplicate_pct": 3.45,
-          "suggested_action": "KEEP_CANDIDATE",
-          "governance_status": "unreviewed"
+          "evidence": "runtime_probe_2026-07-31",
+          "suggested_action": "KEEP"
+        },
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:hoover.org&hl=en&gl=US&ceid=US:en",
+          "origin": "google_news",
+          "evidence": "generated_fallback",
+          "suggested_action": "FALLBACK"
         }
       ],
       "fallback_discovery": true,
-      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+      "notes": "Direct feed confirmed by runtime probe; Google News retained as fallback discovery."
     },
     {
       "source_id": "hudson-org",
@@ -1092,22 +1101,25 @@
       "specialization": "Geopolitics & Foreign Affairs",
       "language": "English",
       "status": "validated",
-      "route_priority": "existing_dashboard_first",
+      "route_priority": "direct_then_google_news_fallback",
       "routes": [
         {
           "type": "feed",
           "url": "https://www.hudson.org/rss.xml",
           "origin": "direct",
-          "evidence": "existing_dashboard_registry",
-          "articles_count": 0,
-          "articles_last_30_days": 0,
-          "duplicate_pct": 0.0,
-          "suggested_action": "registry_existing",
-          "governance_status": ""
+          "evidence": "runtime_probe_2026-07-31",
+          "suggested_action": "KEEP"
+        },
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:hudson.org&hl=en&gl=US&ceid=US:en",
+          "origin": "google_news",
+          "evidence": "generated_fallback",
+          "suggested_action": "FALLBACK"
         }
       ],
       "fallback_discovery": true,
-      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+      "notes": "Direct feed confirmed by runtime probe; Google News retained as fallback discovery."
     },
     {
       "source_id": "iai-it",
@@ -1632,22 +1644,25 @@
       "specialization": "Geopolitics & Foreign Affairs",
       "language": "English",
       "status": "validated",
-      "route_priority": "existing_dashboard_first",
+      "route_priority": "direct_then_google_news_fallback",
       "routes": [
         {
           "type": "feed",
           "url": "https://www.lowyinstitute.org/publications/rss.xml",
           "origin": "direct",
-          "evidence": "existing_dashboard_registry",
-          "articles_count": 45,
-          "articles_last_30_days": 28,
-          "duplicate_pct": 4.44,
-          "suggested_action": "KEEP_CANDIDATE",
-          "governance_status": "unreviewed"
+          "evidence": "runtime_probe_2026-07-31",
+          "suggested_action": "KEEP"
+        },
+        {
+          "type": "feed",
+          "url": "https://news.google.com/rss/search?q=site:lowyinstitute.org&hl=en&gl=US&ceid=US:en",
+          "origin": "google_news",
+          "evidence": "generated_fallback",
+          "suggested_action": "FALLBACK"
         }
       ],
       "fallback_discovery": true,
-      "notes": "Feed selected from existing Acculligence dashboard registry; automated discovery is fallback only."
+      "notes": "Direct feed confirmed by runtime probe; Google News retained as fallback discovery."
     },
     {
       "source_id": "martenscentre-eu",
