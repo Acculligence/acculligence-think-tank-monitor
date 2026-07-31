@@ -1,0 +1,701 @@
+{
+  "schema_version": "0.2",
+  "generated_at": "2026-07-28",
+  "source_group": "think_tank",
+  "stage": "F2-02 desk discovery complete; runtime validation pending",
+  "benchmark_period": {
+    "from": "2026-07-01",
+    "to": "2026-07-31"
+  },
+  "activation_rule": "Desk discovery does not activate a route. HTTP, parser, date, freshness and sample validation are required.",
+  "top20_sources": [
+    {
+      "source_id": "aei-org",
+      "official_name": "American Enterprise Institute (AEI)",
+      "domain": "aei.org",
+      "runtime_priority": "P1",
+      "desk_discovery": "complete",
+      "runtime_validation": "pending",
+      "discovery_conclusion": "Official feed endpoint published; runtime pending",
+      "proposed_stack": "Articles/Reports archive primary candidate; category Atom feeds secondary; Google News discovery.",
+      "finding": "An official category page exposes an Atom subscription endpoint, but no general institution-wide feed was confirmed during desk discovery.",
+      "official_evidence_url": "https://www.aei.org/category/technology-and-innovation/",
+      "routes": [
+        {
+          "route_key": "feed_primary_or_candidate",
+          "type": "feed",
+          "url": "https://www.aei.org/category/technology-and-innovation/feed/atom/",
+          "scope": "Technology and Innovation category only",
+          "desk_status": "official_endpoint_published_runtime_pending",
+          "proposed_role": "candidate"
+        },
+        {
+          "route_key": "official_archive",
+          "type": "archive_html",
+          "url": "https://www.aei.org/articles/",
+          "desk_status": "official_archive_verified",
+          "proposed_role": "secondary_repair"
+        },
+        {
+          "route_key": "google_news_source",
+          "type": "google_news",
+          "url": "https://news.google.com/rss/search?q=site%3Aaei.org&hl=en&gl=US&ceid=US:en",
+          "desk_status": "usable_baseline",
+          "proposed_role": "discovery"
+        }
+      ]
+    },
+    {
+      "source_id": "agsi-org",
+      "official_name": "Arab Gulf States Institute (AGSI)",
+      "domain": "agsi.org",
+      "runtime_priority": "P1",
+      "desk_discovery": "complete",
+      "runtime_validation": "pending",
+      "discovery_conclusion": "Archive verified; no general feed located",
+      "proposed_stack": "Analysis archive primary candidate; Google News discovery/fallback.",
+      "finding": "The official Analysis archive is current and structured by country, topic, author and date; no public general RSS feed was located.",
+      "official_evidence_url": "https://agsi.org/analysis/",
+      "routes": [
+        {
+          "route_key": "official_archive",
+          "type": "archive_html",
+          "url": "https://agsi.org/analysis/",
+          "desk_status": "official_archive_verified",
+          "proposed_role": "primary_candidate"
+        },
+        {
+          "route_key": "google_news_source",
+          "type": "google_news",
+          "url": "https://news.google.com/rss/search?q=site%3Aagsi.org&hl=en&gl=US&ceid=US:en",
+          "desk_status": "usable_baseline",
+          "proposed_role": "discovery"
+        }
+      ]
+    },
+    {
+      "source_id": "atlanticcouncil-org",
+      "official_name": "Atlantic Council",
+      "domain": "atlanticcouncil.org",
+      "runtime_priority": "P1",
+      "desk_discovery": "complete",
+      "runtime_validation": "pending",
+      "discovery_conclusion": "Working direct feed from v5",
+      "proposed_stack": "General RSS primary; site archives/sections secondary; Google News discovery.",
+      "finding": "The general RSS route worked in v5 and produced the largest share of final matches in the one-week test.",
+      "official_evidence_url": "https://www.atlanticcouncil.org/feed/",
+      "routes": [
+        {
+          "route_key": "feed_primary_or_candidate",
+          "type": "feed",
+          "url": "https://www.atlanticcouncil.org/feed/",
+          "scope": "General site feed",
+          "desk_status": "healthy_in_v5",
+          "proposed_role": "primary"
+        },
+        {
+          "route_key": "official_archive",
+          "type": "archive_html",
+          "url": "https://www.atlanticcouncil.org/",
+          "desk_status": "official_site_verified",
+          "proposed_role": "secondary_repair"
+        },
+        {
+          "route_key": "google_news_source",
+          "type": "google_news",
+          "url": "https://news.google.com/rss/search?q=site%3Aatlanticcouncil.org&hl=en&gl=US&ceid=US:en",
+          "desk_status": "usable_baseline",
+          "proposed_role": "discovery"
+        }
+      ]
+    },
+    {
+      "source_id": "belfercenter-org",
+      "official_name": "Belfer Center for Science and International Affairs",
+      "domain": "belfercenter.org",
+      "runtime_priority": "P1",
+      "desk_discovery": "complete",
+      "runtime_validation": "pending",
+      "discovery_conclusion": "Official RSS capability/limited feed evidenced",
+      "proposed_stack": "Research & Analysis archive primary candidate; region/topic RSS feeds secondary; Google News discovery.",
+      "finding": "Official policies reference RSS feeds and APIs, while the research archive is current. A region-specific RSS pattern is known, but a general feed was not confirmed.",
+      "official_evidence_url": "https://www.belfercenter.org/research-analysis",
+      "routes": [
+        {
+          "route_key": "feed_primary_or_candidate",
+          "type": "feed",
+          "url": "https://www.belfercenter.org/rss/region/866/feed",
+          "scope": "Example region-specific RSS endpoint; not a general feed",
+          "desk_status": "official_rss_capability_evidenced_runtime_pending",
+          "proposed_role": "candidate"
+        },
+        {
+          "route_key": "official_archive",
+          "type": "archive_html",
+          "url": "https://www.belfercenter.org/research-analysis",
+          "desk_status": "official_archive_verified",
+          "proposed_role": "primary_candidate"
+        },
+        {
+          "route_key": "google_news_source",
+          "type": "google_news",
+          "url": "https://news.google.com/rss/search?q=site%3Abelfercenter.org&hl=en&gl=US&ceid=US:en",
+          "desk_status": "usable_baseline",
+          "proposed_role": "discovery"
+        }
+      ]
+    },
+    {
+      "source_id": "brookings-edu",
+      "official_name": "Brookings Institution",
+      "domain": "brookings.edu",
+      "runtime_priority": "P1",
+      "desk_discovery": "complete",
+      "runtime_validation": "pending",
+      "discovery_conclusion": "Archive verified; feed candidate runtime pending",
+      "proposed_stack": "Research & Commentary archive primary candidate; general feed candidate; Google News discovery.",
+      "finding": "The official archive is current and filterable. The general feed remains a candidate requiring live validation.",
+      "official_evidence_url": "https://www.brookings.edu/research-commentary/",
+      "routes": [
+        {
+          "route_key": "feed_primary_or_candidate",
+          "type": "feed",
+          "url": "https://www.brookings.edu/feed/",
+          "scope": "General WordPress-style candidate",
+          "desk_status": "candidate_runtime_pending",
+          "proposed_role": "candidate"
+        },
+        {
+          "route_key": "official_archive",
+          "type": "archive_html",
+          "url": "https://www.brookings.edu/research-commentary/",
+          "desk_status": "official_archive_verified",
+          "proposed_role": "primary_candidate"
+        },
+        {
+          "route_key": "google_news_source",
+          "type": "google_news",
+          "url": "https://news.google.com/rss/search?q=site%3Abrookings.edu&hl=en&gl=US&ceid=US:en",
+          "desk_status": "usable_baseline",
+          "proposed_role": "discovery"
+        }
+      ]
+    },
+    {
+      "source_id": "carnegieendowment-org",
+      "official_name": "Carnegie Endowment for International Peace",
+      "domain": "carnegieendowment.org",
+      "runtime_priority": "P1",
+      "desk_discovery": "complete",
+      "runtime_validation": "pending",
+      "discovery_conclusion": "Archive verified; feed candidate runtime pending",
+      "proposed_stack": "Research archive primary candidate; RSS candidate; Google News discovery; legacy ceip.org alias retained.",
+      "finding": "The research archive is official and current. The registry RSS route still requires HTTP and parser validation.",
+      "official_evidence_url": "https://carnegieendowment.org/research",
+      "routes": [
+        {
+          "route_key": "feed_primary_or_candidate",
+          "type": "feed",
+          "url": "https://carnegieendowment.org/rss",
+          "scope": "General candidate from current registry",
+          "desk_status": "candidate_runtime_pending",
+          "proposed_role": "candidate"
+        },
+        {
+          "route_key": "official_archive",
+          "type": "archive_html",
+          "url": "https://carnegieendowment.org/research",
+          "desk_status": "official_archive_verified",
+          "proposed_role": "primary_candidate"
+        },
+        {
+          "route_key": "google_news_source",
+          "type": "google_news",
+          "url": "https://news.google.com/rss/search?q=site%3Acarnegieendowment.org&hl=en&gl=US&ceid=US:en",
+          "desk_status": "usable_baseline",
+          "proposed_role": "discovery"
+        }
+      ]
+    },
+    {
+      "source_id": "cato-org",
+      "official_name": "Cato Institute",
+      "domain": "cato.org",
+      "runtime_priority": "P1",
+      "desk_discovery": "complete",
+      "runtime_validation": "pending",
+      "discovery_conclusion": "Archive verified; feed candidate runtime pending",
+      "proposed_stack": "Publications archive primary candidate; feed candidate; Google News discovery.",
+      "finding": "The publications archive is current and includes studies, books, reviews and journals. No official RSS directory was located during desk discovery.",
+      "official_evidence_url": "https://www.cato.org/publications",
+      "routes": [
+        {
+          "route_key": "feed_primary_or_candidate",
+          "type": "feed",
+          "url": "https://www.cato.org/feed/",
+          "scope": "General WordPress-style candidate",
+          "desk_status": "candidate_runtime_pending",
+          "proposed_role": "candidate"
+        },
+        {
+          "route_key": "official_archive",
+          "type": "archive_html",
+          "url": "https://www.cato.org/publications",
+          "desk_status": "official_archive_verified",
+          "proposed_role": "primary_candidate"
+        },
+        {
+          "route_key": "google_news_source",
+          "type": "google_news",
+          "url": "https://news.google.com/rss/search?q=site%3Acato.org&hl=en&gl=US&ceid=US:en",
+          "desk_status": "usable_baseline",
+          "proposed_role": "discovery"
+        }
+      ]
+    },
+    {
+      "source_id": "americanprogress-org",
+      "official_name": "Center for American Progress",
+      "domain": "americanprogress.org",
+      "runtime_priority": "P1",
+      "desk_discovery": "complete",
+      "runtime_validation": "pending",
+      "discovery_conclusion": "Official feed endpoint published; runtime pending",
+      "proposed_stack": "General RSS primary candidate; issue feeds secondary; archive HTML as repair route; Google News discovery.",
+      "finding": "CAP publishes an official RSS directory with a general feed, issue feeds and an events feed. Runtime parsing remains to be tested.",
+      "official_evidence_url": "https://www.americanprogress.org/rss-feeds/",
+      "routes": [
+        {
+          "route_key": "feed_primary_or_candidate",
+          "type": "feed",
+          "url": "https://www.americanprogress.org/feed/",
+          "scope": "General CAP feed; official issue and events feeds also published",
+          "desk_status": "official_endpoint_published_runtime_pending",
+          "proposed_role": "candidate"
+        },
+        {
+          "route_key": "official_archive",
+          "type": "archive_html",
+          "url": "https://www.americanprogress.org/rss-feeds/",
+          "desk_status": "official_rss_directory_verified",
+          "proposed_role": "secondary_repair"
+        },
+        {
+          "route_key": "google_news_source",
+          "type": "google_news",
+          "url": "https://news.google.com/rss/search?q=site%3Aamericanprogress.org&hl=en&gl=US&ceid=US:en",
+          "desk_status": "usable_baseline",
+          "proposed_role": "discovery"
+        }
+      ]
+    },
+    {
+      "source_id": "csis-org",
+      "official_name": "Center for Strategic and International Studies (CSIS)",
+      "domain": "csis.org",
+      "runtime_priority": "P1",
+      "desk_discovery": "complete",
+      "runtime_validation": "pending",
+      "discovery_conclusion": "Official RSS capability/limited feed evidenced",
+      "proposed_stack": "Analysis archive primary candidate; project-specific feeds secondary where available; Google News discovery.",
+      "finding": "The analysis archive is structured and current. RSS is exposed by selected projects, but no institution-wide feed was confirmed.",
+      "official_evidence_url": "https://www.csis.org/analysis",
+      "routes": [
+        {
+          "route_key": "official_archive",
+          "type": "archive_html",
+          "url": "https://www.csis.org/analysis",
+          "desk_status": "official_archive_verified",
+          "proposed_role": "primary_candidate"
+        },
+        {
+          "route_key": "google_news_source",
+          "type": "google_news",
+          "url": "https://news.google.com/rss/search?q=site%3Acsis.org&hl=en&gl=US&ceid=US:en",
+          "desk_status": "usable_baseline",
+          "proposed_role": "discovery"
+        }
+      ]
+    },
+    {
+      "source_id": "cnas-org",
+      "official_name": "Center for a New American Security (CNAS)",
+      "domain": "cnas.org",
+      "runtime_priority": "P1",
+      "desk_discovery": "complete",
+      "runtime_validation": "pending",
+      "discovery_conclusion": "Broken legacy feed; archive replacement mapped",
+      "proposed_stack": "Publications archive primary candidate; sitemap/HTML parser; Google News discovery/fallback; legacy feed rejected unless repaired.",
+      "finding": "The official publications archive is deep and filterable, while the legacy direct feed returned a route error in v5.",
+      "official_evidence_url": "https://www.cnas.org/publications",
+      "routes": [
+        {
+          "route_key": "feed_primary_or_candidate",
+          "type": "feed",
+          "url": "https://www.cnas.org/feed",
+          "scope": "Legacy general feed",
+          "desk_status": "broken_in_v5",
+          "proposed_role": "candidate"
+        },
+        {
+          "route_key": "official_archive",
+          "type": "archive_html",
+          "url": "https://www.cnas.org/publications",
+          "desk_status": "official_archive_verified",
+          "proposed_role": "primary_candidate"
+        },
+        {
+          "route_key": "google_news_source",
+          "type": "google_news",
+          "url": "https://news.google.com/rss/search?q=site%3Acnas.org&hl=en&gl=US&ceid=US:en",
+          "desk_status": "usable_baseline",
+          "proposed_role": "discovery"
+        }
+      ]
+    },
+    {
+      "source_id": "chathamhouse-org",
+      "official_name": "Chatham House",
+      "domain": "chathamhouse.org",
+      "runtime_priority": "P1",
+      "desk_discovery": "complete",
+      "runtime_validation": "pending",
+      "discovery_conclusion": "Official feed endpoint published; runtime pending",
+      "proposed_stack": "What's New RSS primary candidate; specialist RSS feeds secondary; publications archive; Google News discovery.",
+      "finding": "Chatham House publishes an official RSS directory and four exact feed endpoints, including a global feed for all new content.",
+      "official_evidence_url": "https://www.chathamhouse.org/rss-feeds",
+      "routes": [
+        {
+          "route_key": "feed_primary_or_candidate",
+          "type": "feed",
+          "url": "https://www.chathamhouse.org/path/whatsnew.xml",
+          "scope": "Official 'What's new?' feed; separate events, expert comments and news-release feeds",
+          "desk_status": "official_endpoint_published_runtime_pending",
+          "proposed_role": "candidate"
+        },
+        {
+          "route_key": "official_archive",
+          "type": "archive_html",
+          "url": "https://www.chathamhouse.org/publications",
+          "desk_status": "official_archive_verified",
+          "proposed_role": "secondary_repair"
+        },
+        {
+          "route_key": "events",
+          "type": "official_rss",
+          "url": "https://www.chathamhouse.org/path/events.xml",
+          "scope": "Events",
+          "desk_status": "official_endpoint_published_runtime_pending",
+          "proposed_role": "secondary"
+        },
+        {
+          "route_key": "expert_comments",
+          "type": "official_rss",
+          "url": "https://www.chathamhouse.org/path/83/feed.xml",
+          "scope": "Expert comments",
+          "desk_status": "official_endpoint_published_runtime_pending",
+          "proposed_role": "secondary"
+        },
+        {
+          "route_key": "news_releases",
+          "type": "official_rss",
+          "url": "https://www.chathamhouse.org/path/news-releases.xml",
+          "scope": "News releases",
+          "desk_status": "official_endpoint_published_runtime_pending",
+          "proposed_role": "secondary"
+        },
+        {
+          "route_key": "google_news_source",
+          "type": "google_news",
+          "url": "https://news.google.com/rss/search?q=site%3Achathamhouse.org&hl=en&gl=US&ceid=US:en",
+          "desk_status": "usable_baseline",
+          "proposed_role": "discovery"
+        }
+      ]
+    },
+    {
+      "source_id": "cfr-org",
+      "official_name": "Council on Foreign Relations",
+      "domain": "cfr.org",
+      "runtime_priority": "P1",
+      "desk_discovery": "complete",
+      "runtime_validation": "pending",
+      "discovery_conclusion": "Archive verified; feed candidate runtime pending",
+      "proposed_stack": "Books & Reports plus content archives; RSS candidate; Google News discovery.",
+      "finding": "CFR has structured publication archives. The current registry RSS endpoint requires live validation.",
+      "official_evidence_url": "https://www.cfr.org/books-reports",
+      "routes": [
+        {
+          "route_key": "feed_primary_or_candidate",
+          "type": "feed",
+          "url": "https://www.cfr.org/rss.xml",
+          "scope": "General candidate from current registry",
+          "desk_status": "candidate_runtime_pending",
+          "proposed_role": "candidate"
+        },
+        {
+          "route_key": "official_archive",
+          "type": "archive_html",
+          "url": "https://www.cfr.org/books-reports",
+          "desk_status": "official_archive_verified",
+          "proposed_role": "primary_candidate"
+        },
+        {
+          "route_key": "google_news_source",
+          "type": "google_news",
+          "url": "https://news.google.com/rss/search?q=site%3Acfr.org&hl=en&gl=US&ceid=US:en",
+          "desk_status": "usable_baseline",
+          "proposed_role": "discovery"
+        }
+      ]
+    },
+    {
+      "source_id": "gmfus-org",
+      "official_name": "German Marshall Fund of the United States",
+      "domain": "gmfus.org",
+      "runtime_priority": "P2",
+      "desk_discovery": "complete",
+      "runtime_validation": "pending",
+      "discovery_conclusion": "Archive verified; no general feed located",
+      "proposed_stack": "Insights + Research archive primary candidate; Google News discovery/fallback.",
+      "finding": "The official Insights + Research archive is current and filterable; no public general feed was confirmed.",
+      "official_evidence_url": "https://www.gmfus.org/insights-research",
+      "routes": [
+        {
+          "route_key": "official_archive",
+          "type": "archive_html",
+          "url": "https://www.gmfus.org/insights-research",
+          "desk_status": "official_archive_verified",
+          "proposed_role": "primary_candidate"
+        },
+        {
+          "route_key": "google_news_source",
+          "type": "google_news",
+          "url": "https://news.google.com/rss/search?q=site%3Agmfus.org&hl=en&gl=US&ceid=US:en",
+          "desk_status": "usable_baseline",
+          "proposed_role": "discovery"
+        }
+      ]
+    },
+    {
+      "source_id": "hoover-org",
+      "official_name": "Hoover Institution",
+      "domain": "hoover.org",
+      "runtime_priority": "P2",
+      "desk_discovery": "complete",
+      "runtime_validation": "pending",
+      "discovery_conclusion": "Archive verified; feed candidate runtime pending",
+      "proposed_stack": "Research archive primary candidate; current RSS candidate; Google News discovery.",
+      "finding": "Official historical pages confirm RSS capability, but the present general route requires runtime validation.",
+      "official_evidence_url": "https://www.hoover.org/research",
+      "routes": [
+        {
+          "route_key": "feed_primary_or_candidate",
+          "type": "feed",
+          "url": "https://www.hoover.org/rss.xml",
+          "scope": "General candidate; official historical material confirms RSS capability",
+          "desk_status": "candidate_runtime_pending",
+          "proposed_role": "candidate"
+        },
+        {
+          "route_key": "official_archive",
+          "type": "archive_html",
+          "url": "https://www.hoover.org/research",
+          "desk_status": "official_archive_verified",
+          "proposed_role": "primary_candidate"
+        },
+        {
+          "route_key": "google_news_source",
+          "type": "google_news",
+          "url": "https://news.google.com/rss/search?q=site%3Ahoover.org&hl=en&gl=US&ceid=US:en",
+          "desk_status": "usable_baseline",
+          "proposed_role": "discovery"
+        }
+      ]
+    },
+    {
+      "source_id": "hudson-org",
+      "official_name": "Hudson Institute",
+      "domain": "hudson.org",
+      "runtime_priority": "P2",
+      "desk_discovery": "complete",
+      "runtime_validation": "pending",
+      "discovery_conclusion": "Archive verified; feed candidate runtime pending",
+      "proposed_stack": "Research archive primary candidate; RSS candidate; Google News discovery.",
+      "finding": "The official Research page exposes commentary, reports, testimony, media and podcasts. The RSS candidate is not yet validated.",
+      "official_evidence_url": "https://www.hudson.org/research",
+      "routes": [
+        {
+          "route_key": "feed_primary_or_candidate",
+          "type": "feed",
+          "url": "https://www.hudson.org/rss.xml",
+          "scope": "General candidate from current registry",
+          "desk_status": "candidate_runtime_pending",
+          "proposed_role": "candidate"
+        },
+        {
+          "route_key": "official_archive",
+          "type": "archive_html",
+          "url": "https://www.hudson.org/research",
+          "desk_status": "official_archive_verified",
+          "proposed_role": "primary_candidate"
+        },
+        {
+          "route_key": "google_news_source",
+          "type": "google_news",
+          "url": "https://news.google.com/rss/search?q=site%3Ahudson.org&hl=en&gl=US&ceid=US:en",
+          "desk_status": "usable_baseline",
+          "proposed_role": "discovery"
+        }
+      ]
+    },
+    {
+      "source_id": "understandingwar-org",
+      "official_name": "Institute for the Study of War (ISW)",
+      "domain": "understandingwar.org",
+      "runtime_priority": "P1",
+      "desk_discovery": "complete",
+      "runtime_validation": "pending",
+      "discovery_conclusion": "Archive verified; no general feed located",
+      "proposed_stack": "Publications archive primary candidate; publication-type and project filters; Google News discovery/fallback.",
+      "finding": "The official Publications archive exposes dated assessments and filters. No current public general RSS feed was confirmed.",
+      "official_evidence_url": "https://www.understandingwar.org/publications",
+      "routes": [
+        {
+          "route_key": "official_archive",
+          "type": "archive_html",
+          "url": "https://www.understandingwar.org/publications",
+          "desk_status": "official_archive_verified",
+          "proposed_role": "primary_candidate"
+        },
+        {
+          "route_key": "google_news_source",
+          "type": "google_news",
+          "url": "https://news.google.com/rss/search?q=site%3Aunderstandingwar.org&hl=en&gl=US&ceid=US:en",
+          "desk_status": "usable_baseline",
+          "proposed_role": "discovery"
+        }
+      ]
+    },
+    {
+      "source_id": "iiss-org",
+      "official_name": "International Institute for Strategic Studies (IISS)",
+      "domain": "iiss.org",
+      "runtime_priority": "P1",
+      "desk_discovery": "complete",
+      "runtime_validation": "pending",
+      "discovery_conclusion": "Archive verified; no general feed located",
+      "proposed_stack": "Latest, Online Analysis and Publications archives as complementary HTML routes; Google News discovery.",
+      "finding": "IISS provides separate structured archives for latest content, online analysis and formal publications. No general RSS was confirmed.",
+      "official_evidence_url": "https://www.iiss.org/latest/",
+      "routes": [
+        {
+          "route_key": "official_archive",
+          "type": "archive_html",
+          "url": "https://www.iiss.org/latest/",
+          "desk_status": "official_archive_verified",
+          "proposed_role": "primary_candidate"
+        },
+        {
+          "route_key": "google_news_source",
+          "type": "google_news",
+          "url": "https://news.google.com/rss/search?q=site%3Aiiss.org&hl=en&gl=US&ceid=US:en",
+          "desk_status": "usable_baseline",
+          "proposed_role": "discovery"
+        }
+      ]
+    },
+    {
+      "source_id": "lowyinstitute-org",
+      "official_name": "Lowy Institute",
+      "domain": "lowyinstitute.org",
+      "runtime_priority": "P1",
+      "desk_discovery": "complete",
+      "runtime_validation": "pending",
+      "discovery_conclusion": "Working direct feed from v5",
+      "proposed_stack": "Publications RSS primary; archive secondary; Google News discovery.",
+      "finding": "The publications RSS worked in v5 and produced a valid match, though its one-week dated yield was small.",
+      "official_evidence_url": "https://www.lowyinstitute.org/publications/rss.xml",
+      "routes": [
+        {
+          "route_key": "feed_primary_or_candidate",
+          "type": "feed",
+          "url": "https://www.lowyinstitute.org/publications/rss.xml",
+          "scope": "Publications feed",
+          "desk_status": "healthy_in_v5",
+          "proposed_role": "primary"
+        },
+        {
+          "route_key": "official_archive",
+          "type": "archive_html",
+          "url": "https://www.lowyinstitute.org/publications",
+          "desk_status": "official_archive_verified",
+          "proposed_role": "secondary_repair"
+        },
+        {
+          "route_key": "google_news_source",
+          "type": "google_news",
+          "url": "https://news.google.com/rss/search?q=site%3Alowyinstitute.org&hl=en&gl=US&ceid=US:en",
+          "desk_status": "usable_baseline",
+          "proposed_role": "discovery"
+        }
+      ]
+    },
+    {
+      "source_id": "mei-edu",
+      "official_name": "Middle East Institute",
+      "domain": "mei.edu",
+      "runtime_priority": "P1",
+      "desk_discovery": "complete",
+      "runtime_validation": "pending",
+      "discovery_conclusion": "Archive verified; no general feed located",
+      "proposed_stack": "Research & Commentary archive primary candidate; topic/region filters; Google News discovery.",
+      "finding": "The official archive contains thousands of filterable records by topic and region, including Saudi Arabia, energy and AI.",
+      "official_evidence_url": "https://mei.edu/research-commentary-publications/",
+      "routes": [
+        {
+          "route_key": "official_archive",
+          "type": "archive_html",
+          "url": "https://mei.edu/research-commentary-publications/",
+          "desk_status": "official_archive_verified",
+          "proposed_role": "primary_candidate"
+        },
+        {
+          "route_key": "google_news_source",
+          "type": "google_news",
+          "url": "https://news.google.com/rss/search?q=site%3Amei.edu&hl=en&gl=US&ceid=US:en",
+          "desk_status": "usable_baseline",
+          "proposed_role": "discovery"
+        }
+      ]
+    },
+    {
+      "source_id": "nti-org",
+      "official_name": "Nuclear Threat Initiative (NTI)",
+      "domain": "nti.org",
+      "runtime_priority": "P1",
+      "desk_discovery": "complete",
+      "runtime_validation": "pending",
+      "discovery_conclusion": "Archive verified; no general feed located",
+      "proposed_stack": "Search/archive and News routes; focus-area/year filters; Google News discovery.",
+      "finding": "NTI exposes a large structured search archive plus a current News archive. No public general RSS feed was located.",
+      "official_evidence_url": "https://www.nti.org/search/",
+      "routes": [
+        {
+          "route_key": "official_archive",
+          "type": "archive_html",
+          "url": "https://www.nti.org/search/",
+          "desk_status": "official_archive_verified",
+          "proposed_role": "primary_candidate"
+        },
+        {
+          "route_key": "google_news_source",
+          "type": "google_news",
+          "url": "https://news.google.com/rss/search?q=site%3Anti.org&hl=en&gl=US&ceid=US:en",
+          "desk_status": "usable_baseline",
+          "proposed_role": "discovery"
+        }
+      ]
+    }
+  ]
+}
