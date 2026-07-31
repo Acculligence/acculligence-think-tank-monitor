@@ -1,0 +1,60 @@
+name: Top 20 Route Probe
+
+on:
+  workflow_dispatch:
+    inputs:
+      include_google_news:
+        description: "Also probe Google News routes"
+        required: false
+        default: false
+        type: boolean
+
+      max_routes:
+        description: "Maximum routes to probe; 0 means all"
+        required: false
+        default: "0"
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Probe routes
+        shell: bash
+        run: |
+          EXTRA_ARGS=""
+
+          if [[ "${{ inputs.include_google_news }}" == "true" ]]; then
+            EXTRA_ARGS="--include-google-news"
+          fi
+
+          python route_probe.py \
+            --registry config/route_registry_seed_v0_2.json \
+            --output-dir route_probe_output \
+            --max-routes "${{ inputs.max_routes }}" \
+            $EXTRA_ARGS
+
+      - name: Upload probe evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: top20-route-probe-${{ github.run_number }}
+          path: route_probe_output/
+          if-no-files-found: error
+          retention-days: 30
