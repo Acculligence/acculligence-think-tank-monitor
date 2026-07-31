@@ -1,82 +1,77 @@
-name: Think Tank Monitor v5 — Existing Registry First
+name: Acculligence Think Tank Monitor MVP
 
 on:
   workflow_dispatch:
     inputs:
       start:
-        description: Completed start date YYYY-MM-DD
+        description: Start date YYYY-MM-DD
         required: true
-        default: '2026-07-18'
+        default: '2026-07-25'
       end:
-        description: Completed end date YYYY-MM-DD
+        description: End date YYYY-MM-DD
         required: true
-        default: '2026-07-24'
-      force:
-        description: Ignore existing checkpoints
+        default: '2026-07-31'
+      profile:
+        description: Knowledge Profile
         required: true
         type: choice
-        options: ['yes','no']
-        default: 'yes'
+        options:
+          - saudi_arabia
+        default: saudi_arabia
 
 concurrency:
-  group: think-tank-monitor-v5
+  group: acculligence-think-tank-monitor-mvp
   cancel-in-progress: false
+
+permissions:
+  contents: read
 
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
-    permissions:
-      contents: write
+    timeout-minutes: 35
+
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
           cache: pip
+
       - name: Install dependencies
         run: pip install -r requirements.txt
-      - name: Verify existing source registry
+
+      - name: Validate configuration
         run: |
           test -f config/source_registry.json
+          test -f "config/profiles/${{ inputs.profile }}.json"
           python - <<'PY'
           import json
-          p=json.load(open('config/source_registry.json',encoding='utf-8'))
-          assert len(p['sources']) == 83
-          assert all(s.get('routes') for s in p['sources'])
-          print({'sources':len(p['sources']),'validated':sum(s['status']=='validated' for s in p['sources'])})
+          registry = json.load(open('config/source_registry.json', encoding='utf-8'))
+          profile = json.load(open('config/profiles/${{ inputs.profile }}.json', encoding='utf-8'))
+          assert registry.get('sources'), 'No sources found'
+          assert profile.get('terms'), 'Profile has no terms'
+          print({'sources': len(registry['sources']), 'profile': profile['profile_name'], 'terms': len(profile['terms'])})
           PY
-      - name: Collect publications from existing feeds
-        timeout-minutes: 30
+
+      - name: Collect and match publications
         run: |
-          EXTRA=""
-          if [ "${{ github.event.inputs.force }}" = "yes" ]; then EXTRA="--force"; fi
+          rm -rf output/current_run
           python collector.py \
-            --start "${{ github.event.inputs.start }}" \
-            --end "${{ github.event.inputs.end }}" \
+            --start "${{ inputs.start }}" \
+            --end "${{ inputs.end }}" \
             --map config/source_registry.json \
-            --source-workers 8 \
-            --article-workers 6 \
-            --source-timeout 75 \
-            --request-timeout 12 \
-            --max-candidates 300 \
-            $EXTRA
-      - name: Upload outputs and checkpoints
+            --profile "config/profiles/${{ inputs.profile }}.json" \
+            --output output/current_run
+
+      - name: Upload results
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: think-tank-monitor-v5-${{ github.event.inputs.start }}-${{ github.event.inputs.end }}
-          path: output/
-          if-no-files-found: warn
+          name: think-tank-monitor-${{ inputs.profile }}-${{ inputs.start }}-${{ inputs.end }}
+          path: output/current_run/
+          if-no-files-found: error
           retention-days: 30
-      - name: Commit outputs
-        if: always()
-        run: |
-          git config user.name "Acculligence Bot"
-          git config user.email "bot@acculligence.com"
-          git pull --rebase
-          git add output/ config/source_registry.json
-          git commit -m "Update v5 think tank monitoring output" || true
-          git push
