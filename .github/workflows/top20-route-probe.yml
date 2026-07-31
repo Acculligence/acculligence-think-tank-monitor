@@ -25,9 +25,9 @@ jobs:
 
     steps:
       - name: Check out audit branch
-  uses: actions/checkout@v4
-  with:
-    ref: audit/top20-route-probe
+        uses: actions/checkout@v4
+        with:
+          ref: audit/top20-route-probe
 
       - name: Set up Python
         uses: actions/setup-python@v5
